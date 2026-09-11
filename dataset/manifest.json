@@ -43,5 +43,23 @@
       2.5,
       2.5
     ]
+  },
+  {
+    "label": "24_A",
+    "file": "dataset\\24_A.json",
+    "true_position_cm": [
+      -3.0,
+      2.0,
+      2.5
+    ]
+  },
+  {
+    "label": "24_B",
+    "file": "dataset\\24_B.json",
+    "true_position_cm": [
+      0.0,
+      0.0,
+      2.5
+    ]
   }
 ]

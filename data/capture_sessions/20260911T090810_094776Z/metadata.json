@@ -1,0 +1,169 @@
+{
+  "captured_at_utc": "20260911T090810_094776Z",
+  "kind": "target",
+  "radius_cm": 8.0,
+  "axes": "+Y RX5-8; +X 90 degrees clockwise viewed from above; +Z above base",
+  "positions_cm": {
+    "RX1": [
+      2.5376,
+      1.4651,
+      7.4441
+    ],
+    "RX5": [
+      0.0,
+      2.9302,
+      7.4441
+    ],
+    "RX9": [
+      -2.5376,
+      1.4651,
+      7.4441
+    ],
+    "TX1": [
+      -2.5376,
+      -1.4651,
+      7.4441
+    ],
+    "TX5": [
+      0.0,
+      -2.9302,
+      7.4441
+    ],
+    "TX9": [
+      2.5376,
+      -1.4651,
+      7.4441
+    ],
+    "RX2": [
+      4.7225,
+      2.7266,
+      5.8535
+    ],
+    "RX6": [
+      0.0,
+      5.4531,
+      5.8535
+    ],
+    "RX10": [
+      -4.7225,
+      2.7266,
+      5.8535
+    ],
+    "TX2": [
+      -4.7225,
+      -2.7266,
+      5.8535
+    ],
+    "TX6": [
+      0.0,
+      -5.4531,
+      5.8535
+    ],
+    "TX10": [
+      4.7225,
+      -2.7266,
+      5.8535
+    ],
+    "RX3": [
+      6.2511,
+      3.6091,
+      3.4494
+    ],
+    "RX7": [
+      0.0,
+      7.2181,
+      3.4494
+    ],
+    "RX11": [
+      -6.2511,
+      3.6091,
+      3.4494
+    ],
+    "TX3": [
+      -6.2511,
+      -3.6091,
+      3.4494
+    ],
+    "TX7": [
+      0.0,
+      -7.2181,
+      3.4494
+    ],
+    "TX11": [
+      6.2511,
+      -3.6091,
+      3.4494
+    ],
+    "RX4": [
+      6.9108,
+      3.99,
+      0.5659
+    ],
+    "RX8": [
+      0.0,
+      7.98,
+      0.5659
+    ],
+    "RX12": [
+      -6.9108,
+      3.99,
+      0.5659
+    ],
+    "TX4": [
+      -6.9108,
+      -3.99,
+      0.5659
+    ],
+    "TX8": [
+      0.0,
+      -7.98,
+      0.5659
+    ],
+    "TX12": [
+      6.9108,
+      -3.99,
+      0.5659
+    ]
+  },
+  "files": {
+    "dataset\\24_A.json": {
+      "sha256": "d080562b73957a04e86ae9a7c73ba42040ac42ebe87b91608b50d29557d7a298",
+      "snapshot": "24_A.json"
+    },
+    "data\\baseline_full_sweep.json": {
+      "sha256": "b47a7a5ecf76e8a58bacfa5a992c812a07af42d69559e5ab901a6d9b3894dd29",
+      "snapshot": "baseline_full_sweep.json"
+    },
+    "data\\pair_delay_calibration.json": {
+      "sha256": "a2ee7b244094fcedda86a386112a64ef552ed5fd12c9cc2b13034294b768f04b",
+      "snapshot": "pair_delay_calibration.json"
+    },
+    "data\\switch_role_config.json": {
+      "sha256": "7dfc258953026222790c5e99616b3b09c5bbebf15c55b43a73798fcacdff1c60",
+      "snapshot": "switch_role_config.json"
+    },
+    "data\\phase_stability_results.json": {
+      "sha256": "d4194049db3f4faceb140cd45b67aeda1546101bf82819d9a2f1d84558de8ecb",
+      "snapshot": "phase_stability_results.json"
+    },
+    "2-6_cal_with_new_cable.cal": {
+      "sha256": "4f6f07d5feedfc5cb9495e5c9d1f42fda728a21596708681f55a6bd33f90862a",
+      "snapshot": "2-6_cal_with_new_cable.cal"
+    }
+  },
+  "details": {
+    "true_position_cm": [
+      -3.0,
+      2.0,
+      2.5
+    ],
+    "settling": [
+      {
+        "attempt": 1,
+        "complex_correlation": 0.9998003210845096,
+        "relative_rms_difference": 0.02043315854933449,
+        "settled": true
+      }
+    ]
+  }
+}
