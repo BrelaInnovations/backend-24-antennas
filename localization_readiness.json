@@ -1,0 +1,104 @@
+{
+  "created_at_utc": "2026-09-11T07:03:38.048432+00:00",
+  "radius_cm": 8.0,
+  "axes": "+Y RX5-8; +X 90 degrees clockwise viewed from above; +Z above base",
+  "reference_policy": "current files; historical acquisition references are unverified unless snapshotted",
+  "resolution_cm": 0.5,
+  "blockers": [],
+  "scans": [
+    {
+      "label": "settled_A",
+      "true_position_cm": [
+        -4.0,
+        -4.0,
+        2.5
+      ],
+      "pairs": 144,
+      "points": 101,
+      "min_ghz": 2.0,
+      "max_ghz": 6.0,
+      "sha256": "444c994b0db35edae2024129b89692580f89e09ab9cf8cfcdab83b5f80184774",
+      "has_reference_snapshot": false,
+      "usable_pairs": 132,
+      "status": "ready_for_validation"
+    },
+    {
+      "label": "settled_B",
+      "true_position_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "pairs": 144,
+      "points": 101,
+      "min_ghz": 2.0,
+      "max_ghz": 6.0,
+      "sha256": "10a1d9bc64dc68cbda1cfd5145fc631f303dc5bf5f8730265440c4cec0c9f446",
+      "has_reference_snapshot": false,
+      "usable_pairs": 132,
+      "status": "ready_for_validation"
+    },
+    {
+      "label": "fe2o3.1",
+      "true_position_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "pairs": 144,
+      "points": 101,
+      "min_ghz": 2.0,
+      "max_ghz": 6.0,
+      "sha256": "1aa9e1e845261a0591c2b6f8b23c54224b11c6c9757e72613d526ed014e58f9b",
+      "has_reference_snapshot": false,
+      "usable_pairs": 132,
+      "status": "ready_for_validation"
+    },
+    {
+      "label": "settled_c",
+      "true_position_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "pairs": 144,
+      "points": 101,
+      "min_ghz": 2.0,
+      "max_ghz": 6.0,
+      "sha256": "c7cf5050ecb97894765754c2c76df120a18f628fb04ea3bc70ce08fa6d141ba8",
+      "has_reference_snapshot": false,
+      "usable_pairs": 132,
+      "status": "ready_for_validation"
+    },
+    {
+      "label": "settled_D",
+      "true_position_cm": [
+        5.0,
+        2.5,
+        2.5
+      ],
+      "pairs": 144,
+      "points": 101,
+      "min_ghz": 2.0,
+      "max_ghz": 6.0,
+      "sha256": "9bb3334cd553acb47e5d0db42dd5c67aa123d0244538f8ce32c7e6d25e096292",
+      "has_reference_snapshot": false,
+      "usable_pairs": 132,
+      "status": "ready_for_validation"
+    }
+  ],
+  "baseline": {
+    "pairs": 144,
+    "points": 101,
+    "min_ghz": 2.0,
+    "max_ghz": 6.0,
+    "sha256": "a18a4b317e38ea6ec8dfacf9b2ea5ff5cc9b60074bd7c4644b82ee490b46cb09"
+  },
+  "delay_calibration": {
+    "valid_pairs": 144,
+    "expected_pairs": 144,
+    "missing_or_invalid": [],
+    "sha256": "c6dcd8e5b97c0bc83c2ac7e50e808d1e444d1a272a03af321e6d05979add8a2c"
+  },
+  "ready": true
+}
