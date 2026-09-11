@@ -140,8 +140,8 @@ def plot_panel(ax, xs, ys, grid, title, peak_xy=None, true_xy=None):
     ax.set_ylim(-radius-0.75, radius+0.75)
     ax.axhline(0, color="gray", linewidth=0.6, linestyle=":")
     ax.axvline(0, color="gray", linewidth=0.6, linestyle=":")
-    ax.set_xlabel("x (cm); +X between TX1 and RX5")
-    ax.set_ylabel("y (cm); +Y between TX1 and TX5")
+    ax.set_xlabel("x (cm); +X between RX1 and TX9")
+    ax.set_ylabel("y (cm); +Y toward RX5-8")
     ax.set_title(title)
 
 
