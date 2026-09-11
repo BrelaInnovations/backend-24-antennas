@@ -1,0 +1,77 @@
+{
+  "TX6-RX1": {
+    "mean_phase_deg": 26.9616549646892,
+    "max_phase_deg": 173.60737166221816,
+    "mean_magnitude": 0.02369043290051716
+  },
+  "TX6-RX2": {
+    "mean_phase_deg": 112.50629670045944,
+    "max_phase_deg": 178.25231527106735,
+    "mean_magnitude": 0.02515910210479227
+  },
+  "TX6-RX3": {
+    "mean_phase_deg": 90.56660977222049,
+    "max_phase_deg": 179.8029571346971,
+    "mean_magnitude": 0.02149966174260882
+  },
+  "TX6-RX4": {
+    "mean_phase_deg": 57.85713830923659,
+    "max_phase_deg": 165.34791740475674,
+    "mean_magnitude": 0.015032588101180291
+  },
+  "TX6-RX5": {
+    "mean_phase_deg": 2.341428927829346,
+    "max_phase_deg": 84.3462086523829,
+    "mean_magnitude": 0.012308860772229535
+  },
+  "TX6-RX6": {
+    "mean_phase_deg": 2.200467973557104,
+    "max_phase_deg": 18.830524756101525,
+    "mean_magnitude": 0.012536665634569144
+  },
+  "TX6-RX7": {
+    "mean_phase_deg": 61.036595734834286,
+    "max_phase_deg": 178.96840915438577,
+    "mean_magnitude": 0.014398429166487318
+  },
+  "TX6-RX8": {
+    "mean_phase_deg": 2.249900646222522,
+    "max_phase_deg": 15.722923990007017,
+    "mean_magnitude": 0.013377177940142072
+  },
+  "TX1-RX3": {
+    "mean_phase_deg": 24.253064740545963,
+    "max_phase_deg": 178.7926388825059,
+    "mean_magnitude": 0.014004877788835367
+  },
+  "TX2-RX3": {
+    "mean_phase_deg": 4.048806906804343,
+    "max_phase_deg": 63.426487909032275,
+    "mean_magnitude": 0.016856292768349695
+  },
+  "TX3-RX3": {
+    "mean_phase_deg": 58.79940908488631,
+    "max_phase_deg": 178.3045084531744,
+    "mean_magnitude": 0.012216737770511571
+  },
+  "TX4-RX3": {
+    "mean_phase_deg": 2.468931727987297,
+    "max_phase_deg": 113.57468713763483,
+    "mean_magnitude": 0.014487768569363334
+  },
+  "TX5-RX3": {
+    "mean_phase_deg": 1.5318065178204956,
+    "max_phase_deg": 16.792610620059733,
+    "mean_magnitude": 0.019144411215500454
+  },
+  "TX7-RX3": {
+    "mean_phase_deg": 124.00074171497177,
+    "max_phase_deg": 178.16432550495682,
+    "mean_magnitude": 0.025861269604293437
+  },
+  "TX8-RX3": {
+    "mean_phase_deg": 56.69119810082834,
+    "max_phase_deg": 176.41127568513375,
+    "mean_magnitude": 0.02029059447474908
+  }
+}

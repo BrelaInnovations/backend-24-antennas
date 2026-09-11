@@ -1,0 +1,15 @@
+{
+  "warmup_captures": 2,
+  "stability_thresholds": {
+    "min_complex_correlation": 0.999,
+    "max_relative_rms_difference": 0.03
+  },
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "complex_correlation": 0.9999071292227912,
+      "relative_rms_difference": 0.013640633607751303,
+      "settled": true
+    }
+  ]
+}

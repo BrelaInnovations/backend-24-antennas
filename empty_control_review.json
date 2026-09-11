@@ -1,0 +1,573 @@
+{
+  "baseline_sha256": "45a517a44868519ca97ea85665a91190fd7af348b1a7dbe8e400de5b34efb07b",
+  "control_folder": "dataset\\empty_control_20260908T110028300712Z",
+  "usable_pairs": 56,
+  "same_baseline_and_calibration_verified": true,
+  "original_baseline": {
+    "empty_1": {
+      "residual_rms": 0.002598340175417375,
+      "reconstruction": {
+        "das": {
+          "candidate_cm": [
+            -3.0,
+            -5.5,
+            4.5
+          ],
+          "peak_intensity": 8.879851546079212e-07,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.72,
+            "coherence": 0.1
+          },
+          "cube_coordinate_to_peak_ratio": 0.6962134466254022
+        },
+        "das-cf": {
+          "candidate_cm": [
+            -7.0,
+            2.5,
+            2.5
+          ],
+          "peak_intensity": 9.92023202981803e-09,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 14.9,
+            "coherence": 0.111
+          },
+          "cube_coordinate_to_peak_ratio": 0.28309353731054593
+        },
+        "dmas": {
+          "candidate_cm": [
+            -6.5,
+            2.0,
+            1.5
+          ],
+          "peak_intensity": 0.006935718837768989,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.84,
+            "coherence": 0.102
+          },
+          "cube_coordinate_to_peak_ratio": 0.40058799212283314
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -7.0,
+            2.5,
+            2.5
+          ],
+          "peak_intensity": 8.384928994824048e-05,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 24.81,
+            "coherence": 0.111
+          },
+          "cube_coordinate_to_peak_ratio": 0.15051981987501398
+        }
+      }
+    },
+    "empty_2": {
+      "residual_rms": 0.0026732562864992043,
+      "reconstruction": {
+        "das": {
+          "candidate_cm": [
+            -3.0,
+            -5.5,
+            4.5
+          ],
+          "peak_intensity": 8.928169071051507e-07,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.64,
+            "coherence": 0.1
+          },
+          "cube_coordinate_to_peak_ratio": 0.7398713898897784
+        },
+        "das-cf": {
+          "candidate_cm": [
+            -7.0,
+            2.5,
+            2.5
+          ],
+          "peak_intensity": 1.021670740295586e-08,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 14.31,
+            "coherence": 0.112
+          },
+          "cube_coordinate_to_peak_ratio": 0.3320815772638997
+        },
+        "dmas": {
+          "candidate_cm": [
+            -6.5,
+            2.0,
+            1.5
+          ],
+          "peak_intensity": 0.0071473842475862645,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.79,
+            "coherence": 0.101
+          },
+          "cube_coordinate_to_peak_ratio": 0.47382443755812187
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -7.0,
+            2.0,
+            2.5
+          ],
+          "peak_intensity": 8.515807404080199e-05,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 23.26,
+            "coherence": 0.113
+          },
+          "cube_coordinate_to_peak_ratio": 0.20425648540158697
+        }
+      }
+    },
+    "empty_3": {
+      "residual_rms": 0.002655165259963426,
+      "reconstruction": {
+        "das": {
+          "candidate_cm": [
+            -3.0,
+            -5.5,
+            4.5
+          ],
+          "peak_intensity": 8.729319775804522e-07,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.53,
+            "coherence": 0.098
+          },
+          "cube_coordinate_to_peak_ratio": 0.769377289478337
+        },
+        "das-cf": {
+          "candidate_cm": [
+            -7.0,
+            2.5,
+            2.5
+          ],
+          "peak_intensity": 9.925291779207141e-09,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 13.59,
+            "coherence": 0.111
+          },
+          "cube_coordinate_to_peak_ratio": 0.3595811501201379
+        },
+        "dmas": {
+          "candidate_cm": [
+            -6.0,
+            1.5,
+            2.0
+          ],
+          "peak_intensity": 0.007129093591040435,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.68,
+            "coherence": 0.111
+          },
+          "cube_coordinate_to_peak_ratio": 0.5080559413110879
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -6.0,
+            1.5,
+            2.0
+          ],
+          "peak_intensity": 8.841462565536825e-05,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 23.4,
+            "coherence": 0.111
+          },
+          "cube_coordinate_to_peak_ratio": 0.21769185118881323
+        }
+      }
+    },
+    "single_A1": {
+      "residual_rms": 0.002779169544097669,
+      "reconstruction": {
+        "das": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 1.5609324945610432e-06,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.78,
+            "coherence": 0.18
+          },
+          "cube_coordinate_to_peak_ratio": 0.3021822275586228
+        },
+        "das-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 5.0690420188861766e-08,
+          "confidence": {
+            "confident": true,
+            "peak_to_mean_ratio": 22.6,
+            "coherence": 0.18
+          },
+          "cube_coordinate_to_peak_ratio": 0.01581050151340452
+        },
+        "dmas": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 0.0163198450783245,
+          "confidence": {
+            "confident": true,
+            "peak_to_mean_ratio": 8.15,
+            "coherence": 0.18
+          },
+          "cube_coordinate_to_peak_ratio": 0.03448761845774198
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 0.0005299779505647578,
+          "confidence": {
+            "confident": true,
+            "peak_to_mean_ratio": 40.72,
+            "coherence": 0.18
+          },
+          "cube_coordinate_to_peak_ratio": 0.0018044295596903247
+        }
+      }
+    },
+    "single_A2": {
+      "residual_rms": 0.002563876805061932,
+      "reconstruction": {
+        "das": {
+          "candidate_cm": [
+            1.0,
+            6.0,
+            3.0
+          ],
+          "peak_intensity": 1.6432457676156774e-06,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.84,
+            "coherence": 0.11
+          },
+          "cube_coordinate_to_peak_ratio": 0.4176906890552394
+        },
+        "das-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 2.946241176819978e-08,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 19.03,
+            "coherence": 0.142
+          },
+          "cube_coordinate_to_peak_ratio": 0.050418752938190425
+        },
+        "dmas": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 0.012659041685554104,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 7.29,
+            "coherence": 0.142
+          },
+          "cube_coordinate_to_peak_ratio": 0.015630361266657886
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 0.00025465830702131235,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 36.34,
+            "coherence": 0.142
+          },
+          "cube_coordinate_to_peak_ratio": 0.0016815704863086655
+        }
+      }
+    },
+    "single_A3": {
+      "residual_rms": 0.00247793755015564,
+      "reconstruction": {
+        "das": {
+          "candidate_cm": [
+            -4.5,
+            0.0,
+            0.5
+          ],
+          "peak_intensity": 1.356695876086368e-06,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 4.26,
+            "coherence": 0.141
+          },
+          "cube_coordinate_to_peak_ratio": 0.48013265633890717
+        },
+        "das-cf": {
+          "candidate_cm": [
+            -4.5,
+            0.0,
+            0.5
+          ],
+          "peak_intensity": 2.6852943477166807e-08,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 29.07,
+            "coherence": 0.141
+          },
+          "cube_coordinate_to_peak_ratio": 0.08732348306730686
+        },
+        "dmas": {
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "peak_intensity": 0.010124009876356647,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 7.46,
+            "coherence": 0.135
+          },
+          "cube_coordinate_to_peak_ratio": 0.21975430684997832
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "peak_intensity": 0.0001849911195706662,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 40.5,
+            "coherence": 0.135
+          },
+          "cube_coordinate_to_peak_ratio": 0.04329305887333729
+        }
+      }
+    }
+  },
+  "pairwise_rms": {
+    "empty_1 vs empty_2": 0.0008253489044108438,
+    "empty_1 vs empty_3": 0.0007686585299778187,
+    "empty_1 vs single_A1": 0.0019924037974557544,
+    "empty_1 vs single_A2": 0.002362026221270073,
+    "empty_1 vs single_A3": 0.0024173856206071605,
+    "empty_2 vs empty_3": 0.0006406854748348558,
+    "empty_2 vs single_A1": 0.002091952835934248,
+    "empty_2 vs single_A2": 0.002435454239906152,
+    "empty_2 vs single_A3": 0.0024787801909374146,
+    "empty_3 vs single_A1": 0.002049303023355635,
+    "empty_3 vs single_A2": 0.0024000042990169382,
+    "empty_3 vs single_A3": 0.0024543680167693617,
+    "single_A1 vs single_A2": 0.002012382473416827,
+    "single_A1 vs single_A3": 0.0025870181233979797,
+    "single_A2 vs single_A3": 0.0019531782606430938
+  },
+  "post_empty_mean_baseline_diagnostic": {
+    "single_A1": {
+      "das": {
+        "candidate_cm": [
+          2.5,
+          -6.5,
+          2.5
+        ],
+        "peak_intensity": 7.669861922846621e-07,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 5.18,
+          "coherence": 0.152
+        },
+        "cube_coordinate_to_peak_ratio": 0.1286457398395934
+      },
+      "das-cf": {
+        "candidate_cm": [
+          2.5,
+          -7.0,
+          2.5
+        ],
+        "peak_intensity": 1.7840193736161647e-08,
+        "confidence": {
+          "confident": true,
+          "peak_to_mean_ratio": 29.71,
+          "coherence": 0.154
+        },
+        "cube_coordinate_to_peak_ratio": 0.002054100672778543
+      },
+      "dmas": {
+        "candidate_cm": [
+          -5.5,
+          0.0,
+          0.0
+        ],
+        "peak_intensity": 0.009056772977512086,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 7.45,
+          "coherence": 0.147
+        },
+        "cube_coordinate_to_peak_ratio": 0.04958457939558499
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          -5.5,
+          0.0,
+          0.5
+        ],
+        "peak_intensity": 0.00020966833806758764,
+        "confidence": {
+          "confident": true,
+          "peak_to_mean_ratio": 38.46,
+          "coherence": 0.152
+        },
+        "cube_coordinate_to_peak_ratio": 0.0007954732851564137
+      }
+    },
+    "single_A2": {
+      "das": {
+        "candidate_cm": [
+          -2.0,
+          -6.5,
+          3.5
+        ],
+        "peak_intensity": 4.3346596238456184e-07,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.07,
+          "coherence": 0.089
+        },
+        "cube_coordinate_to_peak_ratio": 0.29135132522792706
+      },
+      "das-cf": {
+        "candidate_cm": [
+          5.5,
+          -5.5,
+          1.5
+        ],
+        "peak_intensity": 3.6531103267749304e-09,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 16.77,
+          "coherence": 0.1
+        },
+        "cube_coordinate_to_peak_ratio": 0.023835493531635044
+      },
+      "dmas": {
+        "candidate_cm": [
+          -5.0,
+          -0.5,
+          0.5
+        ],
+        "peak_intensity": 0.005119298249263018,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 6.07,
+          "coherence": 0.09
+        },
+        "cube_coordinate_to_peak_ratio": 0.025477225753697024
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          5.5,
+          -5.0,
+          1.5
+        ],
+        "peak_intensity": 4.141593962421105e-05,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 24.76,
+          "coherence": 0.097
+        },
+        "cube_coordinate_to_peak_ratio": 0.00217125078053749
+      }
+    },
+    "single_A3": {
+      "das": {
+        "candidate_cm": [
+          2.5,
+          2.0,
+          6.5
+        ],
+        "peak_intensity": 4.334593964229272e-07,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.09,
+          "coherence": 0.105
+        },
+        "cube_coordinate_to_peak_ratio": 0.3288241726355233
+      },
+      "das-cf": {
+        "candidate_cm": [
+          2.5,
+          2.0,
+          6.5
+        ],
+        "peak_intensity": 4.810125169978483e-09,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 19.24,
+          "coherence": 0.105
+        },
+        "cube_coordinate_to_peak_ratio": 0.033549726995618194
+      },
+      "dmas": {
+        "candidate_cm": [
+          2.0,
+          3.0,
+          7.0
+        ],
+        "peak_intensity": 0.0056606458947355606,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 6.42,
+          "coherence": 0.094
+        },
+        "cube_coordinate_to_peak_ratio": 0.21434403535486396
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          2.5,
+          1.0,
+          6.0
+        ],
+        "peak_intensity": 5.479119274533953e-05,
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 27.31,
+          "coherence": 0.105
+        },
+        "cube_coordinate_to_peak_ratio": 0.025072627391974894
+      }
+    }
+  },
+  "mean_cube_vs_empty_residual_correlation": {
+    "magnitude": 0.7305576453413257,
+    "phase_deg": -12.342942447975632
+  },
+  "empty_repeat_rms_about_mean": 0.00043237260517909346,
+  "mean_cube_minus_mean_empty_rms": 0.0018734540056469836
+}

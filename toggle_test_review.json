@@ -1,0 +1,226 @@
+{
+  "folder": "dataset\\target_toggle_20260909T073303764094Z",
+  "truth_cm": [
+    2.0,
+    2.0,
+    2.5
+  ],
+  "data_checks": "All 15 sweeps have all 64 pairs, complete 101-point 2\u20136 GHz grids, and finite values.",
+  "stage_statistics": {
+    "1": {
+      "state": "empty",
+      "within_stage_rms_about_mean": 0.0003126076388396648
+    },
+    "2": {
+      "state": "target",
+      "within_stage_rms_about_mean": 0.0003383600183713756
+    },
+    "3": {
+      "state": "empty",
+      "within_stage_rms_about_mean": 0.000348974675652066
+    },
+    "4": {
+      "state": "target",
+      "within_stage_rms_about_mean": 0.0009647862478611302
+    },
+    "5": {
+      "state": "empty",
+      "within_stage_rms_about_mean": 0.00031162802762567317
+    },
+    "1_vs_2": {
+      "mean_difference_rms": 0.0014445517670158253
+    },
+    "2_vs_3": {
+      "mean_difference_rms": 0.002201563573998487
+    },
+    "3_vs_4": {
+      "mean_difference_rms": 0.001699734360364436
+    },
+    "4_vs_5": {
+      "mean_difference_rms": 0.003486917278850212
+    },
+    "1_vs_3": {
+      "mean_difference_rms": 0.0024345829872394
+    },
+    "3_vs_5": {
+      "mean_difference_rms": 0.003569354956683094
+    }
+  },
+  "target_stage_2_bracketed_by_empty_1_and_3": {
+    "das": {
+      "candidate_cm": [
+        -4.5,
+        0.0,
+        1.0
+      ],
+      "error_cm": 6.96419413859206,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 5.15,
+        "coherence": 0.175
+      }
+    },
+    "das-cf": {
+      "candidate_cm": [
+        -4.5,
+        0.0,
+        1.0
+      ],
+      "error_cm": 6.96419413859206,
+      "confidence": {
+        "confident": true,
+        "peak_to_mean_ratio": 31.97,
+        "coherence": 0.175
+      }
+    },
+    "dmas": {
+      "candidate_cm": [
+        -4.5,
+        -0.5,
+        1.0
+      ],
+      "error_cm": 7.123903424387503,
+      "confidence": {
+        "confident": true,
+        "peak_to_mean_ratio": 7.31,
+        "coherence": 0.174
+      }
+    },
+    "dmas-cf": {
+      "candidate_cm": [
+        -4.5,
+        -0.5,
+        1.0
+      ],
+      "error_cm": 7.123903424387503,
+      "confidence": {
+        "confident": true,
+        "peak_to_mean_ratio": 40.62,
+        "coherence": 0.174
+      }
+    }
+  },
+  "target_stage_4_referenced_to_preceding_empty_3": {
+    "das": {
+      "candidate_cm": [
+        -4.5,
+        -0.5,
+        0.5
+      ],
+      "error_cm": 7.245688373094719,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 6.13,
+        "coherence": 0.099
+      }
+    },
+    "das-cf": {
+      "candidate_cm": [
+        -4.5,
+        -0.5,
+        0.5
+      ],
+      "error_cm": 7.245688373094719,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 40.85,
+        "coherence": 0.099
+      }
+    },
+    "dmas": {
+      "candidate_cm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "error_cm": 7.697402159170326,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 7.39,
+        "coherence": 0.091
+      }
+    },
+    "dmas-cf": {
+      "candidate_cm": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "error_cm": 7.697402159170326,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 59.84,
+        "coherence": 0.091
+      }
+    }
+  },
+  "late_empty_stage_5_note": "Captured ~98 minutes after stage 4; used as drift evidence only, not baseline.",
+  "late_empty_stage_5_reconstruction_against_empty_3": {
+    "das": {
+      "candidate_cm": [
+        1.0,
+        -0.5,
+        0.0
+      ],
+      "error_cm": 3.6742346141747673,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 5.19,
+        "coherence": 0.11
+      }
+    },
+    "das-cf": {
+      "candidate_cm": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "error_cm": 3.2015621187164243,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 34.39,
+        "coherence": 0.117
+      }
+    },
+    "dmas": {
+      "candidate_cm": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "error_cm": 2.692582403567252,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 7.37,
+        "coherence": 0.105
+      }
+    },
+    "dmas-cf": {
+      "candidate_cm": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "error_cm": 3.2015621187164243,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 47.43,
+        "coherence": 0.117
+      }
+    }
+  },
+  "residual_correlations": {
+    "target2_vs_target4": {
+      "magnitude": 0.2941144119983078,
+      "phase_deg": 1.6204903958571912
+    },
+    "target4_vs_late_empty_drift": {
+      "magnitude": 0.286050809263167,
+      "phase_deg": 0.46708280270170355
+    },
+    "target2_vs_late_empty_drift": {
+      "magnitude": 0.16289313122440824,
+      "phase_deg": -63.239840467093046
+    }
+  }
+}

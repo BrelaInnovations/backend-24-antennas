@@ -1,0 +1,717 @@
+{
+  "usable_pairs": 54,
+  "system_delay_ns_range": [
+    5.981900661489431,
+    7.5268713997136985
+  ],
+  "scans": {
+    "session_empty_1": {
+      "truth_cm": null,
+      "residual_rms_all_pairs": 0.0017479677592557089,
+      "reconstruction": {
+        "default_gate/das": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/das-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "gate_disabled_diagnostic/das": {
+          "position_cm": [
+            -7.0,
+            -1.5,
+            3.5
+          ],
+          "peak_intensity": 4.589617297157909e-07,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.56,
+            "coherence": 0.116
+          }
+        },
+        "gate_disabled_diagnostic/das-cf": {
+          "position_cm": [
+            -1.0,
+            1.0,
+            4.5
+          ],
+          "peak_intensity": 6.794948360115124e-09,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 11.71,
+            "coherence": 0.123
+          }
+        },
+        "gate_disabled_diagnostic/dmas": {
+          "position_cm": [
+            -0.5,
+            1.0,
+            4.0
+          ],
+          "peak_intensity": 0.00485835097460797,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.22,
+            "coherence": 0.12
+          }
+        },
+        "gate_disabled_diagnostic/dmas-cf": {
+          "position_cm": [
+            -0.5,
+            1.0,
+            4.0
+          ],
+          "peak_intensity": 7.050762263110184e-05,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 18.01,
+            "coherence": 0.12
+          }
+        }
+      }
+    },
+    "session_empty_2": {
+      "truth_cm": null,
+      "residual_rms_all_pairs": 0.001829525769364639,
+      "reconstruction": {
+        "default_gate/das": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/das-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "gate_disabled_diagnostic/das": {
+          "position_cm": [
+            -6.5,
+            -1.5,
+            4.0
+          ],
+          "peak_intensity": 3.312736293091701e-07,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 3.65,
+            "coherence": 0.072
+          }
+        },
+        "gate_disabled_diagnostic/das-cf": {
+          "position_cm": [
+            -1.0,
+            1.0,
+            4.5
+          ],
+          "peak_intensity": 1.930147286399019e-09,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 11.48,
+            "coherence": 0.077
+          }
+        },
+        "gate_disabled_diagnostic/dmas": {
+          "position_cm": [
+            -2.5,
+            -5.5,
+            4.5
+          ],
+          "peak_intensity": 0.00360180540220343,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.21,
+            "coherence": 0.075
+          }
+        },
+        "gate_disabled_diagnostic/dmas-cf": {
+          "position_cm": [
+            0.5,
+            -4.0,
+            0.5
+          ],
+          "peak_intensity": 2.060269398254973e-05,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 19.4,
+            "coherence": 0.079
+          }
+        }
+      }
+    },
+    "session_A1": {
+      "truth_cm": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "residual_rms_all_pairs": 0.00211873930128651,
+      "reconstruction": {
+        "default_gate/das": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/das-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "gate_disabled_diagnostic/das": {
+          "position_cm": [
+            -4.5,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 7.321519250633315e-07,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 4.4,
+            "coherence": 0.094
+          },
+          "error_cm": 7.123903424387503
+        },
+        "gate_disabled_diagnostic/das-cf": {
+          "position_cm": [
+            -4.5,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 6.402277924887702e-09,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 15.5,
+            "coherence": 0.094
+          },
+          "error_cm": 7.123903424387503
+        },
+        "gate_disabled_diagnostic/dmas": {
+          "position_cm": [
+            -6.5,
+            0.0,
+            1.5
+          ],
+          "peak_intensity": 0.006617312847993469,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.68,
+            "coherence": 0.079
+          },
+          "error_cm": 8.860022573334675
+        },
+        "gate_disabled_diagnostic/dmas-cf": {
+          "position_cm": [
+            -4.5,
+            0.5,
+            0.5
+          ],
+          "peak_intensity": 5.4074928454997025e-05,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 21.07,
+            "coherence": 0.094
+          },
+          "error_cm": 7.123903424387503
+        }
+      }
+    },
+    "session_A2": {
+      "truth_cm": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "residual_rms_all_pairs": 0.0024540974106284897,
+      "reconstruction": {
+        "default_gate/das": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/das-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "gate_disabled_diagnostic/das": {
+          "position_cm": [
+            -7.0,
+            -3.0,
+            0.5
+          ],
+          "peak_intensity": 7.64205864552929e-07,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.1,
+            "coherence": 0.091
+          },
+          "error_cm": 10.594810050208546
+        },
+        "gate_disabled_diagnostic/das-cf": {
+          "position_cm": [
+            -7.0,
+            -3.0,
+            0.5
+          ],
+          "peak_intensity": 6.265997204171895e-09,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 28.09,
+            "coherence": 0.091
+          },
+          "error_cm": 10.594810050208546
+        },
+        "gate_disabled_diagnostic/dmas": {
+          "position_cm": [
+            -7.0,
+            -3.0,
+            1.0
+          ],
+          "peak_intensity": 0.007495489858257359,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 6.77,
+            "coherence": 0.087
+          },
+          "error_cm": 10.488088481701515
+        },
+        "gate_disabled_diagnostic/dmas-cf": {
+          "position_cm": [
+            -7.0,
+            -3.0,
+            1.0
+          ],
+          "peak_intensity": 5.7136939065376434e-05,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 45.64,
+            "coherence": 0.087
+          },
+          "error_cm": 10.488088481701515
+        }
+      }
+    },
+    "session_A3": {
+      "truth_cm": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "residual_rms_all_pairs": 0.0025667035024436236,
+      "reconstruction": {
+        "default_gate/das": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/das-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "gate_disabled_diagnostic/das": {
+          "position_cm": [
+            1.0,
+            -4.5,
+            0.5
+          ],
+          "peak_intensity": 9.25715907923659e-07,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.48,
+            "coherence": 0.117
+          },
+          "error_cm": 7.035623639735144
+        },
+        "gate_disabled_diagnostic/das-cf": {
+          "position_cm": [
+            0.5,
+            -4.5,
+            0.5
+          ],
+          "peak_intensity": 1.276182637554173e-08,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 40.13,
+            "coherence": 0.118
+          },
+          "error_cm": 7.123903424387503
+        },
+        "gate_disabled_diagnostic/dmas": {
+          "position_cm": [
+            1.0,
+            -4.5,
+            0.5
+          ],
+          "peak_intensity": 0.007253407190360062,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 5.98,
+            "coherence": 0.117
+          },
+          "error_cm": 7.035623639735144
+        },
+        "gate_disabled_diagnostic/dmas-cf": {
+          "position_cm": [
+            1.0,
+            -4.5,
+            0.5
+          ],
+          "peak_intensity": 9.861597074625651e-05,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 49.8,
+            "coherence": 0.117
+          },
+          "error_cm": 7.035623639735144
+        }
+      }
+    },
+    "session_B": {
+      "truth_cm": [
+        2.0,
+        3.0,
+        3.0
+      ],
+      "residual_rms_all_pairs": 0.0026388869451296933,
+      "reconstruction": {
+        "default_gate/das": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/das-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "default_gate/dmas-cf": {
+          "position_cm": null,
+          "peak_intensity": 0.0,
+          "all_zero": true,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": null,
+            "coherence": 0.0
+          }
+        },
+        "gate_disabled_diagnostic/das": {
+          "position_cm": [
+            4.5,
+            0.5,
+            2.5
+          ],
+          "peak_intensity": 1.2274739054905598e-06,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 4.68,
+            "coherence": 0.121
+          },
+          "error_cm": 3.570714214271425
+        },
+        "gate_disabled_diagnostic/das-cf": {
+          "position_cm": [
+            4.5,
+            0.5,
+            2.5
+          ],
+          "peak_intensity": 1.787271749896769e-08,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 20.04,
+            "coherence": 0.121
+          },
+          "error_cm": 3.570714214271425
+        },
+        "gate_disabled_diagnostic/dmas": {
+          "position_cm": [
+            2.0,
+            -5.0,
+            0.0
+          ],
+          "peak_intensity": 0.011500960105197886,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 7.48,
+            "coherence": 0.132
+          },
+          "error_cm": 8.54400374531753
+        },
+        "gate_disabled_diagnostic/dmas-cf": {
+          "position_cm": [
+            2.0,
+            -5.0,
+            0.0
+          ],
+          "peak_intensity": 0.0001995929231993772,
+          "all_zero": false,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 35.31,
+            "coherence": 0.132
+          },
+          "error_cm": 8.54400374531753
+        }
+      }
+    }
+  },
+  "differences": {
+    "session_empty_1 vs session_empty_2": {
+      "rms_all_pairs": 0.0010769840326374834,
+      "rms_usable_pairs": 0.001084053876712541
+    },
+    "session_empty_1 vs session_A1": {
+      "rms_all_pairs": 0.0026276087285470595,
+      "rms_usable_pairs": 0.002629378932860268
+    },
+    "session_empty_1 vs session_A2": {
+      "rms_all_pairs": 0.002708651923272938,
+      "rms_usable_pairs": 0.0027084663865226738
+    },
+    "session_empty_1 vs session_A3": {
+      "rms_all_pairs": 0.003053411517270246,
+      "rms_usable_pairs": 0.00308276276102387
+    },
+    "session_empty_1 vs session_B": {
+      "rms_all_pairs": 0.002981314218503105,
+      "rms_usable_pairs": 0.0029919343538107905
+    },
+    "session_empty_2 vs session_A1": {
+      "rms_all_pairs": 0.0025871758377790073,
+      "rms_usable_pairs": 0.0025968736672753487
+    },
+    "session_empty_2 vs session_A2": {
+      "rms_all_pairs": 0.0027783214605773196,
+      "rms_usable_pairs": 0.002791516203319824
+    },
+    "session_empty_2 vs session_A3": {
+      "rms_all_pairs": 0.0029876458998734793,
+      "rms_usable_pairs": 0.003012739998948443
+    },
+    "session_empty_2 vs session_B": {
+      "rms_all_pairs": 0.0029542191701478395,
+      "rms_usable_pairs": 0.002969741974458488
+    },
+    "session_A1 vs session_A2": {
+      "rms_all_pairs": 0.0016754448085166207,
+      "rms_usable_pairs": 0.0017008077953962805
+    },
+    "session_A1 vs session_A3": {
+      "rms_all_pairs": 0.001937060742520617,
+      "rms_usable_pairs": 0.0019482298451808293
+    },
+    "session_A1 vs session_B": {
+      "rms_all_pairs": 0.0024191761380472567,
+      "rms_usable_pairs": 0.0024336233994392553
+    },
+    "session_A2 vs session_A3": {
+      "rms_all_pairs": 0.0021120642185541794,
+      "rms_usable_pairs": 0.0021534288111011556
+    },
+    "session_A2 vs session_B": {
+      "rms_all_pairs": 0.0026896214077938184,
+      "rms_usable_pairs": 0.002723034231815546
+    },
+    "session_A3 vs session_B": {
+      "rms_all_pairs": 0.0028173893460625107,
+      "rms_usable_pairs": 0.00284908666437647
+    }
+  },
+  "A_repeat_rms_about_mean": 0.001121784408432219,
+  "B_minus_A_mean_rms": 0.002427586752453317
+}

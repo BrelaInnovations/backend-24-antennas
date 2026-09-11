@@ -1,0 +1,462 @@
+{
+  "per_scan": [
+    {
+      "label": "graphite test1 ",
+      "true_position_cm": [
+        4.0,
+        -4.0,
+        4.0
+      ],
+      "das": {
+        "predicted": [
+          -5.0,
+          0.5,
+          0.0
+        ],
+        "error_cm": 10.83,
+        "confident": false
+      },
+      "das-cf": {
+        "predicted": [
+          -5.0,
+          0.5,
+          0.0
+        ],
+        "error_cm": 10.83,
+        "confident": false
+      },
+      "dmas": {
+        "predicted": [
+          -4.5,
+          0.0,
+          0.0
+        ],
+        "error_cm": 10.21,
+        "confident": false
+      },
+      "dmas-cf": {
+        "predicted": [
+          -4.0,
+          0.5,
+          0.0
+        ],
+        "error_cm": 10.01,
+        "confident": false
+      }
+    },
+    {
+      "label": "graphite test2 ",
+      "true_position_cm": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "das": {
+        "predicted": [
+          -5.0,
+          0.5,
+          0.0
+        ],
+        "error_cm": 9.29,
+        "confident": false
+      },
+      "das-cf": {
+        "predicted": [
+          -5.0,
+          0.5,
+          0.0
+        ],
+        "error_cm": 9.29,
+        "confident": false
+      },
+      "dmas": {
+        "predicted": [
+          -4.5,
+          0.5,
+          0.0
+        ],
+        "error_cm": 8.86,
+        "confident": false
+      },
+      "dmas-cf": {
+        "predicted": [
+          -5.0,
+          0.5,
+          0.0
+        ],
+        "error_cm": 9.29,
+        "confident": false
+      }
+    },
+    {
+      "label": "emptydome",
+      "true_position_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "das": {
+        "predicted": [
+          0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.58,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.58,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          0.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.5,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          0.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.5,
+        "confident": true
+      }
+    },
+    {
+      "label": "emptydome2",
+      "true_position_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "das": {
+        "predicted": [
+          0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.58,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          1.0,
+          -0.5,
+          1.0
+        ],
+        "error_cm": 1.5,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          1.0,
+          -0.5,
+          1.0
+        ],
+        "error_cm": 1.5,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          1.0,
+          -0.5,
+          1.0
+        ],
+        "error_cm": 1.5,
+        "confident": true
+      }
+    },
+    {
+      "label": "emptydome3",
+      "true_position_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "das": {
+        "predicted": [
+          0.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.5,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          -0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 1.58,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          -1.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 2.12,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "error_cm": 1.0,
+        "confident": true
+      }
+    },
+    {
+      "label": "metal1",
+      "true_position_cm": [
+        3.0,
+        -3.0,
+        5.0
+      ],
+      "das": {
+        "predicted": [
+          0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 5.24,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 5.24,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          1.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 5.02,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          1.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 5.02,
+        "confident": true
+      }
+    },
+    {
+      "label": "metal2",
+      "true_position_cm": [
+        -3.0,
+        3.0,
+        5.0
+      ],
+      "das": {
+        "predicted": [
+          0.0,
+          -2.5,
+          2.5
+        ],
+        "error_cm": 6.75,
+        "confident": false
+      },
+      "das-cf": {
+        "predicted": [
+          -0.5,
+          0.5,
+          1.5
+        ],
+        "error_cm": 4.97,
+        "confident": false
+      },
+      "dmas": {
+        "predicted": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "error_cm": 5.59,
+        "confident": false
+      },
+      "dmas-cf": {
+        "predicted": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "error_cm": 5.59,
+        "confident": false
+      }
+    },
+    {
+      "label": "metal3",
+      "true_position_cm": [
+        6.0,
+        6.0,
+        5.0
+      ],
+      "das": {
+        "predicted": [
+          -1.0,
+          0.5,
+          2.0
+        ],
+        "error_cm": 9.39,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          -0.5,
+          0.5,
+          1.5
+        ],
+        "error_cm": 9.21,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          -0.5,
+          0.5,
+          2.0
+        ],
+        "error_cm": 9.03,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          -0.5,
+          0.5,
+          1.5
+        ],
+        "error_cm": 9.21,
+        "confident": true
+      }
+    },
+    {
+      "label": "metal4",
+      "true_position_cm": [
+        -7.0,
+        -7.0,
+        5.0
+      ],
+      "das": {
+        "predicted": [
+          0.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 10.5,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          -0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 10.17,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          -0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 10.17,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          -0.5,
+          0.0,
+          1.5
+        ],
+        "error_cm": 10.17,
+        "confident": true
+      }
+    },
+    {
+      "label": "graphite1",
+      "true_position_cm": [
+        7.0,
+        -7.0,
+        4.0
+      ],
+      "das": {
+        "predicted": [
+          0.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 10.21,
+        "confident": true
+      },
+      "das-cf": {
+        "predicted": [
+          0.5,
+          0.0,
+          1.0
+        ],
+        "error_cm": 10.01,
+        "confident": true
+      },
+      "dmas": {
+        "predicted": [
+          1.0,
+          0.0,
+          1.5
+        ],
+        "error_cm": 9.55,
+        "confident": true
+      },
+      "dmas-cf": {
+        "predicted": [
+          1.0,
+          0.0,
+          1.0
+        ],
+        "error_cm": 9.7,
+        "confident": true
+      }
+    }
+  ],
+  "summary": {
+    "das": {
+      "mean_cm": 6.687141844935141,
+      "confident_count": 7
+    },
+    "das-cf": {
+      "mean_cm": 6.438851430260873,
+      "confident_count": 7
+    },
+    "dmas": {
+      "mean_cm": 6.35604562041285,
+      "confident_count": 7
+    },
+    "dmas-cf": {
+      "mean_cm": 6.298951877134522,
+      "confident_count": 7
+    }
+  }
+}

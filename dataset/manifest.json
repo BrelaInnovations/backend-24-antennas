@@ -1,0 +1,47 @@
+[
+  {
+    "label": "settled_A",
+    "file": "dataset\\settled_A.json",
+    "true_position_cm": [
+      -4.0,
+      -4.0,
+      2.5
+    ]
+  },
+  {
+    "label": "settled_B",
+    "file": "dataset\\settled_B.json",
+    "true_position_cm": [
+      2.0,
+      2.0,
+      2.5
+    ]
+  },
+  {
+    "label": "fe2o3.1",
+    "file": "dataset\\fe2o3.1.json",
+    "true_position_cm": [
+      2.0,
+      2.0,
+      2.5
+    ]
+  },
+  {
+    "label": "settled_c",
+    "file": "dataset\\settled_c.json",
+    "true_position_cm": [
+      2.0,
+      2.0,
+      2.5
+    ]
+  },
+  {
+    "label": "settled_D",
+    "file": "dataset\\settled_D.json",
+    "true_position_cm": [
+      5.0,
+      2.5,
+      2.5
+    ]
+  }
+]

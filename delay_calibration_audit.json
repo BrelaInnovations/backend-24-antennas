@@ -1,0 +1,5326 @@
+{
+  "status": "Calibration is not independently verified; no offsets changed.",
+  "summary": {
+    "pairs": 64,
+    "used_pairs": 56,
+    "median_absolute_baseline_mismatch_ns": 0.041390728476820904,
+    "max_absolute_baseline_mismatch_ns": 1.9660596026490058,
+    "pairs_with_baseline_mismatch_over_0_25ns": 19,
+    "pairs_with_empty_peak_spread_over_0_25ns": 3
+  },
+  "pairs": [
+    {
+      "pair": "TX1-RX1",
+      "used": false,
+      "system_delay_ns": 6.5098176595934625,
+      "expected_direct_peak_ns": 6.7052980132450335,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.498344370860927,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": -0.2069536423841063,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00036125999486032114
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.00031979314449586126
+            },
+            {
+              "delay_ns": 8.547185430463577,
+              "amplitude": 0.000226349158255898
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00036363521856724374
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.0003138684792164528
+            },
+            {
+              "delay_ns": 8.547185430463577,
+              "amplitude": 0.00023218501645448698
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0003624130282662669
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.0003096271360063967
+            },
+            {
+              "delay_ns": 8.547185430463577,
+              "amplitude": 0.00023232533192489439
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX2",
+      "used": true,
+      "system_delay_ns": 6.255116090147336,
+      "expected_direct_peak_ns": 6.539735099337748,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.243377483443709,
+        7.222682119205298,
+        7.222682119205298
+      ],
+      "baseline_mismatch_ns": 0.7036423841059607,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.0003043273734435639
+            },
+            {
+              "delay_ns": 6.456953642384106,
+              "amplitude": 0.0002581914342097118
+            },
+            {
+              "delay_ns": 10.76158940397351,
+              "amplitude": 9.663364095064811e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.222682119205298,
+              "amplitude": 0.000310650490925461
+            },
+            {
+              "delay_ns": 6.456953642384106,
+              "amplitude": 0.00025915749593367904
+            },
+            {
+              "delay_ns": 10.823675496688741,
+              "amplitude": 0.00010174308763458114
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.222682119205298,
+              "amplitude": 0.0003020536827750231
+            },
+            {
+              "delay_ns": 6.456953642384106,
+              "amplitude": 0.00025689423517994347
+            },
+            {
+              "delay_ns": 10.802980132450331,
+              "amplitude": 9.734172976990465e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX3",
+      "used": true,
+      "system_delay_ns": 6.175948935650404,
+      "expected_direct_peak_ns": 6.539735099337748,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.560430463576159,
+        6.560430463576159,
+        6.560430463576159
+      ],
+      "baseline_mismatch_ns": 0.020695364238410896,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0005811422713192251
+            },
+            {
+              "delay_ns": 7.26407284768212,
+              "amplitude": 0.0001992113660505586
+            },
+            {
+              "delay_ns": 9.168046357615895,
+              "amplitude": 0.00010186001242103671
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0005576954368935245
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.00017814623236625196
+            },
+            {
+              "delay_ns": 8.505794701986755,
+              "amplitude": 0.00010411578285001866
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0005659990940879004
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.0001777705348468246
+            },
+            {
+              "delay_ns": 8.505794701986755,
+              "amplitude": 0.00010745449874235626
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX4",
+      "used": true,
+      "system_delay_ns": 6.109535094373252,
+      "expected_direct_peak_ns": 6.539735099337749,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.539735099337748,
+        6.519039735099338,
+        6.539735099337748
+      ],
+      "baseline_mismatch_ns": -8.881784197001252e-16,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.00033836537409528077
+            },
+            {
+              "delay_ns": 7.9470198675496695,
+              "amplitude": 0.00011562365971823675
+            },
+            {
+              "delay_ns": 9.768211920529803,
+              "amplitude": 8.821855388548751e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.519039735099338,
+              "amplitude": 0.0003181615365425796
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 0.00012087217168137626
+            },
+            {
+              "delay_ns": 9.74751655629139,
+              "amplitude": 9.087231637416669e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0003212957900106953
+            },
+            {
+              "delay_ns": 7.9470198675496695,
+              "amplitude": 0.00012225825567580814
+            },
+            {
+              "delay_ns": 9.72682119205298,
+              "amplitude": 8.725769893336158e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX5",
+      "used": true,
+      "system_delay_ns": 6.028993059390587,
+      "expected_direct_peak_ns": 6.167218543046358,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.187913907284768,
+        6.187913907284768,
+        6.187913907284768
+      ],
+      "baseline_mismatch_ns": 0.020695364238410008,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.187913907284768,
+              "amplitude": 0.0012321532063117252
+            },
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.0008720800388577698
+            },
+            {
+              "delay_ns": 7.429635761589404,
+              "amplitude": 0.000413226459495339
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.187913907284768,
+              "amplitude": 0.001230150880790839
+            },
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.0008743202838963633
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.00042242521219773007
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.187913907284768,
+              "amplitude": 0.0012311569512120479
+            },
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.0008768562266326405
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.00043691916680177326
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX6",
+      "used": true,
+      "system_delay_ns": 6.988791929515024,
+      "expected_direct_peak_ns": 7.201986754966889,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.201986754966888,
+        7.201986754966888,
+        7.201986754966888
+      ],
+      "baseline_mismatch_ns": -8.881784197001252e-16,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.201986754966888,
+              "amplitude": 0.0004820845932150643
+            },
+            {
+              "delay_ns": 8.071192052980132,
+              "amplitude": 0.0001833347934717272
+            },
+            {
+              "delay_ns": 6.043046357615894,
+              "amplitude": 9.445122979513525e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.201986754966888,
+              "amplitude": 0.0004900582282101699
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00017164774597204434
+            },
+            {
+              "delay_ns": 6.043046357615894,
+              "amplitude": 9.265944545494174e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.201986754966888,
+              "amplitude": 0.0004890961290385224
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00016828922326613276
+            },
+            {
+              "delay_ns": 6.043046357615894,
+              "amplitude": 9.337841205433133e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX7",
+      "used": true,
+      "system_delay_ns": 6.206324728169487,
+      "expected_direct_peak_ns": 6.498344370860926,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.0157284768211925,
+        7.0157284768211925,
+        7.0157284768211925
+      ],
+      "baseline_mismatch_ns": 0.5173841059602662,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.0157284768211925,
+              "amplitude": 0.0002915897118477265
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.0002160248030636753
+            },
+            {
+              "delay_ns": 8.195364238410598,
+              "amplitude": 0.0002130841465196859
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.0157284768211925,
+              "amplitude": 0.0002892728844791005
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00022867836944333645
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.00022715790305898327
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.0157284768211925,
+              "amplitude": 0.00028811003018380224
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.00023307419233513854
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0002305558357786318
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX1-RX8",
+      "used": true,
+      "system_delay_ns": 6.920022144640782,
+      "expected_direct_peak_ns": 7.28476821192053,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.63658940397351,
+        7.63658940397351,
+        7.6158940397351
+      ],
+      "baseline_mismatch_ns": 0.3518211920529799,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.63658940397351,
+              "amplitude": 0.00039970178378010394
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0003620577274582365
+            },
+            {
+              "delay_ns": 9.023178807947021,
+              "amplitude": 0.0001268548405554791
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.63658940397351,
+              "amplitude": 0.00039671388360772066
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00035984438761113596
+            },
+            {
+              "delay_ns": 9.043874172185431,
+              "amplitude": 0.00013064564726172068
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.0003973136334693255
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0003587538230296107
+            },
+            {
+              "delay_ns": 9.023178807947021,
+              "amplitude": 0.00013490736287192337
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX1",
+      "used": true,
+      "system_delay_ns": 6.441374368293032,
+      "expected_direct_peak_ns": 6.725993377483444,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.622516556291391,
+        6.622516556291391,
+        6.622516556291391
+      ],
+      "baseline_mismatch_ns": -0.10347682119205359,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.0003067019043037768
+            },
+            {
+              "delay_ns": 7.533112582781458,
+              "amplitude": 0.0002458495335541043
+            },
+            {
+              "delay_ns": 8.050496688741722,
+              "amplitude": 0.00021902620560106532
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.0003033792631202119
+            },
+            {
+              "delay_ns": 7.553807947019867,
+              "amplitude": 0.000271277154391355
+            },
+            {
+              "delay_ns": 9.685430463576159,
+              "amplitude": 0.00016777473678886823
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.0003048588295899648
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.0002747741744333248
+            },
+            {
+              "delay_ns": 9.685430463576159,
+              "amplitude": 0.0001759461683169972
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX2",
+      "used": false,
+      "system_delay_ns": 6.217345569298599,
+      "expected_direct_peak_ns": 6.581125827814571,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.58112582781457,
+        6.60182119205298,
+        6.60182119205298
+      ],
+      "baseline_mismatch_ns": -8.881784197001252e-16,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.58112582781457,
+              "amplitude": 0.00047536620243476965
+            },
+            {
+              "delay_ns": 7.471026490066226,
+              "amplitude": 0.00021864361315265406
+            },
+            {
+              "delay_ns": 8.257450331125828,
+              "amplitude": 0.00016775822655926321
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.60182119205298,
+              "amplitude": 0.0004822356107750831
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.0002209197430875005
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 0.00017335732018957533
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.60182119205298,
+              "amplitude": 0.00047854485766223715
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.000224734960530593
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 0.0001764096924491485
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX3",
+      "used": true,
+      "system_delay_ns": 6.047453546442563,
+      "expected_direct_peak_ns": 6.477649006622516,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.477649006622517,
+        6.477649006622517,
+        6.477649006622517
+      ],
+      "baseline_mismatch_ns": 8.881784197001252e-16,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0004854393189875141
+            },
+            {
+              "delay_ns": 7.181291390728477,
+              "amplitude": 0.0003301293057577868
+            },
+            {
+              "delay_ns": 8.153973509933776,
+              "amplitude": 0.00019350364275115298
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0004756897329051937
+            },
+            {
+              "delay_ns": 7.160596026490066,
+              "amplitude": 0.0003649231541857522
+            },
+            {
+              "delay_ns": 8.133278145695364,
+              "amplitude": 0.00019186209369094693
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.00047776611755758527
+            },
+            {
+              "delay_ns": 7.160596026490066,
+              "amplitude": 0.00036563059999687714
+            },
+            {
+              "delay_ns": 8.133278145695364,
+              "amplitude": 0.00018801200833158668
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX4",
+      "used": true,
+      "system_delay_ns": 6.078900875440831,
+      "expected_direct_peak_ns": 6.560430463576161,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.560430463576159,
+        6.560430463576159,
+        6.560430463576159
+      ],
+      "baseline_mismatch_ns": -1.7763568394002505e-15,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.00035503769057802944
+            },
+            {
+              "delay_ns": 7.367549668874172,
+              "amplitude": 0.0001482019672701346
+            },
+            {
+              "delay_ns": 8.423013245033113,
+              "amplitude": 8.177745802713866e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0003413008680621059
+            },
+            {
+              "delay_ns": 7.367549668874172,
+              "amplitude": 0.0001535450563035118
+            },
+            {
+              "delay_ns": 8.423013245033113,
+              "amplitude": 9.356146312682336e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0003382083698992652
+            },
+            {
+              "delay_ns": 7.367549668874172,
+              "amplitude": 0.00017831315010902272
+            },
+            {
+              "delay_ns": 8.423013245033113,
+              "amplitude": 0.00010457299910784114
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX5",
+      "used": true,
+      "system_delay_ns": 6.057500538786547,
+      "expected_direct_peak_ns": 6.270695364238412,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        8.0091059602649,
+        8.0091059602649,
+        8.0091059602649
+      ],
+      "baseline_mismatch_ns": 1.7384105960264886,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00030976787521824636
+            },
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.00023416716284828132
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.0002316965621222101
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00030748939747089456
+            },
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.00023394986943153762
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.00022693659586780904
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.0003080186235646141
+            },
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.00023536906206361564
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.00022569681245323753
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX6",
+      "used": true,
+      "system_delay_ns": 6.054854605056794,
+      "expected_direct_peak_ns": 6.312086092715233,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.374172185430464,
+        6.374172185430464,
+        6.374172185430464
+      ],
+      "baseline_mismatch_ns": 0.06208609271523091,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.374172185430464,
+              "amplitude": 0.0003979155608480576
+            },
+            {
+              "delay_ns": 7.471026490066226,
+              "amplitude": 0.0003246500048945363
+            },
+            {
+              "delay_ns": 8.485099337748345,
+              "amplitude": 0.000209204498704359
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.374172185430464,
+              "amplitude": 0.0003969684456520879
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.0003190239899835554
+            },
+            {
+              "delay_ns": 8.464403973509933,
+              "amplitude": 0.00019271393571698364
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.374172185430464,
+              "amplitude": 0.00039668368675694287
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.00032214758840561666
+            },
+            {
+              "delay_ns": 8.485099337748345,
+              "amplitude": 0.00019975970956015795
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX7",
+      "used": true,
+      "system_delay_ns": 6.144731858020312,
+      "expected_direct_peak_ns": 6.456953642384106,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.498344370860927,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": 0.041390728476820904,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0005847088602206336
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.00034946535495094887
+            },
+            {
+              "delay_ns": 7.781456953642383,
+              "amplitude": 0.00016234345472759514
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0005826852722150652
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.00034767724481640994
+            },
+            {
+              "delay_ns": 7.802152317880794,
+              "amplitude": 0.00016925659077618376
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0005849154649336608
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.0003456452108898872
+            },
+            {
+              "delay_ns": 7.802152317880794,
+              "amplitude": 0.0001712650010934201
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX2-RX8",
+      "used": true,
+      "system_delay_ns": 6.213646780847852,
+      "expected_direct_peak_ns": 6.581125827814572,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.498344370860927,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": -0.08278145695364447,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0005034078423978156
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.00027903576497757837
+            },
+            {
+              "delay_ns": 8.65066225165563,
+              "amplitude": 0.00025230266027584825
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0005036538178735989
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.0002771924520141956
+            },
+            {
+              "delay_ns": 8.67135761589404,
+              "amplitude": 0.0002386937678452712
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0005045578288753259
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.0002704420881149085
+            },
+            {
+              "delay_ns": 8.69205298013245,
+              "amplitude": 0.00024447960382252277
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX1",
+      "used": true,
+      "system_delay_ns": 6.196644299888815,
+      "expected_direct_peak_ns": 6.560430463576159,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.684602649006623,
+        6.663907284768213,
+        6.663907284768213
+      ],
+      "baseline_mismatch_ns": 0.1241721854304636,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.684602649006623,
+              "amplitude": 0.00041420730871977374
+            },
+            {
+              "delay_ns": 7.822847682119205,
+              "amplitude": 0.0002459280494657269
+            },
+            {
+              "delay_ns": 9.830298013245033,
+              "amplitude": 0.00013446143277361992
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.00041452636431081195
+            },
+            {
+              "delay_ns": 7.822847682119205,
+              "amplitude": 0.00025321864376519695
+            },
+            {
+              "delay_ns": 9.809602649006623,
+              "amplitude": 0.0001327630706420403
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.0004148783929356255
+            },
+            {
+              "delay_ns": 7.822847682119205,
+              "amplitude": 0.00024602076162188574
+            },
+            {
+              "delay_ns": 9.809602649006623,
+              "amplitude": 0.00012782378200445688
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX2",
+      "used": true,
+      "system_delay_ns": 6.068148910680973,
+      "expected_direct_peak_ns": 6.498344370860926,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.539735099337748,
+        6.560430463576159,
+        6.560430463576159
+      ],
+      "baseline_mismatch_ns": 0.04139072847682179,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0005478743339626499
+            },
+            {
+              "delay_ns": 8.402317880794703,
+              "amplitude": 0.00011094525930854339
+            },
+            {
+              "delay_ns": 7.698675496688742,
+              "amplitude": 8.420332935076978e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.000548459990506611
+            },
+            {
+              "delay_ns": 8.402317880794703,
+              "amplitude": 0.00010916577197072074
+            },
+            {
+              "delay_ns": 7.512417218543047,
+              "amplitude": 8.990855782531287e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.000547620586397899
+            },
+            {
+              "delay_ns": 8.381622516556291,
+              "amplitude": 0.00011630733847798191
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 9.359937533858097e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX3",
+      "used": false,
+      "system_delay_ns": 6.265157986394818,
+      "expected_direct_peak_ns": 6.746688741721854,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.746688741721854,
+        6.746688741721854,
+        6.746688741721854
+      ],
+      "baseline_mismatch_ns": 0.0,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.746688741721854,
+              "amplitude": 0.0007568536092010193
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00017160237385535623
+            },
+            {
+              "delay_ns": 10.120033112582782,
+              "amplitude": 0.0001123601805317962
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.746688741721854,
+              "amplitude": 0.0007394772472799909
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 0.00015164428670342208
+            },
+            {
+              "delay_ns": 10.161423841059603,
+              "amplitude": 0.00010168414035259375
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.746688741721854,
+              "amplitude": 0.0007353546146247247
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.0001607322371427395
+            },
+            {
+              "delay_ns": 10.182119205298013,
+              "amplitude": 9.962288468773758e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX4",
+      "used": true,
+      "system_delay_ns": 6.210007722030934,
+      "expected_direct_peak_ns": 6.7259933774834435,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.7259933774834435,
+        6.7259933774834435,
+        6.7259933774834435
+      ],
+      "baseline_mismatch_ns": 0.0,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7259933774834435,
+              "amplitude": 0.00047565255793630606
+            },
+            {
+              "delay_ns": 7.843543046357616,
+              "amplitude": 0.00022018369892195977
+            },
+            {
+              "delay_ns": 8.857615894039736,
+              "amplitude": 0.00013060378955112353
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7259933774834435,
+              "amplitude": 0.00045159480133047765
+            },
+            {
+              "delay_ns": 7.905629139072848,
+              "amplitude": 0.00022637090392965695
+            },
+            {
+              "delay_ns": 8.857615894039736,
+              "amplitude": 0.00012767017401633455
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7259933774834435,
+              "amplitude": 0.0004549558562941981
+            },
+            {
+              "delay_ns": 7.884933774834438,
+              "amplitude": 0.00024016583850032766
+            },
+            {
+              "delay_ns": 8.857615894039736,
+              "amplitude": 0.000115984818691979
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX5",
+      "used": true,
+      "system_delay_ns": 6.537450555984058,
+      "expected_direct_peak_ns": 6.829470198675497,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.388245033112582,
+        7.388245033112582,
+        7.388245033112582
+      ],
+      "baseline_mismatch_ns": 0.5587748344370853,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.00044186504894562175
+            },
+            {
+              "delay_ns": 6.829470198675496,
+              "amplitude": 0.0003585308399280533
+            },
+            {
+              "delay_ns": 6.250000000000001,
+              "amplitude": 0.00019566466967163308
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.0004401952589586153
+            },
+            {
+              "delay_ns": 6.829470198675496,
+              "amplitude": 0.00035484306358097174
+            },
+            {
+              "delay_ns": 6.250000000000001,
+              "amplitude": 0.00019261148216812786
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.0004387030240849028
+            },
+            {
+              "delay_ns": 6.829470198675496,
+              "amplitude": 0.0003563313757367431
+            },
+            {
+              "delay_ns": 6.250000000000001,
+              "amplitude": 0.0001927805659404082
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX6",
+      "used": true,
+      "system_delay_ns": 6.082645765305081,
+      "expected_direct_peak_ns": 6.394867549668875,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.436258278145695,
+        6.436258278145695,
+        6.436258278145695
+      ],
+      "baseline_mismatch_ns": 0.041390728476820016,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.436258278145695,
+              "amplitude": 0.0004937597868842987
+            },
+            {
+              "delay_ns": 7.3468543046357615,
+              "amplitude": 0.0001560546701957529
+            },
+            {
+              "delay_ns": 8.153973509933776,
+              "amplitude": 0.00013205251672324185
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.436258278145695,
+              "amplitude": 0.0004933228297449366
+            },
+            {
+              "delay_ns": 7.3468543046357615,
+              "amplitude": 0.0001505214404485786
+            },
+            {
+              "delay_ns": 8.174668874172186,
+              "amplitude": 0.00012582082984342234
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.436258278145695,
+              "amplitude": 0.0004925834364626636
+            },
+            {
+              "delay_ns": 7.3261589403973515,
+              "amplitude": 0.00015444668375850558
+            },
+            {
+              "delay_ns": 8.174668874172186,
+              "amplitude": 0.00012956276172709696
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX7",
+      "used": true,
+      "system_delay_ns": 6.240632165372942,
+      "expected_direct_peak_ns": 6.581125827814569,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.539735099337748,
+        6.539735099337748,
+        6.539735099337748
+      ],
+      "baseline_mismatch_ns": -0.041390728476820904,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0006018240133205453
+            },
+            {
+              "delay_ns": 7.677980132450331,
+              "amplitude": 0.00011615031490890211
+            },
+            {
+              "delay_ns": 9.892384105960264,
+              "amplitude": 9.929095527051664e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0006032731023157462
+            },
+            {
+              "delay_ns": 7.677980132450331,
+              "amplitude": 0.00011879310204226202
+            },
+            {
+              "delay_ns": 9.892384105960264,
+              "amplitude": 9.957087638349812e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.000602356789108071
+            },
+            {
+              "delay_ns": 7.698675496688742,
+              "amplitude": 0.0001265851102852487
+            },
+            {
+              "delay_ns": 9.871688741721854,
+              "amplitude": 9.72995860405924e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX3-RX8",
+      "used": true,
+      "system_delay_ns": 5.981900661489431,
+      "expected_direct_peak_ns": 6.353476821192054,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.91225165562914,
+        6.91225165562914,
+        6.91225165562914
+      ],
+      "baseline_mismatch_ns": 0.5587748344370862,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.91225165562914,
+              "amplitude": 0.0003686835968072928
+            },
+            {
+              "delay_ns": 6.353476821192054,
+              "amplitude": 0.00026267475018271067
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 0.00017822729550027243
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.91225165562914,
+              "amplitude": 0.0003718152702043137
+            },
+            {
+              "delay_ns": 6.353476821192054,
+              "amplitude": 0.00026011680936838683
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 0.00014920639916232497
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.91225165562914,
+              "amplitude": 0.0003730261053453081
+            },
+            {
+              "delay_ns": 6.353476821192054,
+              "amplitude": 0.0002615198181565792
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 0.00016658037079539265
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX1",
+      "used": true,
+      "system_delay_ns": 6.626919200333516,
+      "expected_direct_peak_ns": 7.057119205298013,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        8.02980132450331,
+        7.139900662251656,
+        7.139900662251656
+      ],
+      "baseline_mismatch_ns": 0.972682119205297,
+      "empty_peak_spread_ns": 0.8899006622516543,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 0.0002161132589893701
+            },
+            {
+              "delay_ns": 7.139900662251656,
+              "amplitude": 0.0002097241820669527
+            },
+            {
+              "delay_ns": 6.3948675496688745,
+              "amplitude": 0.00014664607941465978
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.139900662251656,
+              "amplitude": 0.00021441718479258721
+            },
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 0.00021394985372196672
+            },
+            {
+              "delay_ns": 6.3948675496688745,
+              "amplitude": 0.0001464714742885052
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.139900662251656,
+              "amplitude": 0.000216598479129299
+            },
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 0.00021508085926718356
+            },
+            {
+              "delay_ns": 6.3948675496688745,
+              "amplitude": 0.00014612255660038806
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX2",
+      "used": true,
+      "system_delay_ns": 6.410026703255399,
+      "expected_direct_peak_ns": 6.891556291390729,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.622516556291391,
+        6.622516556291391,
+        6.643211920529802
+      ],
+      "baseline_mismatch_ns": -0.2690397350993381,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.0003264610331504981
+            },
+            {
+              "delay_ns": 8.257450331125828,
+              "amplitude": 0.00012433636476364703
+            },
+            {
+              "delay_ns": 7.740066225165564,
+              "amplitude": 0.00011633476096564464
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.00032738835812198727
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.000121904250605991
+            },
+            {
+              "delay_ns": 8.257450331125828,
+              "amplitude": 0.00011573216533126957
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.643211920529802,
+              "amplitude": 0.00032796058889065745
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 0.00011703395481564163
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.00011609288000442126
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX3",
+      "used": true,
+      "system_delay_ns": 6.168616993554113,
+      "expected_direct_peak_ns": 6.684602649006623,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.622516556291391,
+        6.622516556291391,
+        6.622516556291391
+      ],
+      "baseline_mismatch_ns": -0.0620860927152318,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.0003316549330419285
+            },
+            {
+              "delay_ns": 7.408940397350993,
+              "amplitude": 0.00013738685752420657
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 6.813510265103e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.00032117455438293965
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.0001260599410522322
+            },
+            {
+              "delay_ns": 7.9470198675496695,
+              "amplitude": 9.527061031024202e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.622516556291391,
+              "amplitude": 0.000323434040732455
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.00013275306616085598
+            },
+            {
+              "delay_ns": 7.96771523178808,
+              "amplitude": 9.045564043860792e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX4",
+      "used": false,
+      "system_delay_ns": 6.359202530990284,
+      "expected_direct_peak_ns": 6.891556291390729,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.93294701986755,
+        6.95364238410596,
+        6.93294701986755
+      ],
+      "baseline_mismatch_ns": 0.041390728476820904,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.93294701986755,
+              "amplitude": 0.0002535184366347933
+            },
+            {
+              "delay_ns": 9.623344370860927,
+              "amplitude": 6.411310555098271e-05
+            },
+            {
+              "delay_ns": 10.989238410596027,
+              "amplitude": 4.945209697823545e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.95364238410596,
+              "amplitude": 0.00024322720240612305
+            },
+            {
+              "delay_ns": 9.644039735099337,
+              "amplitude": 5.630759842096737e-05
+            },
+            {
+              "delay_ns": 8.050496688741722,
+              "amplitude": 4.506817923726627e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.93294701986755,
+              "amplitude": 0.00025353712672067846
+            },
+            {
+              "delay_ns": 9.664735099337749,
+              "amplitude": 6.0382794321424396e-05
+            },
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 4.50148167837039e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX5",
+      "used": true,
+      "system_delay_ns": 6.609591681064623,
+      "expected_direct_peak_ns": 6.974337748344371,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.450331125827815,
+        7.450331125827815,
+        7.450331125827815
+      ],
+      "baseline_mismatch_ns": 0.4759933774834444,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.0002791673095986008
+            },
+            {
+              "delay_ns": 6.519039735099338,
+              "amplitude": 0.0002616487048076732
+            },
+            {
+              "delay_ns": 9.437086092715232,
+              "amplitude": 0.0001720002065361302
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.00027339001824762843
+            },
+            {
+              "delay_ns": 6.519039735099338,
+              "amplitude": 0.00026076611495337446
+            },
+            {
+              "delay_ns": 9.416390728476822,
+              "amplitude": 0.0001671587210824219
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.00027396650772693477
+            },
+            {
+              "delay_ns": 6.519039735099338,
+              "amplitude": 0.00025961667009479807
+            },
+            {
+              "delay_ns": 9.437086092715232,
+              "amplitude": 0.0001676183120752263
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX6",
+      "used": true,
+      "system_delay_ns": 6.17225605237103,
+      "expected_direct_peak_ns": 6.53973509933775,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.26407284768212,
+        7.243377483443709,
+        7.243377483443709
+      ],
+      "baseline_mismatch_ns": 0.7243377483443698,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.26407284768212,
+              "amplitude": 0.00042582070138541593
+            },
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.00036269417331825454
+            },
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 0.00019414367865988
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.0004189219710360156
+            },
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.000362966790769244
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00017136646584743297
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.000421074343261751
+            },
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.00036246796209248386
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00017663936673741157
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX7",
+      "used": true,
+      "system_delay_ns": 6.147463575396714,
+      "expected_direct_peak_ns": 6.519039735099337,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.477649006622517,
+        6.477649006622517,
+        6.477649006622517
+      ],
+      "baseline_mismatch_ns": -0.041390728476820016,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0003222517975178837
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.00019215192659990208
+            },
+            {
+              "delay_ns": 8.381622516556291,
+              "amplitude": 0.0001096073707443739
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0003218582022515369
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.00019092340982017193
+            },
+            {
+              "delay_ns": 8.360927152317881,
+              "amplitude": 0.00010318581048636152
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.00032249457942533355
+            },
+            {
+              "delay_ns": 7.408940397350993,
+              "amplitude": 0.00019602255949210487
+            },
+            {
+              "delay_ns": 8.360927152317881,
+              "amplitude": 0.00010153285334453278
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX4-RX8",
+      "used": true,
+      "system_delay_ns": 6.121913416891616,
+      "expected_direct_peak_ns": 6.498344370860928,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.808774834437086,
+        6.808774834437086,
+        6.808774834437086
+      ],
+      "baseline_mismatch_ns": 0.3104304635761581,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.0003885207356779334
+            },
+            {
+              "delay_ns": 9.892384105960264,
+              "amplitude": 0.00011295655858992724
+            },
+            {
+              "delay_ns": 8.65066225165563,
+              "amplitude": 6.735657173099768e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.0003871390081029179
+            },
+            {
+              "delay_ns": 9.892384105960264,
+              "amplitude": 0.00011909321376113921
+            },
+            {
+              "delay_ns": 8.65066225165563,
+              "amplitude": 7.545149933118455e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.00038554452104233046
+            },
+            {
+              "delay_ns": 9.892384105960264,
+              "amplitude": 0.00011113180411992865
+            },
+            {
+              "delay_ns": 8.153973509933776,
+              "amplitude": 7.228120404307324e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX1",
+      "used": true,
+      "system_delay_ns": 6.153165244821052,
+      "expected_direct_peak_ns": 6.291390728476823,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.270695364238411,
+        6.270695364238411,
+        6.270695364238411
+      ],
+      "baseline_mismatch_ns": -0.020695364238411784,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.270695364238411,
+              "amplitude": 0.0013659925561428194
+            },
+            {
+              "delay_ns": 6.995033112582782,
+              "amplitude": 0.0007430675416446891
+            },
+            {
+              "delay_ns": 8.547185430463577,
+              "amplitude": 0.00015455091714793655
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.270695364238411,
+              "amplitude": 0.0013665866702553412
+            },
+            {
+              "delay_ns": 6.995033112582782,
+              "amplitude": 0.0007261496266744525
+            },
+            {
+              "delay_ns": 8.526490066225165,
+              "amplitude": 0.00015723581873158698
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.270695364238411,
+              "amplitude": 0.0013658086517638203
+            },
+            {
+              "delay_ns": 6.995033112582782,
+              "amplitude": 0.0007318849208544606
+            },
+            {
+              "delay_ns": 8.526490066225165,
+              "amplitude": 0.00014355863037024467
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX2",
+      "used": true,
+      "system_delay_ns": 6.057500538786547,
+      "expected_direct_peak_ns": 6.270695364238412,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.312086092715232,
+        6.312086092715232,
+        6.312086092715232
+      ],
+      "baseline_mismatch_ns": 0.041390728476820016,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.312086092715232,
+              "amplitude": 0.0008527921656219396
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.00032108001244011064
+            },
+            {
+              "delay_ns": 10.782284768211921,
+              "amplitude": 0.00012100474749688626
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.312086092715232,
+              "amplitude": 0.0008480724079667915
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.00031196600225491766
+            },
+            {
+              "delay_ns": 10.7408940397351,
+              "amplitude": 0.00011580069595604293
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.312086092715232,
+              "amplitude": 0.0008518429590052911
+            },
+            {
+              "delay_ns": 7.595198675496689,
+              "amplitude": 0.0003189219902209149
+            },
+            {
+              "delay_ns": 10.7408940397351,
+              "amplitude": 0.00012162033862001623
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX3",
+      "used": true,
+      "system_delay_ns": 6.227020092407898,
+      "expected_direct_peak_ns": 6.519039735099337,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.498344370860927,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": -0.020695364238410008,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0009368302882367199
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.0003401367627101493
+            },
+            {
+              "delay_ns": 9.913079470198676,
+              "amplitude": 0.0001636256617725407
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0009446044569869389
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.0003614411898867609
+            },
+            {
+              "delay_ns": 9.913079470198676,
+              "amplitude": 0.00015707771313840622
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0009507584770559193
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.00034918898995262254
+            },
+            {
+              "delay_ns": 9.913079470198676,
+              "amplitude": 0.00016051132721485486
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX4",
+      "used": true,
+      "system_delay_ns": 6.278465853250055,
+      "expected_direct_peak_ns": 6.643211920529803,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.429635761589404,
+        6.60182119205298,
+        6.60182119205298
+      ],
+      "baseline_mismatch_ns": 0.7864238410596016,
+      "empty_peak_spread_ns": 0.8278145695364243,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.429635761589404,
+              "amplitude": 0.00032365560206540025
+            },
+            {
+              "delay_ns": 6.60182119205298,
+              "amplitude": 0.0003147380882595959
+            },
+            {
+              "delay_ns": 8.050496688741722,
+              "amplitude": 0.00013716799920866248
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.60182119205298,
+              "amplitude": 0.0003182857008689922
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.00025360378960331825
+            },
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 0.00014898017752393652
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.60182119205298,
+              "amplitude": 0.00031639813430582033
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.0002773331379752718
+            },
+            {
+              "delay_ns": 8.02980132450331,
+              "amplitude": 0.00014907011143626788
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX5",
+      "used": false,
+      "system_delay_ns": 6.903029580123263,
+      "expected_direct_peak_ns": 7.098509933774834,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.036423841059603,
+        7.036423841059603,
+        7.036423841059603
+      ],
+      "baseline_mismatch_ns": -0.06208609271523091,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.036423841059603,
+              "amplitude": 0.0005386819375477231
+            },
+            {
+              "delay_ns": 6.519039735099338,
+              "amplitude": 0.0003600361853107358
+            },
+            {
+              "delay_ns": 7.740066225165564,
+              "amplitude": 0.00030826529677978754
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.036423841059603,
+              "amplitude": 0.0005472723989875843
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.000310732439360144
+            },
+            {
+              "delay_ns": 9.561258278145697,
+              "amplitude": 0.00023704002414260596
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.036423841059603,
+              "amplitude": 0.0005445258202024071
+            },
+            {
+              "delay_ns": 6.519039735099338,
+              "amplitude": 0.0003655084933390138
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.00031141277088357996
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX6",
+      "used": true,
+      "system_delay_ns": 7.227798209352636,
+      "expected_direct_peak_ns": 7.512417218543048,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.222682119205298,
+        7.243377483443709,
+        7.243377483443709
+      ],
+      "baseline_mismatch_ns": -0.2897350993377499,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.222682119205298,
+              "amplitude": 0.00042821121246293213
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00019224224559871402
+            },
+            {
+              "delay_ns": 9.292218543046358,
+              "amplitude": 0.00012897819683375692
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.0004452488982476972
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00019342173937347351
+            },
+            {
+              "delay_ns": 9.312913907284768,
+              "amplitude": 0.00013977781240869213
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.00044488316485855696
+            },
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.000193454625948908
+            },
+            {
+              "delay_ns": 9.33360927152318,
+              "amplitude": 0.0001445025585903581
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX7",
+      "used": true,
+      "system_delay_ns": 6.155253571411993,
+      "expected_direct_peak_ns": 6.519039735099337,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.560430463576159,
+        6.560430463576159,
+        6.560430463576159
+      ],
+      "baseline_mismatch_ns": 0.04139072847682179,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0003901777420411469
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.0002933743101402028
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.00019351504206488473
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.00038562619070380146
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.0002524499677559037
+            },
+            {
+              "delay_ns": 7.63658940397351,
+              "amplitude": 0.00020029378935637935
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0003873895555455104
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.00025250595087668683
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.00020692768707092747
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX5-RX8",
+      "used": true,
+      "system_delay_ns": 6.130230458611663,
+      "expected_direct_peak_ns": 6.560430463576161,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.560430463576159,
+        6.58112582781457,
+        6.58112582781457
+      ],
+      "baseline_mismatch_ns": -1.7763568394002505e-15,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0004378544994718375
+            },
+            {
+              "delay_ns": 8.9817880794702,
+              "amplitude": 0.00015598603641247928
+            },
+            {
+              "delay_ns": 8.133278145695364,
+              "amplitude": 8.512372591626913e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.58112582781457,
+              "amplitude": 0.0004375542088266547
+            },
+            {
+              "delay_ns": 9.023178807947021,
+              "amplitude": 0.0001517533111518684
+            },
+            {
+              "delay_ns": 8.133278145695364,
+              "amplitude": 9.133538464786725e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.58112582781457,
+              "amplitude": 0.0004364510946769365
+            },
+            {
+              "delay_ns": 9.023178807947021,
+              "amplitude": 0.00014199171503963832
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 9.910894408012937e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX1",
+      "used": true,
+      "system_delay_ns": 7.5268713997136985,
+      "expected_direct_peak_ns": 7.740066225165563,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        8.485099337748345,
+        8.443708609271525,
+        8.464403973509933
+      ],
+      "baseline_mismatch_ns": 0.7450331125827816,
+      "empty_peak_spread_ns": 0.041390728476820016,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.485099337748345,
+              "amplitude": 0.0002319344225028552
+            },
+            {
+              "delay_ns": 6.167218543046357,
+              "amplitude": 0.0002043065072630509
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.00018830659832950571
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.443708609271525,
+              "amplitude": 0.00023899376868817288
+            },
+            {
+              "delay_ns": 6.167218543046357,
+              "amplitude": 0.0002018580867342724
+            },
+            {
+              "delay_ns": 7.6572847682119205,
+              "amplitude": 0.0001899850083948824
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 8.464403973509933,
+              "amplitude": 0.00024691570251715236
+            },
+            {
+              "delay_ns": 6.167218543046357,
+              "amplitude": 0.00020034815907175703
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.00019128370042658665
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX2",
+      "used": true,
+      "system_delay_ns": 6.7378016249243435,
+      "expected_direct_peak_ns": 6.9950331125827825,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.974337748344371,
+        6.95364238410596,
+        6.95364238410596
+      ],
+      "baseline_mismatch_ns": -0.020695364238411784,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.974337748344371,
+              "amplitude": 0.0007148209235811245
+            },
+            {
+              "delay_ns": 6.187913907284768,
+              "amplitude": 0.00032523031106575185
+            },
+            {
+              "delay_ns": 8.071192052980132,
+              "amplitude": 0.0001503212581990528
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.95364238410596,
+              "amplitude": 0.0006699733701738482
+            },
+            {
+              "delay_ns": 6.187913907284768,
+              "amplitude": 0.0003262100886055668
+            },
+            {
+              "delay_ns": 8.050496688741722,
+              "amplitude": 0.00016210109700035024
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.95364238410596,
+              "amplitude": 0.0006907222874692725
+            },
+            {
+              "delay_ns": 6.187913907284768,
+              "amplitude": 0.0003304641800775559
+            },
+            {
+              "delay_ns": 8.071192052980132,
+              "amplitude": 0.00017610305758819218
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX3",
+      "used": true,
+      "system_delay_ns": 6.103341129543492,
+      "expected_direct_peak_ns": 6.415562913907286,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.4155629139072845,
+        6.436258278145695,
+        6.436258278145695
+      ],
+      "baseline_mismatch_ns": -1.7763568394002505e-15,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.4155629139072845,
+              "amplitude": 0.0016818625793288374
+            },
+            {
+              "delay_ns": 6.95364238410596,
+              "amplitude": 0.0006777558781849983
+            },
+            {
+              "delay_ns": 5.732615894039735,
+              "amplitude": 0.00022901685142519268
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.436258278145695,
+              "amplitude": 0.001713313626472373
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.0002374569321575776
+            },
+            {
+              "delay_ns": 5.732615894039735,
+              "amplitude": 0.00022860924409691394
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.436258278145695,
+              "amplitude": 0.001686077225739711
+            },
+            {
+              "delay_ns": 5.732615894039735,
+              "amplitude": 0.00023014400322630445
+            },
+            {
+              "delay_ns": 7.450331125827815,
+              "amplitude": 0.000227621871841275
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX4",
+      "used": true,
+      "system_delay_ns": 6.379209694755135,
+      "expected_direct_peak_ns": 6.746688741721854,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.850165562913907,
+        6.91225165562914,
+        6.891556291390729
+      ],
+      "baseline_mismatch_ns": 0.1034768211920527,
+      "empty_peak_spread_ns": 0.06208609271523269,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.850165562913907,
+              "amplitude": 0.0004493882090839774
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.0002397863350331992
+            },
+            {
+              "delay_ns": 6.250000000000001,
+              "amplitude": 0.0001912887823776466
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.91225165562914,
+              "amplitude": 0.00041741073330272985
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.0002381871827340426
+            },
+            {
+              "delay_ns": 6.291390728476821,
+              "amplitude": 0.00021731261300383692
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.891556291390729,
+              "amplitude": 0.0004686355761561142
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.00022977086647853808
+            },
+            {
+              "delay_ns": 6.270695364238411,
+              "amplitude": 0.00020752429523763436
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX5",
+      "used": true,
+      "system_delay_ns": 7.124321388160582,
+      "expected_direct_peak_ns": 7.408940397350994,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        9.375,
+        9.375,
+        9.375
+      ],
+      "baseline_mismatch_ns": 1.9660596026490058,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 9.375,
+              "amplitude": 0.0002960336312965587
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.00027047990647999844
+            },
+            {
+              "delay_ns": 8.505794701986755,
+              "amplitude": 0.00026815728648567594
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 9.375,
+              "amplitude": 0.00029695836907880246
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.0002831299155300978
+            },
+            {
+              "delay_ns": 8.526490066225165,
+              "amplitude": 0.00024212292858634464
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 9.375,
+              "amplitude": 0.00029050119554853925
+            },
+            {
+              "delay_ns": 7.388245033112582,
+              "amplitude": 0.00027786409377675026
+            },
+            {
+              "delay_ns": 8.526490066225165,
+              "amplitude": 0.00025100116237843377
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX6",
+      "used": false,
+      "system_delay_ns": 6.403603847444293,
+      "expected_direct_peak_ns": 6.767384105960264,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.057119205298013,
+        7.036423841059603,
+        7.036423841059603
+      ],
+      "baseline_mismatch_ns": 0.289735099337749,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.057119205298013,
+              "amplitude": 0.00048694476847313333
+            },
+            {
+              "delay_ns": 11.44453642384106,
+              "amplitude": 8.670675063898879e-05
+            },
+            {
+              "delay_ns": 10.161423841059603,
+              "amplitude": 8.171478899593091e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.036423841059603,
+              "amplitude": 0.0004826916827258856
+            },
+            {
+              "delay_ns": 11.506622516556291,
+              "amplitude": 8.409716321501589e-05
+            },
+            {
+              "delay_ns": 10.120033112582782,
+              "amplitude": 8.110572342478463e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.036423841059603,
+              "amplitude": 0.0004825237801188465
+            },
+            {
+              "delay_ns": 11.44453642384106,
+              "amplitude": 8.209631264254836e-05
+            },
+            {
+              "delay_ns": 10.120033112582782,
+              "amplitude": 7.67125624397684e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX7",
+      "used": true,
+      "system_delay_ns": 6.213016460349848,
+      "expected_direct_peak_ns": 6.643211920529801,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.663907284768213,
+        6.663907284768213,
+        6.663907284768213
+      ],
+      "baseline_mismatch_ns": 0.020695364238411784,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.0004582347102966502
+            },
+            {
+              "delay_ns": 8.278145695364238,
+              "amplitude": 0.00019731880061693384
+            },
+            {
+              "delay_ns": 9.126655629139075,
+              "amplitude": 0.00010980179753381473
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.0004579617778307611
+            },
+            {
+              "delay_ns": 8.278145695364238,
+              "amplitude": 0.000176976463817526
+            },
+            {
+              "delay_ns": 9.147350993377483,
+              "amplitude": 9.295951666622691e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.00045886795619868616
+            },
+            {
+              "delay_ns": 8.278145695364238,
+              "amplitude": 0.00019227695219136762
+            },
+            {
+              "delay_ns": 10.01655629139073,
+              "amplitude": 7.365459332427094e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX6-RX8",
+      "used": true,
+      "system_delay_ns": 6.182377696632883,
+      "expected_direct_peak_ns": 6.663907284768213,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.684602649006623,
+        6.684602649006623,
+        6.684602649006623
+      ],
+      "baseline_mismatch_ns": 0.020695364238410008,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.684602649006623,
+              "amplitude": 0.0005526452653201848
+            },
+            {
+              "delay_ns": 7.802152317880794,
+              "amplitude": 0.00020096012591493413
+            },
+            {
+              "delay_ns": 8.547185430463577,
+              "amplitude": 7.685893279598034e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.684602649006623,
+              "amplitude": 0.0005592880703673244
+            },
+            {
+              "delay_ns": 7.822847682119205,
+              "amplitude": 0.00020098249580827198
+            },
+            {
+              "delay_ns": 8.547185430463577,
+              "amplitude": 9.192378790525664e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.684602649006623,
+              "amplitude": 0.0005537492649459607
+            },
+            {
+              "delay_ns": 7.822847682119205,
+              "amplitude": 0.00019930048274665514
+            },
+            {
+              "delay_ns": 8.526490066225165,
+              "amplitude": 8.963246346590134e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX1",
+      "used": true,
+      "system_delay_ns": 5.999371085785382,
+      "expected_direct_peak_ns": 6.291390728476822,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.905629139072848,
+        6.788079470198676,
+        6.808774834437086
+      ],
+      "baseline_mismatch_ns": 1.614238410596026,
+      "empty_peak_spread_ns": 1.1175496688741715,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.905629139072848,
+              "amplitude": 0.00027625873586421536
+            },
+            {
+              "delay_ns": 6.829470198675496,
+              "amplitude": 0.00026450247044728774
+            },
+            {
+              "delay_ns": 6.22930463576159,
+              "amplitude": 0.00022217801236571838
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.788079470198676,
+              "amplitude": 0.00030952190617468205
+            },
+            {
+              "delay_ns": 7.884933774834438,
+              "amplitude": 0.0002850347531879063
+            },
+            {
+              "delay_ns": 6.22930463576159,
+              "amplitude": 0.0002217702897589325
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.808774834437086,
+              "amplitude": 0.00032172821734373797
+            },
+            {
+              "delay_ns": 7.884933774834438,
+              "amplitude": 0.00029347848771488753
+            },
+            {
+              "delay_ns": 6.22930463576159,
+              "amplitude": 0.00022640596977130964
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX2",
+      "used": true,
+      "system_delay_ns": 6.082645765305081,
+      "expected_direct_peak_ns": 6.394867549668875,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.4155629139072845,
+        6.4155629139072845,
+        6.4155629139072845
+      ],
+      "baseline_mismatch_ns": 0.02069536423840912,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.4155629139072845,
+              "amplitude": 0.0010124774184709657
+            },
+            {
+              "delay_ns": 7.553807947019867,
+              "amplitude": 0.0001935483105286625
+            },
+            {
+              "delay_ns": 9.74751655629139,
+              "amplitude": 0.00014502216139877287
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.4155629139072845,
+              "amplitude": 0.0009995537384654008
+            },
+            {
+              "delay_ns": 7.595198675496689,
+              "amplitude": 0.00016357577623216183
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 0.00015246351115373068
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.4155629139072845,
+              "amplitude": 0.0009997569882846781
+            },
+            {
+              "delay_ns": 7.595198675496689,
+              "amplitude": 0.00016926671663593023
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 0.0001482678908139342
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX3",
+      "used": true,
+      "system_delay_ns": 6.012983158750425,
+      "expected_direct_peak_ns": 6.353476821192054,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.353476821192054,
+        6.353476821192054,
+        6.353476821192054
+      ],
+      "baseline_mismatch_ns": 0.0,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.353476821192054,
+              "amplitude": 0.0007220179930977843
+            },
+            {
+              "delay_ns": 7.843543046357616,
+              "amplitude": 0.0002141302743275129
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.00015812139421873713
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.353476821192054,
+              "amplitude": 0.0007654032143471574
+            },
+            {
+              "delay_ns": 7.884933774834438,
+              "amplitude": 0.00023606336528366405
+            },
+            {
+              "delay_ns": 7.243377483443709,
+              "amplitude": 0.00018114560625882788
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.353476821192054,
+              "amplitude": 0.0007495003119745475
+            },
+            {
+              "delay_ns": 7.884933774834438,
+              "amplitude": 0.00022603578783911944
+            },
+            {
+              "delay_ns": 7.26407284768212,
+              "amplitude": 0.00016454613892430889
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX4",
+      "used": true,
+      "system_delay_ns": 6.085377482681484,
+      "expected_direct_peak_ns": 6.456953642384107,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.477649006622517,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": 0.020695364238410008,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.001019356468047999
+            },
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.00022203868981098343
+            },
+            {
+              "delay_ns": 8.71274834437086,
+              "amplitude": 0.0001797446842179438
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0010963794260055234
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.00022573817320554324
+            },
+            {
+              "delay_ns": 8.69205298013245,
+              "amplitude": 0.0001742315657422397
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0010539813500194473
+            },
+            {
+              "delay_ns": 7.574503311258278,
+              "amplitude": 0.00021669855197339237
+            },
+            {
+              "delay_ns": 8.67135761589404,
+              "amplitude": 0.00016434704273738288
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX5",
+      "used": true,
+      "system_delay_ns": 6.113862842935174,
+      "expected_direct_peak_ns": 6.477649006622518,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.491721854304636,
+        7.491721854304636,
+        7.471026490066226
+      ],
+      "baseline_mismatch_ns": 1.014072847682118,
+      "empty_peak_spread_ns": 0.020695364238410008,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.0004339826596663562
+            },
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0003037144953715208
+            },
+            {
+              "delay_ns": 10.575331125827814,
+              "amplitude": 0.00014430563928540785
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.491721854304636,
+              "amplitude": 0.00041801643513629023
+            },
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0003040278304654474
+            },
+            {
+              "delay_ns": 10.596026490066226,
+              "amplitude": 0.00013247494775523128
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.471026490066226,
+              "amplitude": 0.00042266306519516403
+            },
+            {
+              "delay_ns": 6.477649006622517,
+              "amplitude": 0.0003086668747379013
+            },
+            {
+              "delay_ns": 10.596026490066226,
+              "amplitude": 0.000139398405756124
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX6",
+      "used": true,
+      "system_delay_ns": 6.088844274919384,
+      "expected_direct_peak_ns": 6.519039735099337,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.498344370860927,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": -0.020695364238410008,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00046732638716430567
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.0003324726348634422
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.00018724616674908556
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.00046759985051427166
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.0003265422848832944
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.00017321589840211732
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0004672015653713977
+            },
+            {
+              "delay_ns": 7.077814569536424,
+              "amplitude": 0.000322354721321526
+            },
+            {
+              "delay_ns": 7.719370860927153,
+              "amplitude": 0.00016067525385507437
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX7",
+      "used": false,
+      "system_delay_ns": 6.120290436725943,
+      "expected_direct_peak_ns": 6.60182119205298,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.643211920529802,
+        6.643211920529802,
+        6.643211920529802
+      ],
+      "baseline_mismatch_ns": 0.04139072847682179,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.643211920529802,
+              "amplitude": 0.0004280565319444836
+            },
+            {
+              "delay_ns": 9.105960264900663,
+              "amplitude": 0.00017137955863180551
+            },
+            {
+              "delay_ns": 7.553807947019867,
+              "amplitude": 0.0001691366606253598
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.643211920529802,
+              "amplitude": 0.0004351736841573373
+            },
+            {
+              "delay_ns": 9.085264900662253,
+              "amplitude": 0.00016260026469698262
+            },
+            {
+              "delay_ns": 7.553807947019867,
+              "amplitude": 0.00014981707915574905
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.643211920529802,
+              "amplitude": 0.0004293691464454766
+            },
+            {
+              "delay_ns": 9.064569536423841,
+              "amplitude": 0.00016224056956087794
+            },
+            {
+              "delay_ns": 7.595198675496689,
+              "amplitude": 0.0001506834911197891
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX7-RX8",
+      "used": true,
+      "system_delay_ns": 6.127226265077293,
+      "expected_direct_peak_ns": 6.643211920529803,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.7052980132450335,
+        6.7052980132450335,
+        6.7052980132450335
+      ],
+      "baseline_mismatch_ns": 0.06208609271523091,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7052980132450335,
+              "amplitude": 0.0006355199685162571
+            },
+            {
+              "delay_ns": 8.340231788079471,
+              "amplitude": 0.00011850837763887439
+            },
+            {
+              "delay_ns": 9.437086092715232,
+              "amplitude": 0.00011416060131839032
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7052980132450335,
+              "amplitude": 0.0006449944463692575
+            },
+            {
+              "delay_ns": 8.402317880794703,
+              "amplitude": 0.0001280799044759614
+            },
+            {
+              "delay_ns": 9.437086092715232,
+              "amplitude": 9.439297210670125e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7052980132450335,
+              "amplitude": 0.0006478084289150231
+            },
+            {
+              "delay_ns": 8.340231788079471,
+              "amplitude": 0.00012108667918155134
+            },
+            {
+              "delay_ns": 9.457781456953642,
+              "amplitude": 9.873047053864272e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX1",
+      "used": true,
+      "system_delay_ns": 6.030121482389128,
+      "expected_direct_peak_ns": 6.394867549668875,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        7.305463576158941,
+        7.3261589403973515,
+        7.3468543046357615
+      ],
+      "baseline_mismatch_ns": 0.9105960264900652,
+      "empty_peak_spread_ns": 0.041390728476820904,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.305463576158941,
+              "amplitude": 0.0002925742873441899
+            },
+            {
+              "delay_ns": 6.3948675496688745,
+              "amplitude": 0.00020221082540648795
+            },
+            {
+              "delay_ns": 7.988410596026491,
+              "amplitude": 0.000116926726521174
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.3261589403973515,
+              "amplitude": 0.0002860317910805877
+            },
+            {
+              "delay_ns": 6.7052980132450335,
+              "amplitude": 0.0002117187806585746
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.000136409868636734
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 7.3468543046357615,
+              "amplitude": 0.0002984085101501176
+            },
+            {
+              "delay_ns": 6.746688741721854,
+              "amplitude": 0.00023226305724103791
+            },
+            {
+              "delay_ns": 8.0091059602649,
+              "amplitude": 0.00013045149013881223
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX2",
+      "used": true,
+      "system_delay_ns": 6.151560688132618,
+      "expected_direct_peak_ns": 6.519039735099338,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.498344370860927,
+        6.498344370860927,
+        6.498344370860927
+      ],
+      "baseline_mismatch_ns": -0.020695364238410896,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0007301963497092776
+            },
+            {
+              "delay_ns": 7.553807947019867,
+              "amplitude": 0.00029662389778644597
+            },
+            {
+              "delay_ns": 8.733443708609272,
+              "amplitude": 7.630063833724028e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0007436872650658645
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.00027703199068821057
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 7.506160644635173e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.498344370860927,
+              "amplitude": 0.0007498268652814616
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.00027224001255585055
+            },
+            {
+              "delay_ns": 8.236754966887416,
+              "amplitude": 7.682019498303199e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX3",
+      "used": true,
+      "system_delay_ns": 6.085377482681484,
+      "expected_direct_peak_ns": 6.456953642384107,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.456953642384106,
+        6.456953642384106,
+        6.436258278145695
+      ],
+      "baseline_mismatch_ns": -8.881784197001252e-16,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.456953642384106,
+              "amplitude": 0.0006621184074432241
+            },
+            {
+              "delay_ns": 7.926324503311259,
+              "amplitude": 7.830370777731482e-05
+            },
+            {
+              "delay_ns": 8.505794701986755,
+              "amplitude": 6.68818319033003e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.456953642384106,
+              "amplitude": 0.0006684546381277475
+            },
+            {
+              "delay_ns": 8.485099337748345,
+              "amplitude": 8.811688434213469e-05
+            },
+            {
+              "delay_ns": 7.926324503311259,
+              "amplitude": 5.963699129208442e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.436258278145695,
+              "amplitude": 0.0006602901326152579
+            },
+            {
+              "delay_ns": 8.485099337748345,
+              "amplitude": 8.501215454599137e-05
+            },
+            {
+              "delay_ns": 10.306291390728477,
+              "amplitude": 5.853974030411821e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX4",
+      "used": true,
+      "system_delay_ns": 6.121913416891616,
+      "expected_direct_peak_ns": 6.498344370860928,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.539735099337748,
+        6.539735099337748,
+        6.539735099337748
+      ],
+      "baseline_mismatch_ns": 0.041390728476820016,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0008988949724690156
+            },
+            {
+              "delay_ns": 7.760761589403974,
+              "amplitude": 0.00018027244224276418
+            },
+            {
+              "delay_ns": 9.685430463576159,
+              "amplitude": 7.530069152680979e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0009425338790483383
+            },
+            {
+              "delay_ns": 7.781456953642383,
+              "amplitude": 0.00020109646766176646
+            },
+            {
+              "delay_ns": 9.74751655629139,
+              "amplitude": 9.616448566548821e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.539735099337748,
+              "amplitude": 0.0009214503454359067
+            },
+            {
+              "delay_ns": 7.781456953642383,
+              "amplitude": 0.00020689512687259508
+            },
+            {
+              "delay_ns": 11.072019867549669,
+              "amplitude": 9.677536527022597e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX5",
+      "used": true,
+      "system_delay_ns": 6.130230458611663,
+      "expected_direct_peak_ns": 6.560430463576161,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.560430463576159,
+        6.560430463576159,
+        6.560430463576159
+      ],
+      "baseline_mismatch_ns": -1.7763568394002505e-15,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.00035237542171090105
+            },
+            {
+              "delay_ns": 7.595198675496689,
+              "amplitude": 0.00026319201146362295
+            },
+            {
+              "delay_ns": 9.437086092715232,
+              "amplitude": 0.0001252999425347391
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.0003481643944021649
+            },
+            {
+              "delay_ns": 7.595198675496689,
+              "amplitude": 0.00025944782856533906
+            },
+            {
+              "delay_ns": 9.416390728476822,
+              "amplitude": 0.00013884239520461103
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.560430463576159,
+              "amplitude": 0.000349371428855655
+            },
+            {
+              "delay_ns": 7.6158940397351,
+              "amplitude": 0.0002580568729880365
+            },
+            {
+              "delay_ns": 7.098509933774834,
+              "amplitude": 0.0001568524092059159
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX6",
+      "used": true,
+      "system_delay_ns": 6.161682332394472,
+      "expected_direct_peak_ns": 6.643211920529802,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.663907284768213,
+        6.663907284768213,
+        6.663907284768213
+      ],
+      "baseline_mismatch_ns": 0.020695364238410896,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.0006197245155452273
+            },
+            {
+              "delay_ns": 7.305463576158941,
+              "amplitude": 0.0002689024211870533
+            },
+            {
+              "delay_ns": 8.464403973509933,
+              "amplitude": 0.00012721145387935398
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.0006314070916084108
+            },
+            {
+              "delay_ns": 7.305463576158941,
+              "amplitude": 0.000260759252033116
+            },
+            {
+              "delay_ns": 8.443708609271525,
+              "amplitude": 0.00012556231383596737
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.663907284768213,
+              "amplitude": 0.0006288336765531192
+            },
+            {
+              "delay_ns": 7.305463576158941,
+              "amplitude": 0.0002747909710047294
+            },
+            {
+              "delay_ns": 8.443708609271525,
+              "amplitude": 0.0001356647483984714
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX7",
+      "used": true,
+      "system_delay_ns": 6.251398450507756,
+      "expected_direct_peak_ns": 6.767384105960266,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.767384105960265,
+        6.788079470198676,
+        6.788079470198676
+      ],
+      "baseline_mismatch_ns": -8.881784197001252e-16,
+      "empty_peak_spread_ns": 0.020695364238410896,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.767384105960265,
+              "amplitude": 0.0006257852372496397
+            },
+            {
+              "delay_ns": 8.567880794701987,
+              "amplitude": 0.00010266613762641201
+            },
+            {
+              "delay_ns": 10.037251655629138,
+              "amplitude": 6.475728833296036e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.788079470198676,
+              "amplitude": 0.0006364545345542519
+            },
+            {
+              "delay_ns": 8.588576158940398,
+              "amplitude": 0.00010300769757907758
+            },
+            {
+              "delay_ns": 10.037251655629138,
+              "amplitude": 8.079947366548235e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.788079470198676,
+              "amplitude": 0.0006427264735222121
+            },
+            {
+              "delay_ns": 8.567880794701987,
+              "amplitude": 0.00011765325477566258
+            },
+            {
+              "delay_ns": 10.037251655629138,
+              "amplitude": 6.649124137877553e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "TX8-RX8",
+      "used": false,
+      "system_delay_ns": 6.172944252844589,
+      "expected_direct_peak_ns": 6.7052980132450335,
+      "observed_peak_ns_baseline_empty1_empty2": [
+        6.7259933774834435,
+        6.7259933774834435,
+        6.7259933774834435
+      ],
+      "baseline_mismatch_ns": 0.020695364238410008,
+      "empty_peak_spread_ns": 0.0,
+      "top_peaks": [
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7259933774834435,
+              "amplitude": 0.0006401982376489437
+            },
+            {
+              "delay_ns": 9.126655629139075,
+              "amplitude": 6.892313323626132e-05
+            },
+            {
+              "delay_ns": 10.69950331125828,
+              "amplitude": 6.159576080920124e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7259933774834435,
+              "amplitude": 0.0006428804087861946
+            },
+            {
+              "delay_ns": 7.553807947019867,
+              "amplitude": 7.973472924230346e-05
+            },
+            {
+              "delay_ns": 9.147350993377483,
+              "amplitude": 6.976825678441196e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "peaks": [
+            {
+              "delay_ns": 6.7259933774834435,
+              "amplitude": 0.0006476064108170948
+            },
+            {
+              "delay_ns": 9.147350993377483,
+              "amplitude": 7.405148026743143e-05
+            },
+            {
+              "delay_ns": 10.69950331125828,
+              "amplitude": 6.77760601352304e-05
+            }
+          ],
+          "period_ns": 25.0,
+          "ifft_sample_ns": 0.020695364238410598,
+          "band_ghz": [
+            2.0,
+            6.0
+          ]
+        }
+      ]
+    }
+  ],
+  "historical_components": {
+    "direct_thru_test": {
+      "peaks": [
+        {
+          "delay_ns": 0.0,
+          "amplitude": 0.041839713023470206
+        },
+        {
+          "delay_ns": 0.5794701986754968,
+          "amplitude": 0.0011559762588078063
+        },
+        {
+          "delay_ns": 24.399834437086092,
+          "amplitude": 0.0011477823309880024
+        }
+      ],
+      "period_ns": 25.0,
+      "ifft_sample_ns": 0.020695364238410598,
+      "band_ghz": [
+        2.0,
+        6.0
+      ]
+    },
+    "tx_isolation_test": {
+      "peaks": [
+        {
+          "delay_ns": 1.697019867549669,
+          "amplitude": 0.03223022819435062
+        },
+        {
+          "delay_ns": 1.1175496688741722,
+          "amplitude": 0.001526639493228761
+        },
+        {
+          "delay_ns": 2.297185430463576,
+          "amplitude": 0.0006570097174636552
+        }
+      ],
+      "period_ns": 25.0,
+      "ifft_sample_ns": 0.020695364238410598,
+      "band_ghz": [
+        2.0,
+        6.0
+      ]
+    },
+    "rx_isolation_test": {
+      "peaks": [
+        {
+          "delay_ns": 1.697019867549669,
+          "amplitude": 0.032480624363324585
+        },
+        {
+          "delay_ns": 1.1175496688741722,
+          "amplitude": 0.001459120175837361
+        },
+        {
+          "delay_ns": 2.297185430463576,
+          "amplitude": 0.0006517027592292859
+        }
+      ],
+      "period_ns": 25.0,
+      "ifft_sample_ns": 0.020695364238410598,
+      "band_ghz": [
+        2.0,
+        6.0
+      ]
+    },
+    "dualboard_tx1_rx1_open": {
+      "peaks": [
+        {
+          "delay_ns": 19.598509933774835,
+          "amplitude": 6.446238503302818e-07
+        },
+        {
+          "delay_ns": 6.146523178807946,
+          "amplitude": 5.71533797115849e-07
+        },
+        {
+          "delay_ns": 20.653973509933774,
+          "amplitude": 4.660003642227513e-07
+        }
+      ],
+      "period_ns": 25.0,
+      "ifft_sample_ns": 0.020695364238410598,
+      "band_ghz": [
+        2.0,
+        6.0
+      ]
+    },
+    "dualboard_tx1_rx1__jumper": {
+      "peaks": [
+        {
+          "delay_ns": 4.346026490066225,
+          "amplitude": 0.02290016739278334
+        },
+        {
+          "delay_ns": 4.884105960264901,
+          "amplitude": 0.0016621120104416028
+        },
+        {
+          "delay_ns": 3.745860927152318,
+          "amplitude": 0.0004894789843563098
+        }
+      ],
+      "period_ns": 25.0,
+      "ifft_sample_ns": 0.020695364238410598,
+      "band_ghz": [
+        2.0,
+        6.0
+      ]
+    }
+  },
+  "input_sha256": {
+    "data\\pair_delay_calibration.json": "89f0ee0e57fec0278fe113a74e7a83d488197296127e39d993fdd34aa0aa3b54",
+    "data\\baseline_full_sweep.json": "60c4ac76038fd95b1b23474adbf2836ae10b7724acdafd5e1cda56a2d2f5969d",
+    "dataset\\session_empty_1.json": "699a5642119c25cb7cc7c1f277ae398b469be495edcbb34c46b31e558e9fbefa",
+    "dataset\\session_empty_2.json": "eda9401f7d16385b9b2f60d37003131118be2203f5edd419148200719e9e8fc7",
+    "dataset\\direct_thru_test.json": "9701a320cb45e9edb1c8108ab49a09295799bad2d4f38c8c3d7386a85744fca3",
+    "dataset\\tx_isolation_test.json": "3c56ef823c8e8424e8ef09ba9b42510f9c8d603f91a7962cd33111a04c564b0b",
+    "dataset\\rx_isolation_test.json": "9b1d284aa6dc6f555e86089b5f8a535bb6dc26dc202e996d8bc06a7807c0263f",
+    "dataset\\dualboard_tx1_rx1_open.json": "ae5420c6fb5b381d380048f0e6e87072078f3e5e7d41cf2162321571178d7ec4",
+    "dataset\\dualboard_tx1_rx1__jumper.json": "a33a6b866505510da8831304a98de58165f2959124f0d14c472d3672c87a6d0e"
+  },
+  "limitations": [
+    "The strongest peak may be direct coupling, multipath, or an instrument/reference-plane effect.",
+    "Component files lack wiring and calibration-reference metadata; they cannot be used to subtract component delays from current measurements.",
+    "0.25 ns is the reciprocal of the 4 GHz bandwidth, used only as a diagnostic flag, not a localization acceptance tolerance.",
+    "Zero padding refines time sampling but does not increase physical time resolution."
+  ]
+}

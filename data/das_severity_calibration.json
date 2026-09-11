@@ -1,0 +1,5 @@
+{
+  "floor_intensity": 6.913e-11,
+  "ceiling_intensity": 2.001e-10,
+  "_notes": "floor = mean of 3 empty-dome DAS/DMAS-CF peak intensities (5.41e-11, 9.02e-11, 6.31e-11). ceiling = mean of 3 metal-target DAS/DMAS-CF peak intensities at the same fixed position (3.11e-10, 1.68e-10, 1.21e-10). Captured via capture_baseline.py + check_empty_das.py + capture_labeled_scan.py. Revisit once more target positions/sizes have been captured -- see das_to_dome_result()'s docstring in dot_scoring.py."
+}

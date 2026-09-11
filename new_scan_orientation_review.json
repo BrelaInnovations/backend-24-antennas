@@ -1,0 +1,343 @@
+{
+  "baseline_sha256": "2ad4813bdd160d18e90e6070c12702fd468fbc60d61b611d25b59a2cbbc79b4d",
+  "z_evaluation_cm": 2.5,
+  "z_note": "A corrected per user; B assumed same one-cube 2cm-support arrangement pending confirmation",
+  "results": {
+    "single_A1": {
+      "recorded_truth_cm": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "error_cm": 7.433034373659253,
+          "angular_difference_deg": 129.28940686250036,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.970632793344914,
+          "confidence": {
+            "confident": true,
+            "peak_to_mean_ratio": 22.6,
+            "coherence": 0.18
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "error_cm": 7.433034373659253,
+          "angular_difference_deg": 129.28940686250036,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.970632793344914,
+          "confidence": {
+            "confident": true,
+            "peak_to_mean_ratio": 40.72,
+            "coherence": 0.18
+          }
+        }
+      },
+      "baseline_source": "dataset\\empty_control_20260908T110028300712Z\\baseline_reference.json",
+      "baseline_note": "Preserved A baseline"
+    },
+    "single_A2": {
+      "recorded_truth_cm": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "error_cm": 7.433034373659253,
+          "angular_difference_deg": 129.28940686250036,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.970632793344914,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 19.03,
+            "coherence": 0.142
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "error_cm": 7.433034373659253,
+          "angular_difference_deg": 129.28940686250036,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.970632793344914,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 36.34,
+            "coherence": 0.142
+          }
+        }
+      },
+      "baseline_source": "dataset\\empty_control_20260908T110028300712Z\\baseline_reference.json",
+      "baseline_note": "Preserved A baseline"
+    },
+    "single_A3": {
+      "recorded_truth_cm": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -4.5,
+            0.0,
+            0.5
+          ],
+          "error_cm": 7.088723439378913,
+          "angular_difference_deg": 135.0,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.606560161838642,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 29.07,
+            "coherence": 0.141
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "error_cm": 7.54983443527075,
+          "angular_difference_deg": 135.0,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.9522413100114457,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 40.5,
+            "coherence": 0.135
+          }
+        }
+      },
+      "baseline_source": "dataset\\empty_control_20260908T110028300712Z\\baseline_reference.json",
+      "baseline_note": "Preserved A baseline"
+    },
+    "single_B1": {
+      "recorded_truth_cm": [
+        -5.0,
+        -5.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "error_cm": 5.722761571129799,
+          "angular_difference_deg": -41.18592516570965,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.5393979350730964,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 61.0,
+            "coherence": 0.106
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "error_cm": 6.34428877022476,
+          "angular_difference_deg": -45.0,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.6670048762895795,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 81.73,
+            "coherence": 0.105
+          }
+        }
+      },
+      "baseline_source": "data/baseline_full_sweep.json",
+      "baseline_note": "Current baseline reproduces saved B heatmap peaks; acquisition reference not embedded"
+    },
+    "single_B2": {
+      "recorded_truth_cm": [
+        -5.0,
+        -5.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "error_cm": 1.6583123951777,
+          "angular_difference_deg": 0.0,
+          "minimum_error_after_any_z_axis_rotation_cm": 1.6583123951777001,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 55.89,
+            "coherence": 0.11
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "error_cm": 5.722761571129799,
+          "angular_difference_deg": -41.18592516570965,
+          "minimum_error_after_any_z_axis_rotation_cm": 2.5393979350730964,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 73.42,
+            "coherence": 0.111
+          }
+        }
+      },
+      "baseline_source": "data/baseline_full_sweep.json",
+      "baseline_note": "Current baseline reproduces saved B heatmap peaks; acquisition reference not embedded"
+    },
+    "single_B3": {
+      "recorded_truth_cm": [
+        -5.0,
+        -5.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "error_cm": 1.6583123951777,
+          "angular_difference_deg": 0.0,
+          "minimum_error_after_any_z_axis_rotation_cm": 1.6583123951777001,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 64.41,
+            "coherence": 0.119
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "error_cm": 1.5,
+          "angular_difference_deg": 8.972626614896399,
+          "minimum_error_after_any_z_axis_rotation_cm": 1.035895598814512,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 96.14,
+            "coherence": 0.117
+          }
+        }
+      },
+      "baseline_source": "data/baseline_full_sweep.json",
+      "baseline_note": "Current baseline reproduces saved B heatmap peaks; acquisition reference not embedded"
+    },
+    "single_B4": {
+      "recorded_truth_cm": [
+        -5.0,
+        -5.0,
+        3.0
+      ],
+      "evaluation_truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "algorithms": {
+        "das-cf": {
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "error_cm": 1.5,
+          "angular_difference_deg": 8.972626614896399,
+          "minimum_error_after_any_z_axis_rotation_cm": 1.035895598814512,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 68.35,
+            "coherence": 0.121
+          }
+        },
+        "dmas-cf": {
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "error_cm": 1.5,
+          "angular_difference_deg": 8.972626614896399,
+          "minimum_error_after_any_z_axis_rotation_cm": 1.035895598814512,
+          "confidence": {
+            "confident": false,
+            "peak_to_mean_ratio": 101.26,
+            "coherence": 0.121
+          }
+        }
+      },
+      "baseline_source": "data/baseline_full_sweep.json",
+      "baseline_note": "Current baseline reproduces saved B heatmap peaks; acquisition reference not embedded"
+    }
+  },
+  "diagnostic_best_common_rotation": {
+    "degrees_applied_to_predictions": 11,
+    "rms_error_cm": 5.851938681512799,
+    "per_scan_errors_cm": [
+      7.688763697782754,
+      7.688763697782754,
+      7.774877720998844,
+      5.143452701645393,
+      4.56762472712336,
+      2.6186928997345404,
+      2.6186928997345404
+    ],
+    "note": "Fit to same labels only; no coordinate correction applied."
+  }
+}

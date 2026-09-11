@@ -1,0 +1,54 @@
+[
+  {
+    "path": "src/utils/api.ts",
+    "sha256": "f2f6ac7fc9ebe06cbac0ecf183c2f8d43db583f778d20debd1321f6375f0f475"
+  },
+  {
+    "path": "src/components/common/Dome3D.tsx",
+    "sha256": "289e4b1f220fa4719a17099b407288508361db364f8c5df555f71208b70c5b8f"
+  },
+  {
+    "path": "src/components/common/Dome/DomeSceneRN.tsx",
+    "sha256": "e2b2d4bea5e5a5433f48b2769709b3da2184236114aab2de29400142731fe9be"
+  },
+  {
+    "path": "src/screens/common/DomeScreen.tsx",
+    "sha256": "026a27e24623fc1676d3c61493848385a04e60c039f07cb4d40a842eb028f298"
+  },
+  {
+    "path": "src/screens/common/Scan/component/ScanResultHero.tsx",
+    "sha256": "3441f389b51c0322b9bfaffc9e546221d7b2cbc756694095bb88fa98e0f15f81"
+  },
+  {
+    "path": "src/screens/common/Scan/component/ScanResultDomes.tsx",
+    "sha256": "3daf22feff51458c28727dc5664e712936278bfb055ddddbdf960ccbac96c0c3"
+  },
+  {
+    "path": "src/screens/user/HomeScreen.tsx",
+    "sha256": "91faf4998e2da9ae4380c5e4835c72a70efffe672250ec9eb0bff1c8fbd993d9"
+  },
+  {
+    "path": "src/screens/user/RepositoryScreen.tsx",
+    "sha256": "9b7259612fd8c77d7ede3ca0a076bd1dff0738ebe7789896e3cb3639a55a16de"
+  },
+  {
+    "path": "src/screens/common/CompareScreen.tsx",
+    "sha256": "9aba03df34b0dae10af77f5009990e2cf2f86960c8873e39c4ac095c80e2a8e5"
+  },
+  {
+    "path": "src/components/ui/Report.tsx",
+    "sha256": "d79d0818ec802b224bdbc7866380559004c1e772243679af06cb44112e76cf45"
+  },
+  {
+    "path": "src/screens/onboarding/OnboardingScreen.tsx",
+    "sha256": "eb462cb0987b5c2fd61f4c9054d4aba23729e9336e54baca7de05007d6e38e5b"
+  },
+  {
+    "path": "src/store/scanProcessStore.ts",
+    "sha256": "8b5032faf460be113a3a110847af32be29a7910e403c4d1303c1ed57a31d25fc"
+  },
+  {
+    "path": "src/screens/common/Scan/index.tsx",
+    "sha256": "d778a1466a9fbb43e38b57b077eba97c974807c191b8025f972df579f8952466"
+  }
+]

@@ -1,0 +1,1309 @@
+{
+  "algorithm": "dmas-cf",
+  "z_reference_cm": 2.5,
+  "z_note": "User-confirmed for A; assumed same cube/support for B.",
+  "baseline_sources": {
+    "A": "dataset\\empty_control_20260908T110028300712Z\\baseline_reference.json",
+    "B": "data\\baseline_full_sweep.json"
+  },
+  "baseline_sha256": {
+    "A": "45a517a44868519ca97ea85665a91190fd7af348b1a7dbe8e400de5b34efb07b",
+    "B": "2ad4813bdd160d18e90e6070c12702fd468fbc60d61b611d25b59a2cbbc79b4d"
+  },
+  "scans": {
+    "single_A1": {
+      "truth_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -5.0,
+        0.5,
+        0.5
+      ],
+      "error_cm": 7.433034373659253,
+      "confidence": {
+        "confident": true,
+        "peak_to_mean_ratio": 40.72,
+        "coherence": 0.18
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          -6.0,
+          1.5,
+          2.0
+        ],
+        "intensity_relative_to_peak": 0.42637049494629214
+      },
+      "true_position_intensity_relative_to_peak": 0.011446746905831947,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            0.5,
+            5.5,
+            3.0
+          ],
+          "shift_from_full_cm": 7.842193570679061
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -5.5,
+            1.0,
+            0.5
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -5.5,
+            1.0,
+            1.0
+          ],
+          "shift_from_full_cm": 0.8660254037844386
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            -5.5,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.8660254037844386
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 1,
+      "max_leave_out_shift_cm": 7.842193570679061,
+      "alternative_baseline": {
+        "source_group": "B",
+        "candidate_cm": [
+          1.5,
+          5.5,
+          5.0
+        ],
+        "shift_cm": 9.354143466934854
+      }
+    },
+    "single_A2": {
+      "truth_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -5.0,
+        0.5,
+        0.5
+      ],
+      "error_cm": 7.433034373659253,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 36.34,
+        "coherence": 0.142
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          1.0,
+          7.0,
+          3.5
+        ],
+        "intensity_relative_to_peak": 0.4946726062810485
+      },
+      "true_position_intensity_relative_to_peak": 0.003362536004259217,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            1.0,
+            6.0,
+            3.0
+          ],
+          "shift_from_full_cm": 8.514693182963201
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -5.0,
+            1.0,
+            1.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            -4.0,
+            -6.5,
+            0.5
+          ],
+          "shift_from_full_cm": 7.0710678118654755
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -5.0,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 1.118033988749895
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -5.5,
+            0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -2.5,
+            -6.0,
+            4.5
+          ],
+          "shift_from_full_cm": 8.031189202104505
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -5.5,
+            1.0,
+            1.0
+          ],
+          "shift_from_full_cm": 0.8660254037844386
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 4,
+      "max_leave_out_shift_cm": 8.514693182963201,
+      "alternative_baseline": {
+        "source_group": "B",
+        "candidate_cm": [
+          1.5,
+          5.5,
+          5.0
+        ],
+        "shift_cm": 9.354143466934854
+      }
+    },
+    "single_A3": {
+      "truth_cm": [
+        2.0,
+        2.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -5.0,
+        0.0,
+        0.5
+      ],
+      "error_cm": 7.54983443527075,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 40.5,
+        "coherence": 0.135
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          1.0,
+          6.0,
+          4.0
+        ],
+        "intensity_relative_to_peak": 0.49750481884475206
+      },
+      "true_position_intensity_relative_to_peak": 0.0636295521655867,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -4.5,
+            -0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.8660254037844386
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -4.5,
+            -0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            1.5,
+            5.0,
+            3.0
+          ],
+          "shift_from_full_cm": 8.573214099741124
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -4.5,
+            -0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.8660254037844386
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -4.5,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            1.0,
+            6.0,
+            4.0
+          ],
+          "shift_from_full_cm": 9.17877987534291
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -4.5,
+            -0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.8660254037844386
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            1.5
+          ],
+          "shift_from_full_cm": 1.118033988749895
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -4.5,
+            -1.0,
+            0.5
+          ],
+          "shift_from_full_cm": 1.118033988749895
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -4.5,
+            0.5,
+            0.5
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -5.0,
+            0.5,
+            1.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            -5.0,
+            0.0,
+            0.5
+          ],
+          "shift_from_full_cm": 0.0
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 4,
+      "max_leave_out_shift_cm": 9.17877987534291,
+      "alternative_baseline": {
+        "source_group": "B",
+        "candidate_cm": [
+          1.0,
+          4.5,
+          4.0
+        ],
+        "shift_cm": 8.276472678623424
+      }
+    },
+    "single_B1": {
+      "truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -8.0,
+        0.0,
+        0.0
+      ],
+      "error_cm": 6.34428877022476,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 81.73,
+        "coherence": 0.105
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          -7.5,
+          -2.0,
+          0.0
+        ],
+        "intensity_relative_to_peak": 0.6699325765508888
+      },
+      "true_position_intensity_relative_to_peak": 0.00022592982699660174,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            -7.5,
+            -2.5,
+            0.0
+          ],
+          "shift_from_full_cm": 2.5495097567963922
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -5.0,
+            -4.0,
+            4.0
+          ],
+          "shift_from_full_cm": 6.4031242374328485
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -7.5,
+            -2.5,
+            0.0
+          ],
+          "shift_from_full_cm": 2.5495097567963922
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            5.0,
+            5.0,
+            1.5
+          ],
+          "shift_from_full_cm": 14.0089257261219
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            5.0,
+            5.5,
+            2.0
+          ],
+          "shift_from_full_cm": 14.256577429383253
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -7.5,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -7.5,
+            1.5,
+            0.0
+          ],
+          "shift_from_full_cm": 1.5811388300841898
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            5.0,
+            5.0,
+            1.5
+          ],
+          "shift_from_full_cm": 14.0089257261219
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 7,
+      "max_leave_out_shift_cm": 14.256577429383253,
+      "alternative_baseline": {
+        "source_group": "A",
+        "candidate_cm": [
+          1.5,
+          5.5,
+          5.0
+        ],
+        "shift_cm": 12.062338081814818
+      }
+    },
+    "single_B2": {
+      "truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -7.5,
+        -0.5,
+        0.0
+      ],
+      "error_cm": 5.722761571129799,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 73.42,
+        "coherence": 0.111
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          -4.0,
+          -5.5,
+          3.5
+        ],
+        "intensity_relative_to_peak": 0.9602384622927991
+      },
+      "true_position_intensity_relative_to_peak": 0.0022148648594632002,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 6.4031242374328485
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -7.5,
+            -1.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.7071067811865476
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 6.4031242374328485
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 6.4031242374328485
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 7.035623639735144
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            -4.0,
+            -5.0,
+            4.0
+          ],
+          "shift_from_full_cm": 6.96419413859206
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -7.5,
+            -1.0,
+            0.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            4.0
+          ],
+          "shift_from_full_cm": 7.297259759663212
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -7.5,
+            -0.5,
+            0.0
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 6.4031242374328485
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 7,
+      "max_leave_out_shift_cm": 7.297259759663212,
+      "alternative_baseline": {
+        "source_group": "A",
+        "candidate_cm": [
+          1.5,
+          6.0,
+          5.0
+        ],
+        "shift_cm": 12.175795661885921
+      }
+    },
+    "single_B3": {
+      "truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -4.0,
+        -5.5,
+        3.5
+      ],
+      "error_cm": 1.5,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 96.14,
+        "coherence": 0.117
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          -4.5,
+          -3.5,
+          3.5
+        ],
+        "intensity_relative_to_peak": 0.6228970849739778
+      },
+      "true_position_intensity_relative_to_peak": 0.002879323236063183,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -7.5,
+            -1.0,
+            0.0
+          ],
+          "shift_from_full_cm": 6.689544080129826
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 7.648529270389178
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            4.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 7.648529270389178
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -3.5,
+            -6.5,
+            3.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 7.648529270389178
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -4.5,
+            -4.0,
+            3.5
+          ],
+          "shift_from_full_cm": 1.5811388300841898
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            4.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 10,
+      "max_leave_out_shift_cm": 7.648529270389178,
+      "alternative_baseline": {
+        "source_group": "A",
+        "candidate_cm": [
+          1.5,
+          5.5,
+          5.0
+        ],
+        "shift_cm": 12.389511693363866
+      }
+    },
+    "single_B4": {
+      "truth_cm": [
+        -5.0,
+        -5.0,
+        2.5
+      ],
+      "candidate_cm": [
+        -4.0,
+        -5.5,
+        3.5
+      ],
+      "error_cm": 1.5,
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 101.26,
+        "coherence": 0.121
+      },
+      "competitor_at_least_2cm_away": {
+        "candidate_cm": [
+          -4.5,
+          -3.5,
+          3.5
+        ],
+        "intensity_relative_to_peak": 0.6610551128826565
+      },
+      "true_position_intensity_relative_to_peak": 0.00444315129335225,
+      "leave_one_antenna_out": [
+        {
+          "removed_antenna": "RX1",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX5",
+          "candidate_cm": [
+            -7.5,
+            -1.0,
+            0.0
+          ],
+          "shift_from_full_cm": 6.689544080129826
+        },
+        {
+          "removed_antenna": "TX1",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX5",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX2",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX6",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX2",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            4.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "TX6",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "RX3",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 7.648529270389178
+        },
+        {
+          "removed_antenna": "RX7",
+          "candidate_cm": [
+            -3.5,
+            -6.5,
+            3.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "TX3",
+          "candidate_cm": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "shift_from_full_cm": 7.648529270389178
+        },
+        {
+          "removed_antenna": "TX7",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        },
+        {
+          "removed_antenna": "RX4",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            4.0
+          ],
+          "shift_from_full_cm": 0.5
+        },
+        {
+          "removed_antenna": "RX8",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX4",
+          "candidate_cm": [
+            -4.0,
+            -5.5,
+            3.5
+          ],
+          "shift_from_full_cm": 0.0
+        },
+        {
+          "removed_antenna": "TX8",
+          "candidate_cm": [
+            -4.5,
+            -4.5,
+            4.0
+          ],
+          "shift_from_full_cm": 1.224744871391589
+        }
+      ],
+      "leave_out_shift_over_1cm_count": 9,
+      "max_leave_out_shift_cm": 7.648529270389178,
+      "alternative_baseline": {
+        "source_group": "A",
+        "candidate_cm": [
+          1.5,
+          5.5,
+          5.0
+        ],
+        "shift_cm": 12.389511693363866
+      }
+    }
+  },
+  "notes": [
+    "B baseline association is inferred from reproducing saved PNG results; scans lack embedded calibration provenance.",
+    "Leave-one-antenna-out is a sensitivity test, not an accuracy guarantee or independent repeated measurement.",
+    "Alternative baselines are a stress test, not an approved correction.",
+    "No channels, offsets, geometry, or thresholds were optimized using target labels."
+  ]
+}

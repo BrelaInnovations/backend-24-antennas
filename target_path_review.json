@@ -1,0 +1,583 @@
+{
+  "method": "Mean cube spectrum minus mean post-removal empty spectrum; windowed IFFT and existing per-pair delays, no fitting",
+  "summary": {
+    "pairs": 56,
+    "expected_ns_range": [
+      6.378333749501374,
+      7.99543208997856
+    ],
+    "pairs_global_peak_within_0_25ns": 13,
+    "median_absolute_peak_mismatch_ns": 0.6108425201403009,
+    "median_expected_amplitude_over_global_peak": 0.4997491639650946,
+    "coherence_at_true_position": 0.006866855510967596,
+    "pairs_response_over_repeat_scatter_above_3": 21
+  },
+  "pairs": [
+    {
+      "pair": "TX1-RX2",
+      "expected_ns": 6.695562418199016,
+      "strongest_residual_peak_ns": 7.139900662251656,
+      "peak_minus_expected_ns": 0.4443382440526409,
+      "expected_amplitude_over_global_peak": 0.9294946853335186,
+      "response_at_expected_real": 3.0497795063860386e-05,
+      "response_at_expected_imag": -1.8941611036766897e-05,
+      "response_over_combined_repeat_scatter": 5.935653979054566
+    },
+    {
+      "pair": "TX1-RX3",
+      "expected_ns": 6.659667603693196,
+      "strongest_residual_peak_ns": 7.201986754966888,
+      "peak_minus_expected_ns": 0.5423191512736919,
+      "expected_amplitude_over_global_peak": 0.4837542891932061,
+      "response_at_expected_real": 2.369827522999688e-05,
+      "response_at_expected_imag": 1.5053675248786251e-06,
+      "response_over_combined_repeat_scatter": 2.632082756184695
+    },
+    {
+      "pair": "TX1-RX4",
+      "expected_ns": 6.627359357818516,
+      "strongest_residual_peak_ns": 7.595198675496689,
+      "peak_minus_expected_ns": 0.9678393176781723,
+      "expected_amplitude_over_global_peak": 0.6509253335750604,
+      "response_at_expected_real": 1.1768720086863062e-05,
+      "response_at_expected_imag": -2.0917028367626407e-05,
+      "response_over_combined_repeat_scatter": 1.6949490806402772
+    },
+    {
+      "pair": "TX1-RX5",
+      "expected_ns": 6.378333749501374,
+      "strongest_residual_peak_ns": 8.69205298013245,
+      "peak_minus_expected_ns": 2.3137192306310754,
+      "expected_amplitude_over_global_peak": 0.24596135075158254,
+      "response_at_expected_real": 9.253274313320437e-06,
+      "response_at_expected_imag": -4.857330053132828e-06,
+      "response_over_combined_repeat_scatter": 3.589243064885729
+    },
+    {
+      "pair": "TX1-RX6",
+      "expected_ns": 7.362995575852879,
+      "strongest_residual_peak_ns": 7.864238410596027,
+      "peak_minus_expected_ns": 0.5012428347431477,
+      "expected_amplitude_over_global_peak": 0.19301157046597753,
+      "response_at_expected_real": 6.1295052028964755e-06,
+      "response_at_expected_imag": -5.027799054744444e-06,
+      "response_over_combined_repeat_scatter": 0.3864086882259559
+    },
+    {
+      "pair": "TX1-RX7",
+      "expected_ns": 6.613623097266409,
+      "strongest_residual_peak_ns": 7.63658940397351,
+      "peak_minus_expected_ns": 1.0229663067071009,
+      "expected_amplitude_over_global_peak": 0.7344850318127973,
+      "response_at_expected_real": 2.226300152914981e-06,
+      "response_at_expected_imag": -2.1052697163064946e-05,
+      "response_over_combined_repeat_scatter": 11.489400217701274
+    },
+    {
+      "pair": "TX1-RX8",
+      "expected_ns": 7.3621380422900575,
+      "strongest_residual_peak_ns": 7.057119205298013,
+      "peak_minus_expected_ns": -0.3050188369920442,
+      "expected_amplitude_over_global_peak": 0.5078891842237926,
+      "response_at_expected_real": 1.2469896297553238e-05,
+      "response_at_expected_imag": 3.5348203685939118e-06,
+      "response_over_combined_repeat_scatter": 1.1791057148716897
+    },
+    {
+      "pair": "TX2-RX1",
+      "expected_ns": 6.813325623207943,
+      "strongest_residual_peak_ns": 6.60182119205298,
+      "peak_minus_expected_ns": -0.21150443115496254,
+      "expected_amplitude_over_global_peak": 0.7362263227747815,
+      "response_at_expected_real": 3.896421415828267e-06,
+      "response_at_expected_imag": 2.8866707353333267e-05,
+      "response_over_combined_repeat_scatter": 7.52573152031726
+    },
+    {
+      "pair": "TX2-RX3",
+      "expected_ns": 6.512217637124187,
+      "strongest_residual_peak_ns": 6.995033112582782,
+      "peak_minus_expected_ns": 0.48281547545859516,
+      "expected_amplitude_over_global_peak": 0.39635492594237126,
+      "response_at_expected_real": -4.877551543689402e-06,
+      "response_at_expected_imag": 1.8372958641820154e-05,
+      "response_over_combined_repeat_scatter": 3.5420198193141297
+    },
+    {
+      "pair": "TX2-RX4",
+      "expected_ns": 6.577770561524927,
+      "strongest_residual_peak_ns": 7.802152317880794,
+      "peak_minus_expected_ns": 1.2243817563558672,
+      "expected_amplitude_over_global_peak": 0.8039818205508487,
+      "response_at_expected_real": -2.1476171833949368e-05,
+      "response_at_expected_imag": 5.0369986498466915e-06,
+      "response_over_combined_repeat_scatter": 3.008810164784962
+    },
+    {
+      "pair": "TX2-RX5",
+      "expected_ns": 6.387886651536166,
+      "strongest_residual_peak_ns": 8.961092715231787,
+      "peak_minus_expected_ns": 2.5732060636956215,
+      "expected_amplitude_over_global_peak": 0.32449433641067393,
+      "response_at_expected_real": 7.580500648025195e-06,
+      "response_at_expected_imag": -5.115572198523717e-06,
+      "response_over_combined_repeat_scatter": 1.8845003901203539
+    },
+    {
+      "pair": "TX2-RX6",
+      "expected_ns": 6.41010367403348,
+      "strongest_residual_peak_ns": 6.995033112582782,
+      "peak_minus_expected_ns": 0.5849294385493014,
+      "expected_amplitude_over_global_peak": 0.2871992786940439,
+      "response_at_expected_real": 4.9900422032792316e-06,
+      "response_at_expected_imag": -6.9185689639688984e-06,
+      "response_over_combined_repeat_scatter": 3.7995088314881054
+    },
+    {
+      "pair": "TX2-RX7",
+      "expected_ns": 6.533075649756067,
+      "strongest_residual_peak_ns": 8.0091059602649,
+      "peak_minus_expected_ns": 1.4760303105088335,
+      "expected_amplitude_over_global_peak": 0.8068367480639668,
+      "response_at_expected_real": 3.3844855558893437e-06,
+      "response_at_expected_imag": 1.8231861221211694e-05,
+      "response_over_combined_repeat_scatter": 6.6590688549925945
+    },
+    {
+      "pair": "TX2-RX8",
+      "expected_ns": 6.6368081011359585,
+      "strongest_residual_peak_ns": 8.423013245033113,
+      "peak_minus_expected_ns": 1.7862051438971551,
+      "expected_amplitude_over_global_peak": 0.6982935752397744,
+      "response_at_expected_real": -1.5270934539087868e-05,
+      "response_at_expected_imag": -1.7734592180813558e-05,
+      "response_over_combined_repeat_scatter": 11.762034697998342
+    },
+    {
+      "pair": "TX3-RX1",
+      "expected_ns": 6.586462620212195,
+      "strongest_residual_peak_ns": 6.746688741721854,
+      "peak_minus_expected_ns": 0.16022612150965926,
+      "expected_amplitude_over_global_peak": 0.8721902731160007,
+      "response_at_expected_real": -1.2342532718934864e-05,
+      "response_at_expected_imag": 2.9549095816196792e-05,
+      "response_over_combined_repeat_scatter": 12.253014428039227
+    },
+    {
+      "pair": "TX3-RX2",
+      "expected_ns": 6.507507726779955,
+      "strongest_residual_peak_ns": 7.139900662251656,
+      "peak_minus_expected_ns": 0.6323929354717015,
+      "expected_amplitude_over_global_peak": 0.38411441001939794,
+      "response_at_expected_real": 5.363165251341231e-06,
+      "response_at_expected_imag": 4.438285426938582e-06,
+      "response_over_combined_repeat_scatter": 1.948695235602492
+    },
+    {
+      "pair": "TX3-RX4",
+      "expected_ns": 6.7267444735235,
+      "strongest_residual_peak_ns": 6.663907284768213,
+      "peak_minus_expected_ns": -0.06283718875528742,
+      "expected_amplitude_over_global_peak": 0.9654447375494902,
+      "response_at_expected_real": -1.4101415499958803e-05,
+      "response_at_expected_imag": 2.5404134635370248e-05,
+      "response_over_combined_repeat_scatter": 0.9840410984438466
+    },
+    {
+      "pair": "TX3-RX5",
+      "expected_ns": 6.885703734142146,
+      "strongest_residual_peak_ns": 7.6572847682119205,
+      "peak_minus_expected_ns": 0.7715810340697751,
+      "expected_amplitude_over_global_peak": 0.42762723166962274,
+      "response_at_expected_real": -1.273828550593166e-05,
+      "response_at_expected_imag": -9.567983756759014e-06,
+      "response_over_combined_repeat_scatter": 1.6839010139888346
+    },
+    {
+      "pair": "TX3-RX6",
+      "expected_ns": 6.455761899690237,
+      "strongest_residual_peak_ns": 7.429635761589404,
+      "peak_minus_expected_ns": 0.9738738618991672,
+      "expected_amplitude_over_global_peak": 0.6962116897727268,
+      "response_at_expected_real": 1.1182012007433431e-05,
+      "response_at_expected_imag": 4.491660485242782e-06,
+      "response_over_combined_repeat_scatter": 4.866604602652813
+    },
+    {
+      "pair": "TX3-RX7",
+      "expected_ns": 6.6468430225171655,
+      "strongest_residual_peak_ns": 7.533112582781458,
+      "peak_minus_expected_ns": 0.8862695602642927,
+      "expected_amplitude_over_global_peak": 0.5751395843807259,
+      "response_at_expected_real": -4.4187687805382867e-07,
+      "response_at_expected_imag": -2.4164914365566408e-05,
+      "response_over_combined_repeat_scatter": 17.856668345078702
+    },
+    {
+      "pair": "TX3-RX8",
+      "expected_ns": 6.422929047186007,
+      "strongest_residual_peak_ns": 6.767384105960265,
+      "peak_minus_expected_ns": 0.3444550587742579,
+      "expected_amplitude_over_global_peak": 0.4109205476787572,
+      "response_at_expected_real": 5.253954458754751e-06,
+      "response_at_expected_imag": -1.2149303121001603e-05,
+      "response_over_combined_repeat_scatter": 10.24798760907507
+    },
+    {
+      "pair": "TX4-RX1",
+      "expected_ns": 7.059599454402371,
+      "strongest_residual_peak_ns": 7.408940397350993,
+      "peak_minus_expected_ns": 0.3493409429486218,
+      "expected_amplitude_over_global_peak": 0.6048285659692005,
+      "response_at_expected_real": 1.627497590213157e-05,
+      "response_at_expected_imag": -6.279531765690218e-06,
+      "response_over_combined_repeat_scatter": 3.8648538946255275
+    },
+    {
+      "pair": "TX4-RX2",
+      "expected_ns": 6.8922474530998565,
+      "strongest_residual_peak_ns": 7.574503311258278,
+      "peak_minus_expected_ns": 0.6822558581584216,
+      "expected_amplitude_over_global_peak": 0.1261363315695944,
+      "response_at_expected_real": -5.504815028974228e-07,
+      "response_at_expected_imag": -2.6988630584943853e-06,
+      "response_over_combined_repeat_scatter": 0.6553461192537228
+    },
+    {
+      "pair": "TX4-RX3",
+      "expected_ns": 6.694110083389681,
+      "strongest_residual_peak_ns": 7.119205298013245,
+      "peak_minus_expected_ns": 0.42509521462356414,
+      "expected_amplitude_over_global_peak": 0.20464746965063713,
+      "response_at_expected_real": 4.612060436931822e-06,
+      "response_at_expected_imag": 9.339536130361931e-07,
+      "response_over_combined_repeat_scatter": 0.6932045399978554
+    },
+    {
+      "pair": "TX4-RX5",
+      "expected_ns": 7.000706792968187,
+      "strongest_residual_peak_ns": 8.443708609271525,
+      "peak_minus_expected_ns": 1.4430018163033367,
+      "expected_amplitude_over_global_peak": 0.45308495929823256,
+      "response_at_expected_real": -5.204183137117463e-07,
+      "response_at_expected_imag": -1.069713302697068e-05,
+      "response_over_combined_repeat_scatter": 1.5164274349280384
+    },
+    {
+      "pair": "TX4-RX6",
+      "expected_ns": 6.588234120501662,
+      "strongest_residual_peak_ns": 7.574503311258278,
+      "peak_minus_expected_ns": 0.986269190756616,
+      "expected_amplitude_over_global_peak": 0.36321393239768046,
+      "response_at_expected_real": 3.6817231173847547e-07,
+      "response_at_expected_imag": 8.425427894425421e-06,
+      "response_over_combined_repeat_scatter": 2.4451710023225264
+    },
+    {
+      "pair": "TX4-RX7",
+      "expected_ns": 6.596536366286413,
+      "strongest_residual_peak_ns": 8.340231788079471,
+      "peak_minus_expected_ns": 1.7436954217930571,
+      "expected_amplitude_over_global_peak": 0.4177027715282985,
+      "response_at_expected_real": 7.654470493035789e-06,
+      "response_at_expected_imag": 1.2227247986392055e-05,
+      "response_over_combined_repeat_scatter": 6.611430173386276
+    },
+    {
+      "pair": "TX4-RX8",
+      "expected_ns": 6.605803736333667,
+      "strongest_residual_peak_ns": 6.767384105960265,
+      "peak_minus_expected_ns": 0.16158036962659822,
+      "expected_amplitude_over_global_peak": 0.7894046088089495,
+      "response_at_expected_real": 5.082426805799548e-06,
+      "response_at_expected_imag": 1.940604580931447e-05,
+      "response_over_combined_repeat_scatter": 13.678460668690704
+    },
+    {
+      "pair": "TX5-RX1",
+      "expected_ns": 6.596862978858844,
+      "strongest_residual_peak_ns": 6.788079470198676,
+      "peak_minus_expected_ns": 0.19121649133983115,
+      "expected_amplitude_over_global_peak": 0.8492958215404035,
+      "response_at_expected_real": 2.5787090096816417e-05,
+      "response_at_expected_imag": 1.6149537395798946e-05,
+      "response_over_combined_repeat_scatter": 4.296853253717682
+    },
+    {
+      "pair": "TX5-RX2",
+      "expected_ns": 6.550738768599942,
+      "strongest_residual_peak_ns": 7.119205298013245,
+      "peak_minus_expected_ns": 0.5684665294133038,
+      "expected_amplitude_over_global_peak": 0.37715228978150317,
+      "response_at_expected_real": -8.408328269552927e-06,
+      "response_at_expected_imag": -1.6302716538603317e-05,
+      "response_over_combined_repeat_scatter": 1.5874564360837995
+    },
+    {
+      "pair": "TX5-RX3",
+      "expected_ns": 6.763530662212404,
+      "strongest_residual_peak_ns": 6.891556291390729,
+      "peak_minus_expected_ns": 0.12802562917832488,
+      "expected_amplitude_over_global_peak": 0.937800807087547,
+      "response_at_expected_real": 1.1214246932911854e-05,
+      "response_at_expected_imag": -5.7861554218469336e-05,
+      "response_over_combined_repeat_scatter": 2.512441590329974
+    },
+    {
+      "pair": "TX5-RX4",
+      "expected_ns": 6.849082018457034,
+      "strongest_residual_peak_ns": 6.60182119205298,
+      "peak_minus_expected_ns": -0.2472608264040544,
+      "expected_amplitude_over_global_peak": 0.4973453153336215,
+      "response_at_expected_real": 2.4875636269061318e-05,
+      "response_at_expected_imag": -4.535448767290262e-06,
+      "response_over_combined_repeat_scatter": 0.8039351189714035
+    },
+    {
+      "pair": "TX5-RX6",
+      "expected_ns": 7.654793757452205,
+      "strongest_residual_peak_ns": 7.036423841059603,
+      "peak_minus_expected_ns": -0.618369916392602,
+      "expected_amplitude_over_global_peak": 0.6641830631074215,
+      "response_at_expected_real": 1.7058276190137768e-05,
+      "response_at_expected_imag": -2.6839789979752026e-05,
+      "response_over_combined_repeat_scatter": 2.3524155295838307
+    },
+    {
+      "pair": "TX5-RX7",
+      "expected_ns": 6.615343842270631,
+      "strongest_residual_peak_ns": 7.28476821192053,
+      "peak_minus_expected_ns": 0.6694243696498985,
+      "expected_amplitude_over_global_peak": 0.43713014731030514,
+      "response_at_expected_real": -1.4362005663478883e-05,
+      "response_at_expected_imag": 7.932692575631171e-06,
+      "response_over_combined_repeat_scatter": 7.778766163701743
+    },
+    {
+      "pair": "TX5-RX8",
+      "expected_ns": 6.625138258022653,
+      "strongest_residual_peak_ns": 7.367549668874172,
+      "peak_minus_expected_ns": 0.74241141085152,
+      "expected_amplitude_over_global_peak": 0.4738609928584134,
+      "response_at_expected_real": -4.889510300735834e-06,
+      "response_at_expected_imag": -1.5197422274278563e-05,
+      "response_over_combined_repeat_scatter": 10.521448295729977
+    },
+    {
+      "pair": "TX6-RX1",
+      "expected_ns": 7.99543208997856,
+      "strongest_residual_peak_ns": 7.222682119205298,
+      "peak_minus_expected_ns": -0.7727499707732616,
+      "expected_amplitude_over_global_peak": 0.2244327729109312,
+      "response_at_expected_real": -2.2334648017894427e-07,
+      "response_at_expected_imag": 1.400106745969317e-05,
+      "response_over_combined_repeat_scatter": 1.0719631714849982
+    },
+    {
+      "pair": "TX6-RX2",
+      "expected_ns": 7.255902810964806,
+      "strongest_residual_peak_ns": 7.243377483443709,
+      "peak_minus_expected_ns": -0.012525327521097114,
+      "expected_amplitude_over_global_peak": 0.9658584211815097,
+      "response_at_expected_real": -4.950331033239245e-05,
+      "response_at_expected_imag": -1.4465443034065485e-05,
+      "response_over_combined_repeat_scatter": 2.0644996583830753
+    },
+    {
+      "pair": "TX6-RX3",
+      "expected_ns": 6.664714655575065,
+      "strongest_residual_peak_ns": 6.974337748344371,
+      "peak_minus_expected_ns": 0.3096230927693055,
+      "expected_amplitude_over_global_peak": 0.7268425733393192,
+      "response_at_expected_real": -5.538901315308127e-05,
+      "response_at_expected_imag": 2.3590478454205904e-06,
+      "response_over_combined_repeat_scatter": 3.025127769677656
+    },
+    {
+      "pair": "TX6-RX4",
+      "expected_ns": 6.9746888161891825,
+      "strongest_residual_peak_ns": 6.58112582781457,
+      "peak_minus_expected_ns": -0.39356298837461234,
+      "expected_amplitude_over_global_peak": 0.06995156104683721,
+      "response_at_expected_real": 1.396314094750918e-06,
+      "response_at_expected_imag": -3.0995626923968757e-06,
+      "response_over_combined_repeat_scatter": 0.07591343243115838
+    },
+    {
+      "pair": "TX6-RX5",
+      "expected_ns": 7.551316936260151,
+      "strongest_residual_peak_ns": 7.63658940397351,
+      "peak_minus_expected_ns": 0.08527246771335856,
+      "expected_amplitude_over_global_peak": 0.9645171707166846,
+      "response_at_expected_real": -3.440972601149357e-05,
+      "response_at_expected_imag": -3.3665556193640823e-05,
+      "response_over_combined_repeat_scatter": 1.5988930734369262
+    },
+    {
+      "pair": "TX6-RX7",
+      "expected_ns": 6.697969687435553,
+      "strongest_residual_peak_ns": 8.133278145695364,
+      "peak_minus_expected_ns": 1.4353084582598112,
+      "expected_amplitude_over_global_peak": 0.602993283311079,
+      "response_at_expected_real": 1.0346296513218107e-05,
+      "response_at_expected_imag": -1.887546260700397e-06,
+      "response_over_combined_repeat_scatter": 2.7043913574963985
+    },
+    {
+      "pair": "TX6-RX8",
+      "expected_ns": 6.70214845227094,
+      "strongest_residual_peak_ns": 7.305463576158941,
+      "peak_minus_expected_ns": 0.603315123888,
+      "expected_amplitude_over_global_peak": 0.7140708862581021,
+      "response_at_expected_real": 2.6313589545637386e-05,
+      "response_at_expected_imag": 3.555736481308499e-06,
+      "response_over_combined_repeat_scatter": 6.2266522971354705
+    },
+    {
+      "pair": "TX7-RX1",
+      "expected_ns": 6.501026498809311,
+      "strongest_residual_peak_ns": 7.181291390728477,
+      "peak_minus_expected_ns": 0.6802648919191661,
+      "expected_amplitude_over_global_peak": 0.402658496725414,
+      "response_at_expected_real": 4.5829211331432435e-06,
+      "response_at_expected_imag": -1.2537953657889864e-05,
+      "response_over_combined_repeat_scatter": 0.40971170775323545
+    },
+    {
+      "pair": "TX7-RX2",
+      "expected_ns": 6.633841674104611,
+      "strongest_residual_peak_ns": 7.160596026490066,
+      "peak_minus_expected_ns": 0.5267543523854555,
+      "expected_amplitude_over_global_peak": 0.4319058894198949,
+      "response_at_expected_real": 1.4494315705565508e-05,
+      "response_at_expected_imag": 1.0389853890152052e-05,
+      "response_over_combined_repeat_scatter": 0.7181878507601449
+    },
+    {
+      "pair": "TX7-RX3",
+      "expected_ns": 6.607451407541068,
+      "strongest_residual_peak_ns": 7.595198675496689,
+      "peak_minus_expected_ns": 0.9877472679556211,
+      "expected_amplitude_over_global_peak": 0.32136285165847434,
+      "response_at_expected_real": -8.36741321352451e-06,
+      "response_at_expected_imag": 1.138225635477534e-05,
+      "response_over_combined_repeat_scatter": 0.42168245708911967
+    },
+    {
+      "pair": "TX7-RX4",
+      "expected_ns": 6.713951326874599,
+      "strongest_residual_peak_ns": 6.58112582781457,
+      "peak_minus_expected_ns": -0.13282549906002925,
+      "expected_amplitude_over_global_peak": 0.7909738907082452,
+      "response_at_expected_real": -5.86033911148154e-05,
+      "response_at_expected_imag": -1.5035125292884526e-05,
+      "response_over_combined_repeat_scatter": 0.6886494465608356
+    },
+    {
+      "pair": "TX7-RX5",
+      "expected_ns": 6.573953113793811,
+      "strongest_residual_peak_ns": 10.554635761589404,
+      "peak_minus_expected_ns": 3.9806826477955926,
+      "expected_amplitude_over_global_peak": 0.38522835697811786,
+      "response_at_expected_real": -8.058681127674189e-06,
+      "response_at_expected_imag": 1.6253522038382617e-05,
+      "response_over_combined_repeat_scatter": 1.402871637442843
+    },
+    {
+      "pair": "TX7-RX6",
+      "expected_ns": 6.573797502005089,
+      "strongest_residual_peak_ns": 7.6572847682119205,
+      "peak_minus_expected_ns": 1.0834872662068318,
+      "expected_amplitude_over_global_peak": 0.13668521301455744,
+      "response_at_expected_real": -7.037352275190525e-06,
+      "response_at_expected_imag": 3.6750725058802814e-06,
+      "response_over_combined_repeat_scatter": 1.5676169977670633
+    },
+    {
+      "pair": "TX7-RX8",
+      "expected_ns": 6.680091743474418,
+      "strongest_residual_peak_ns": 9.126655629139075,
+      "peak_minus_expected_ns": 2.4465638856646557,
+      "expected_amplitude_over_global_peak": 0.7728803274358546,
+      "response_at_expected_real": 2.7588108016773895e-05,
+      "response_at_expected_imag": 7.847737274662406e-06,
+      "response_over_combined_repeat_scatter": 2.1737620588167914
+    },
+    {
+      "pair": "TX8-RX1",
+      "expected_ns": 6.566594423965409,
+      "strongest_residual_peak_ns": 6.7052980132450335,
+      "peak_minus_expected_ns": 0.13870358927962456,
+      "expected_amplitude_over_global_peak": 0.772918861403586,
+      "response_at_expected_real": 1.03988796505217e-05,
+      "response_at_expected_imag": 3.703079415454132e-05,
+      "response_over_combined_repeat_scatter": 1.3554048645348524
+    },
+    {
+      "pair": "TX8-RX2",
+      "expected_ns": 6.737574125484501,
+      "strongest_residual_peak_ns": 7.201986754966888,
+      "peak_minus_expected_ns": 0.4644126294823863,
+      "expected_amplitude_over_global_peak": 0.8087492777250807,
+      "response_at_expected_real": 1.5608893195864443e-05,
+      "response_at_expected_imag": 3.547895975977172e-05,
+      "response_over_combined_repeat_scatter": 1.5211759063886892
+    },
+    {
+      "pair": "TX8-RX3",
+      "expected_ns": 6.714663260024478,
+      "strongest_residual_peak_ns": 8.67135761589404,
+      "peak_minus_expected_ns": 1.9566943558695626,
+      "expected_amplitude_over_global_peak": 0.26903111478720027,
+      "response_at_expected_real": 9.31961511709163e-06,
+      "response_at_expected_imag": -2.1635432834722447e-06,
+      "response_over_combined_repeat_scatter": 0.14117666011574642
+    },
+    {
+      "pair": "TX8-RX4",
+      "expected_ns": 6.785304789637083,
+      "strongest_residual_peak_ns": 6.829470198675496,
+      "peak_minus_expected_ns": 0.044165409038414004,
+      "expected_amplitude_over_global_peak": 0.9676083818150193,
+      "response_at_expected_real": -3.0536983662833696e-05,
+      "response_at_expected_imag": -0.00010029493964749638,
+      "response_over_combined_repeat_scatter": 0.9375614985431853
+    },
+    {
+      "pair": "TX8-RX5",
+      "expected_ns": 6.625138258022653,
+      "strongest_residual_peak_ns": 7.408940397350993,
+      "peak_minus_expected_ns": 0.7838021393283406,
+      "expected_amplitude_over_global_peak": 0.043971469384847056,
+      "response_at_expected_real": 2.4442038571349647e-06,
+      "response_at_expected_imag": 1.3998326770514282e-06,
+      "response_over_combined_repeat_scatter": 0.2758969979517201
+    },
+    {
+      "pair": "TX8-RX6",
+      "expected_ns": 6.68145308803253,
+      "strongest_residual_peak_ns": 8.091887417218542,
+      "peak_minus_expected_ns": 1.4104343291860135,
+      "expected_amplitude_over_global_peak": 0.22870088448143458,
+      "response_at_expected_real": 3.1894443443316276e-06,
+      "response_at_expected_imag": -5.915480457973814e-06,
+      "response_over_combined_repeat_scatter": 0.635408378083671
+    },
+    {
+      "pair": "TX8-RX7",
+      "expected_ns": 6.804263928904881,
+      "strongest_residual_peak_ns": 6.995033112582782,
+      "peak_minus_expected_ns": 0.19076918367790083,
+      "expected_amplitude_over_global_peak": 0.5021530125965677,
+      "response_at_expected_real": -1.9564816260896736e-05,
+      "response_at_expected_imag": -5.2116749981459156e-06,
+      "response_over_combined_repeat_scatter": 0.9714710774138575
+    }
+  ],
+  "limits": [
+    "Different time blocks confound object response with drift or handling changes.",
+    "Strongest residual peak is not necessarily target arrival.",
+    "0.25 ns comparison and ratio 3 are descriptive diagnostics, not validated detection thresholds.",
+    "No calibration, masks, or reconstruction parameters changed."
+  ]
+}

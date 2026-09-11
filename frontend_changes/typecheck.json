@@ -1,0 +1,1261 @@
+{
+  "baseline": [
+    {
+      "file": "src/components/common/ChildSwitcher.tsx",
+      "code": 2339,
+      "message": "Property 'setSelectedStudent' does not exist on type 'AuthState'.",
+      "line": 17
+    },
+    {
+      "file": "src/components/common/Dome/DomeExperienceRN.tsx",
+      "code": 2614,
+      "message": "Module '\"./DomeSceneRN\"' has no exported member 'DomeScene'. Did you mean to use 'import DomeScene from \"./DomeSceneRN\"' instead?",
+      "line": 18
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 22
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'beforeEach'.",
+      "line": 28
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 41
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 43
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 46
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 53
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 57
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 58
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 59
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 62
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 67
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 71
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 73
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 76
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 78
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 82
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 84
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 87
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 90
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 94
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 98
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 99
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 103
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 107
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 112
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 121
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 125
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 132
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 133
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 136
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 140
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 143
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 148
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 149
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 154
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 155
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 163
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 164
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 165
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 166
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 169
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 173
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 174
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 175
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 178
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 185
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 186
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 189
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 197
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 201
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 217
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 237
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 238
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 241
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 252
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 253
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 256
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 265
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 266
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 271
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 279
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 280
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 284
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 285
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 296
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 299
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 308
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 312
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 313
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 320
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 322
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 326
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 332
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 335
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 349
+    },
+    {
+      "file": "src/lib/DAS/calibrationParser.ts",
+      "code": 2307,
+      "message": "Cannot find module 'fs' or its corresponding type declarations.",
+      "line": 146
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2307,
+      "message": "Cannot find module 'fs' or its corresponding type declarations.",
+      "line": 22
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2307,
+      "message": "Cannot find module 'path' or its corresponding type declarations.",
+      "line": 23
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate1' is possibly 'null'.",
+      "line": 56
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate1' is possibly 'null'.",
+      "line": 57
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate1' is possibly 'null'.",
+      "line": 58
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate2' is possibly 'null'.",
+      "line": 89
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate2' is possibly 'null'.",
+      "line": 90
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate2' is possibly 'null'.",
+      "line": 91
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2304,
+      "message": "Cannot find name '__dirname'.",
+      "line": 101
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate3' is possibly 'null'.",
+      "line": 154
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate3' is possibly 'null'.",
+      "line": 155
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate3' is possibly 'null'.",
+      "line": 156
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18046,
+      "message": "'error' is of type 'unknown'.",
+      "line": 160
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2304,
+      "message": "Cannot find name '__dirname'.",
+      "line": 168
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18046,
+      "message": "'error' is of type 'unknown'.",
+      "line": 199
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 51
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 93
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 130
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 157
+    },
+    {
+      "file": "src/screens/auth/OTPScreen.tsx",
+      "code": 2694,
+      "message": "Namespace 'global.NodeJS' has no exported member 'Timeout'.",
+      "line": 40
+    },
+    {
+      "file": "src/screens/common/Custom/CustomDomeEditor.tsx",
+      "code": 2694,
+      "message": "Namespace 'global.NodeJS' has no exported member 'Timeout'.",
+      "line": 531
+    },
+    {
+      "file": "src/screens/user/RepositoryScreen.tsx",
+      "code": 2339,
+      "message": "Property 'label' does not exist on type 'never'.",
+      "line": 125
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'last_days'.",
+      "line": 122
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'last_days'.",
+      "line": 123
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'last_days'.",
+      "line": 126
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'user'.",
+      "line": 135
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2552,
+      "message": "Cannot find name 'stage'. Did you mean 'Storage'?",
+      "line": 136
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2552,
+      "message": "Cannot find name 'stage'. Did you mean 'Storage'?",
+      "line": 137
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'months'.",
+      "line": 139
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'last_days'.",
+      "line": 142
+    },
+    {
+      "file": "src/utils/api.ts",
+      "code": 2304,
+      "message": "Cannot find name 'scans'.",
+      "line": 143
+    }
+  ],
+  "updated": [
+    {
+      "file": "src/components/common/ChildSwitcher.tsx",
+      "code": 2339,
+      "message": "Property 'setSelectedStudent' does not exist on type 'AuthState'.",
+      "line": 17
+    },
+    {
+      "file": "src/components/common/Dome/DomeExperienceRN.tsx",
+      "code": 2614,
+      "message": "Module '\"./DomeSceneRN\"' has no exported member 'DomeScene'. Did you mean to use 'import DomeScene from \"./DomeSceneRN\"' instead?",
+      "line": 18
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 22
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'beforeEach'.",
+      "line": 28
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 41
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 43
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 46
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 53
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 57
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 58
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 59
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 62
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 67
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 71
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 73
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 76
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 78
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 82
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 84
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 87
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 90
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 94
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 98
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 99
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 103
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 107
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 112
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 121
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 125
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 132
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 133
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 136
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 140
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 143
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 148
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 149
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 154
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 155
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 163
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 164
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 165
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 166
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 169
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 173
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 174
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 175
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 178
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 185
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 186
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 189
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 197
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 201
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 217
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 237
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 238
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 241
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 252
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 253
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 256
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 265
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 266
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 271
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 279
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 280
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 284
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 285
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 296
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 299
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 308
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'describe'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 312
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 313
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 320
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 322
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 326
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 332
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2582,
+      "message": "Cannot find name 'test'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha`.",
+      "line": 335
+    },
+    {
+      "file": "src/lib/DAS/__tests__/das.test.ts",
+      "code": 2304,
+      "message": "Cannot find name 'expect'.",
+      "line": 349
+    },
+    {
+      "file": "src/lib/DAS/calibrationParser.ts",
+      "code": 2307,
+      "message": "Cannot find module 'fs' or its corresponding type declarations.",
+      "line": 146
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2307,
+      "message": "Cannot find module 'fs' or its corresponding type declarations.",
+      "line": 22
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2307,
+      "message": "Cannot find module 'path' or its corresponding type declarations.",
+      "line": 23
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate1' is possibly 'null'.",
+      "line": 56
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate1' is possibly 'null'.",
+      "line": 57
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate1' is possibly 'null'.",
+      "line": 58
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate2' is possibly 'null'.",
+      "line": 89
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate2' is possibly 'null'.",
+      "line": 90
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate2' is possibly 'null'.",
+      "line": 91
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2304,
+      "message": "Cannot find name '__dirname'.",
+      "line": 101
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate3' is possibly 'null'.",
+      "line": 154
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate3' is possibly 'null'.",
+      "line": 155
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18047,
+      "message": "'estimate3' is possibly 'null'.",
+      "line": 156
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18046,
+      "message": "'error' is of type 'unknown'.",
+      "line": 160
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 2304,
+      "message": "Cannot find name '__dirname'.",
+      "line": 168
+    },
+    {
+      "file": "src/lib/DAS/enhancedDemo.ts",
+      "code": 18046,
+      "message": "'error' is of type 'unknown'.",
+      "line": 199
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 51
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 93
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 130
+    },
+    {
+      "file": "src/navigation/AdminNavigator.tsx",
+      "code": 2739,
+      "message": "Type '{ subtitle: string; }' is missing the following properties from type 'NativeStackHeaderProps': options, route, navigation",
+      "line": 157
+    },
+    {
+      "file": "src/screens/auth/OTPScreen.tsx",
+      "code": 2694,
+      "message": "Namespace 'global.NodeJS' has no exported member 'Timeout'.",
+      "line": 40
+    },
+    {
+      "file": "src/screens/common/Custom/CustomDomeEditor.tsx",
+      "code": 2694,
+      "message": "Namespace 'global.NodeJS' has no exported member 'Timeout'.",
+      "line": 531
+    },
+    {
+      "file": "src/screens/user/RepositoryScreen.tsx",
+      "code": 2339,
+      "message": "Property 'label' does not exist on type 'never'.",
+      "line": 128
+    }
+  ],
+  "added": []
+}

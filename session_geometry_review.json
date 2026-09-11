@@ -1,0 +1,87 @@
+{
+  "coordinate_convention": "+X between TX1 and RX5; +Y between TX1 and TX5; +Z above base",
+  "arm_angles_deg": {
+    "RX_A": 225.0,
+    "RX_B": 315.0,
+    "TX_A": 45.0,
+    "TX_B": 135.0
+  },
+  "results": {
+    "session_empty_1": {
+      "candidate_cm": [
+        -1.5,
+        -6.5,
+        4.0
+      ],
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 17.43,
+        "coherence": 0.124
+      }
+    },
+    "session_empty_2": {
+      "candidate_cm": [
+        -2.0,
+        -6.5,
+        4.0
+      ],
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 16.96,
+        "coherence": 0.08
+      }
+    },
+    "session_A1": {
+      "candidate_cm": [
+        0.5,
+        -4.5,
+        0.5
+      ],
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 19.49,
+        "coherence": 0.101
+      },
+      "error_cm": 7.123903424387503
+    },
+    "session_A2": {
+      "candidate_cm": [
+        5.5,
+        1.0,
+        5.5
+      ],
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 28.19,
+        "coherence": 0.093
+      },
+      "error_cm": 4.415880433163924
+    },
+    "session_A3": {
+      "candidate_cm": [
+        -4.0,
+        0.5,
+        0.5
+      ],
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 39.56,
+        "coherence": 0.112
+      },
+      "error_cm": 6.670832032063167
+    },
+    "session_B": {
+      "candidate_cm": [
+        0.5,
+        4.5,
+        2.5
+      ],
+      "confidence": {
+        "confident": false,
+        "peak_to_mean_ratio": 22.41,
+        "coherence": 0.117
+      },
+      "error_cm": 2.179449471770337
+    }
+  }
+}

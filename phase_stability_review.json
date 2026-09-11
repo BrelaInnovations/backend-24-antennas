@@ -1,0 +1,378 @@
+{
+  "repeats": 10,
+  "pairs": 64,
+  "unstable_pairs": [],
+  "pair_mean_std_min_median_max": [
+    0.9409412998691865,
+    1.8659498033777007,
+    3.936385466780522
+  ],
+  "fraction_bins_above_20deg": 0.0035581683168316833,
+  "worst_pairs": [
+    [
+      "TX5-RX4",
+      3.9
+    ],
+    [
+      "TX1-RX3",
+      3.4
+    ],
+    [
+      "TX4-RX4",
+      3.3
+    ],
+    [
+      "TX1-RX2",
+      3.1
+    ],
+    [
+      "TX8-RX1",
+      2.8
+    ]
+  ],
+  "bands": {
+    "2-3": {
+      "median_std_deg": 1.239910450042885,
+      "p95_std_deg": 5.277775448181901,
+      "max_std_deg": 66.49255993202954,
+      "fraction_above_20deg": 0.005625
+    },
+    "3-4": {
+      "median_std_deg": 1.3304370855662535,
+      "p95_std_deg": 5.200867016839574,
+      "max_std_deg": 73.4218056998761,
+      "fraction_above_20deg": 0.00375
+    },
+    "4-5": {
+      "median_std_deg": 1.2995503101598573,
+      "p95_std_deg": 4.237628361690323,
+      "max_std_deg": 22.26201497134346,
+      "fraction_above_20deg": 0.0025
+    },
+    "5-6": {
+      "median_std_deg": 1.3834572614571745,
+      "p95_std_deg": 4.337478789081255,
+      "max_std_deg": 52.21887120317158,
+      "fraction_above_20deg": 0.002403846153846154
+    }
+  },
+  "usable_pairs": 56,
+  "session_reconstruction_current_pair_mask": {
+    "session_empty_1": {
+      "das": {
+        "candidate_cm": [
+          -6.5,
+          -1.5,
+          4.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.25,
+          "coherence": 0.124
+        }
+      },
+      "das-cf": {
+        "candidate_cm": [
+          -6.5,
+          -1.5,
+          4.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 17.43,
+          "coherence": 0.124
+        }
+      },
+      "dmas": {
+        "candidate_cm": [
+          -5.5,
+          -1.5,
+          3.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 5.88,
+          "coherence": 0.121
+        }
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          -5.5,
+          -1.5,
+          3.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 24.22,
+          "coherence": 0.121
+        }
+      }
+    },
+    "session_empty_2": {
+      "das": {
+        "candidate_cm": [
+          -6.5,
+          -1.5,
+          4.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.37,
+          "coherence": 0.079
+        }
+      },
+      "das-cf": {
+        "candidate_cm": [
+          -6.5,
+          -2.0,
+          4.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 16.96,
+          "coherence": 0.08
+        }
+      },
+      "dmas": {
+        "candidate_cm": [
+          -2.5,
+          -5.5,
+          4.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 6.15,
+          "coherence": 0.08
+        }
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          0.5,
+          -3.5,
+          0.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 29.12,
+          "coherence": 0.089
+        }
+      }
+    },
+    "session_A1": {
+      "das": {
+        "candidate_cm": [
+          -4.5,
+          0.5,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.94,
+          "coherence": 0.101
+        },
+        "error_cm": 7.123903424387503
+      },
+      "das-cf": {
+        "candidate_cm": [
+          -4.5,
+          0.5,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 19.49,
+          "coherence": 0.101
+        },
+        "error_cm": 7.123903424387503
+      },
+      "dmas": {
+        "candidate_cm": [
+          -6.5,
+          0.0,
+          1.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 6.36,
+          "coherence": 0.085
+        },
+        "error_cm": 8.860022573334675
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          -4.5,
+          0.5,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 26.64,
+          "coherence": 0.101
+        },
+        "error_cm": 7.123903424387503
+      }
+    },
+    "session_A2": {
+      "das": {
+        "candidate_cm": [
+          -5.0,
+          0.0,
+          6.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.94,
+          "coherence": 0.089
+        },
+        "error_cm": 7.874007874011811
+      },
+      "das-cf": {
+        "candidate_cm": [
+          1.0,
+          5.5,
+          5.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 28.19,
+          "coherence": 0.093
+        },
+        "error_cm": 4.415880433163924
+      },
+      "dmas": {
+        "candidate_cm": [
+          -7.0,
+          -3.0,
+          1.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 5.8,
+          "coherence": 0.075
+        },
+        "error_cm": 10.488088481701515
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          1.0,
+          5.5,
+          5.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 37.32,
+          "coherence": 0.093
+        },
+        "error_cm": 4.415880433163924
+      }
+    },
+    "session_A3": {
+      "das": {
+        "candidate_cm": [
+          0.0,
+          -4.0,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 5.44,
+          "coherence": 0.111
+        },
+        "error_cm": 6.800735254367722
+      },
+      "das-cf": {
+        "candidate_cm": [
+          0.5,
+          -4.0,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 39.56,
+          "coherence": 0.112
+        },
+        "error_cm": 6.670832032063167
+      },
+      "dmas": {
+        "candidate_cm": [
+          1.0,
+          -4.5,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 5.66,
+          "coherence": 0.107
+        },
+        "error_cm": 7.035623639735144
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          1.0,
+          -4.5,
+          0.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 45.21,
+          "coherence": 0.107
+        },
+        "error_cm": 7.035623639735144
+      }
+    },
+    "session_B": {
+      "das": {
+        "candidate_cm": [
+          4.5,
+          0.5,
+          2.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 4.75,
+          "coherence": 0.117
+        },
+        "error_cm": 3.570714214271425
+      },
+      "das-cf": {
+        "candidate_cm": [
+          4.5,
+          0.5,
+          2.5
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 22.41,
+          "coherence": 0.117
+        },
+        "error_cm": 3.570714214271425
+      },
+      "dmas": {
+        "candidate_cm": [
+          2.0,
+          -5.0,
+          0.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 6.93,
+          "coherence": 0.113
+        },
+        "error_cm": 8.54400374531753
+      },
+      "dmas-cf": {
+        "candidate_cm": [
+          2.0,
+          -5.0,
+          0.0
+        ],
+        "confidence": {
+          "confident": false,
+          "peak_to_mean_ratio": 28.59,
+          "coherence": 0.113
+        },
+        "error_cm": 8.54400374531753
+      }
+    }
+  }
+}
