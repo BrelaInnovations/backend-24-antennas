@@ -48,12 +48,7 @@ def main():
         raise RuntimeError("The empty-device system did not settle; baseline was not replaced.")
 
     baseline = scan_engine.average_sweeps(accepted)
-    from core.capture_provenance import save_provenance
-    baseline_path = Path("data/baseline_full_sweep.json")
-    if baseline_path.exists():
-        save_provenance(baseline_path, "baseline_before_replacement")
-    baseline_path.write_text(json.dumps(baseline))
-    save_provenance(baseline_path, "settled_empty", {"settling": metrics})
+    Path("data/baseline_full_sweep.json").write_text(json.dumps(baseline))
     _, raw = scan_engine.compute_sensor_weights_from_traces(baseline)
     Path("data/baseline_raw_s21.json").write_text(json.dumps(raw, indent=2))
     print("Saved settled baseline files. VNA calibration and pair-delay calibration were unchanged.")

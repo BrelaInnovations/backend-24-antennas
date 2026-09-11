@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-11",
+  "scope": "saved data analysis only; no hardware acquisition",
+  "axes": "+X toward RX5-8; +Y 90 degrees clockwise viewed from above; +Z above base",
+  "target_description": "User reports same graphene + Fe2O3 target and rubber support as earlier; exact dimensions not supplied in this review",
+  "baseline_pairs": 144,
+  "delay_entries": 64,
+  "missing_delay_entries": 80,
+  "selected_pairs": 132,
+  "selected_missing_delays": 76,
+  "analysis": "Existing DMAS-CF with radius corrected to 8 cm, user-confirmed axes, current baseline and legacy zero-delay fallback. These are invalid-calibration diagnostics, not accepted locations.",
+  "per_scan": [
+    {
+      "label": "settled_A",
+      "candidate_cm": [
+        3.5,
+        5,
+        5
+      ],
+      "error_cm": 11.98,
+      "coherence": 0.037
+    },
+    {
+      "label": "settled_B",
+      "candidate_cm": [
+        2.5,
+        5.5,
+        5
+      ],
+      "error_cm": 4.33,
+      "coherence": 0.049
+    },
+    {
+      "label": "fe2o3.1",
+      "candidate_cm": [
+        3.5,
+        5,
+        5
+      ],
+      "error_cm": 4.18,
+      "coherence": 0.039
+    },
+    {
+      "label": "settled_c",
+      "candidate_cm": [
+        3,
+        5,
+        5
+      ],
+      "error_cm": 4.03,
+      "coherence": 0.026
+    },
+    {
+      "label": "settled_D",
+      "candidate_cm": [
+        3.5,
+        5,
+        5
+      ],
+      "error_cm": 3.84,
+      "coherence": 0.044
+    }
+  ],
+  "settled_relative_rms": {
+    "settled_A": 0.016594906746799597,
+    "settled_B": 0.013569687834413416,
+    "settled_c": 0.018664963341751932,
+    "settled_D": 0.013640633607751303
+  },
+  "limitations": [
+    "Settling is repeatability, not proof of target sensitivity or position accuracy.",
+    "Only three distinct labelled positions, all at z=2.5 cm.",
+    "Historical reference provenance is missing.",
+    "Peak remains similar across target movements.",
+    "No target-fitted offsets or unverified replacement calibration were applied."
+  ],
+  "source_sha256": {
+    "data\\baseline_full_sweep.json": "297473cdf1a9c2c69ae37454255ba64f4edd9399a851cbb721ed76af1e4b9695",
+    "data\\pair_delay_calibration.json": "89f0ee0e57fec0278fe113a74e7a83d488197296127e39d993fdd34aa0aa3b54",
+    "dataset\\manifest.json": "673c4586d35131d82d42bc19e00c819e35514238bfc4b43688593b45096cc903",
+    "dataset\\settled_A.json": "444c994b0db35edae2024129b89692580f89e09ab9cf8cfcdab83b5f80184774",
+    "dataset\\settled_A_settling.json": "89b107a86fd1908dd49420abd54cb8e70d7823b3a2defe3cd8bd5d052bcce817",
+    "dataset\\settled_B.json": "10a1d9bc64dc68cbda1cfd5145fc631f303dc5bf5f8730265440c4cec0c9f446",
+    "dataset\\settled_B_settling.json": "6611b4c383bdfdfb36e6fbfe5d002f2d93818eac17ae5bb858f2d277a920d23c",
+    "dataset\\settled_c.json": "c7cf5050ecb97894765754c2c76df120a18f628fb04ea3bc70ce08fa6d141ba8",
+    "dataset\\settled_c_settling.json": "f59ba036f412be7848dcd49452ca57143f1272ed90f71f6e62bdaeca909a67d2",
+    "dataset\\settled_D.json": "9bb3334cd553acb47e5d0db42dd5c67aa123d0244538f8ce32c7e6d25e096292",
+    "dataset\\settled_D_settling.json": "6f0234576472e8e2331ca3205d90bf19b74ef76a4ca03699f0beef439f62d54f",
+    "dataset\\fe2o3.1.json": "1aa9e1e845261a0591c2b6f8b23c54224b11c6c9757e72613d526ed014e58f9b"
+  },
+  "status": "superseded_axis_assumption",
+  "axis_correction_note": "User corrected axes after this analysis: +Y toward RX5-8, +X 90 degrees clockwise viewed from above. Numeric results retain the former axis assumption and must not be quoted as current errors. Raw target coordinates have not been changed."
+}

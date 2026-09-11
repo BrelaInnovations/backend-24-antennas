@@ -7,7 +7,7 @@ from core.geometry import DOME_RADIUS_CM, physical_antenna_positions
 def localization_antennas():
     """Use the same geometry and coordinate scale as the reconstruction."""
     return [{"id": name, "label": name, "enabled": True,
-             "prong": (0 if name.startswith("TX") else 3) + (int(name[2:]) - 1) // 4,
+             "prong": (0 if name.startswith("TX") else 2) + (int(name[2:]) - 1) // 4,
              "x": xyz[0] / DOME_RADIUS_CM, "y": xyz[1] / DOME_RADIUS_CM,
              "z": xyz[2] / DOME_RADIUS_CM}
             for name, xyz in physical_antenna_positions().items()]
@@ -51,7 +51,7 @@ def localization_result(voxels, confident, dome_radius_cm=DOME_RADIUS_CM,
         "dots": dots, "dot_count": len(dots), "selected_voxel_count": selected_count,
         "sampled": selected_count > len(dots), "peak_location_cm": peak if confident else None,
         "coordinate_system": {"units": "normalized", "radius_cm": dome_radius_cm,
-                              "axes": "+Y toward RX5-8; +X 90 degrees clockwise viewed from above; +Z above base"},
+                              "axes": "x,y in base plane; z above base"},
         "threshold_fraction": threshold_fraction, "confident": bool(confident and peak),
         # Nullable compatibility fields for existing list clients. No fabricated scores.
         "score": None, "mean_severity": None, "max_severity": None,

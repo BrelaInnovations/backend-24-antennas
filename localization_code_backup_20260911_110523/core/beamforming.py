@@ -32,7 +32,7 @@ def _voxel_delays(voxels, positions, tx, rx, velocity, pair_delay_calibration, l
     rx_pos = np.array(positions[f"RX{rx}"])
     dist_tx = np.linalg.norm(voxels - tx_pos, axis=1)
     dist_rx = np.linalg.norm(voxels - rx_pos, axis=1)
-    pair_delay_s = pair_delay_calibration[label]
+    pair_delay_s = pair_delay_calibration.get(label, 0.0)
     delay_s = (dist_tx + dist_rx) / velocity + pair_delay_s
     return dist_tx, dist_rx, delay_s
 
@@ -161,12 +161,10 @@ def run_reconstruction(sweep_plot_data: dict, algo: str = "das-cf",
     if baseline_plot_data is not None:
         sweep_plot_data = calibration.subtract_baseline(sweep_plot_data, baseline_plot_data)
 
-    pair_delay_calibration = calibration.load_pair_delay_calibration()
-    calibration.require_pair_delays(sweep_plot_data, pair_delay_calibration)
-
     positions = geometry.physical_antenna_positions()
     velocity = geometry.tissue_velocity_cm_per_s(permittivity)
     voxels = geometry.build_voxel_grid(resolution_cm=resolution_cm)
+    pair_delay_calibration = calibration.load_pair_delay_calibration()
 
     contributions, pairs_used, _ = _gather_pair_contributions(
         sweep_plot_data, voxels, positions, velocity, pair_delay_calibration,

@@ -1,17 +1,17 @@
 """
-Extends measure_system_delay.py from a 7-pair sample to all 144 pairs, and
+Extends measure_system_delay.py from a 7-pair sample to all 64 pairs, and
 goes one step further: instead of just reporting one global mean/std, it
 decomposes the per-pair offset into a per-TX-antenna and per-RX-antenna
 component via least squares.
 
-Why: if all 24 feed cables (12 TX + 12 RX) were truly identical length, every
+Why: if all 16 feed cables (8 TX + 8 RX) were truly identical length, every
 pair's offset would equal the same constant, and the earlier 7-pair test
 would have already nailed it (std was 0.759ns, ~11% of the mean -- decent,
 not perfect). The remaining spread could come from a few antennas having
 a slightly different cable/connector/switch-port delay than the rest.
 
 Model: offset(TXi, RXj) = base_delay + tx_residual[i] + rx_residual[j]
-Solved by least squares over all 144 measured offsets. tx_residual/rx_residual
+Solved by least squares over all 64 measured offsets. tx_residual/rx_residual
 close to 0 for most antennas, with one or two standing out, would tell us
 exactly which physical antenna/cable/switch-port to inspect.
 
@@ -37,21 +37,12 @@ label = sys.argv[1] if len(sys.argv) > 1 else "empty check"
 
 print(f"Capturing scan (label={label!r}) directly from hardware ...")
 sweep = capture_one_sweep()
-from pathlib import Path
-from datetime import datetime, timezone
-stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S_%fZ")
-session = Path(__file__).resolve().parents[1] / "data" / "calibration_sessions" / stamp
-session.mkdir(parents=True)
-(session / "empty_delay_sweep.json").write_text(json.dumps(sweep))
-from core.scan_validation import validate_full_sweep
-validate_full_sweep(sweep)
-
 
 positions = das.physical_antenna_positions()
 velocity = das.SPEED_OF_LIGHT_CM_PER_S  # air, current testing phase
 
-tx_ids = sorted((k for k in positions if k.startswith("TX")), key=lambda k: int(k[2:]))
-rx_ids = sorted((k for k in positions if k.startswith("RX")), key=lambda k: int(k[2:]))
+tx_ids = [f"TX{i}" for i in range(1, 9)]
+rx_ids = [f"RX{i}" for i in range(1, 9)]
 
 rows = []       # (tx_idx, rx_idx, offset_ns)
 pair_offsets = {}
@@ -85,10 +76,7 @@ if not rows:
     print("No pairs found in sweep_plot_data -- check the API response.")
     sys.exit(1)
 
-expected_count = len(tx_ids) * len(rx_ids)
-if len(rows) != expected_count or not all(np.isfinite(v) for v in pair_offsets.values()):
-    raise RuntimeError(f"Incomplete/invalid delay table: {len(rows)}/{expected_count}; active calibration unchanged.")
-print(f"Measured offsets for {len(rows)} / {expected_count} pairs.")
+print(f"Measured offsets for {len(rows)} / 64 pairs.")
 all_offsets = np.array([r[2] for r in rows])
 print(f"Global mean offset: {all_offsets.mean():.3f} ns  (std: {all_offsets.std():.3f} ns)")
 print()
@@ -97,24 +85,14 @@ print()
 # model below fits -- this is the actual measurement and the safest thing
 # to feed into run_das() as a direct lookup, since it captures whatever
 # the switch matrix is really doing (additive per-antenna or not).
-calib_path = Path(__file__).resolve().parents[1] / "data" / "pair_delay_calibration.json"
-if calib_path.exists():
-    (session / "previous_pair_delay_calibration.json").write_bytes(calib_path.read_bytes())
-(session / "metadata.json").write_text(json.dumps({
-    "captured_at_utc": stamp,
-    "method": "strongest empty-dome IFFT peak minus direct-path time; requires target validation",
-    "positions_cm": positions,
-    "radius_cm": das.DOME_RADIUS_CM,
-    "coordinate_axes": "+Y RX5-8; +X 90 degrees clockwise viewed from above; +Z above base",
-    "pair_count": len(pair_offsets),
-}, indent=2))
+calib_path = "data/pair_delay_calibration.json"
 with open(calib_path, "w") as f:
     json.dump({k: v * 1e-9 for k, v in pair_offsets.items()}, f, indent=2)
 print(f"Saved per-pair delay table ({len(pair_offsets)} pairs) to {calib_path}")
 print()
 
 # --- Least squares decomposition: offset = base + tx_res[i] + rx_res[j] ---
-# Design matrix: one column per TX antenna (12), one per RX antenna (12), plus
+# Design matrix: one column per TX antenna (8), one per RX antenna (8), plus
 # a constant. Fix tx_res[0] = 0 as reference (else system is under-determined
 # -- adding a constant to all tx_res and subtracting it from all rx_res gives
 # the same fit).

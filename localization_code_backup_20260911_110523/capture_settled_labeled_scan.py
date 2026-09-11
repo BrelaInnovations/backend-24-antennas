@@ -30,8 +30,6 @@ MAX_RELATIVE_RMS_DIFFERENCE = 0.03
 
 def _complex_vector(sweep: dict) -> np.ndarray:
     """Flatten a validated full scan in deterministic pair/frequency order."""
-    from core.scan_validation import validate_full_sweep
-    validate_full_sweep(sweep)
     expected = [f"TX{tx}-RX{rx}" for tx in range(1, 13) for rx in range(1, 13)]
     values = []
     for label in expected:
@@ -52,10 +50,6 @@ def _complex_vector(sweep: dict) -> np.ndarray:
 def similarity(previous: dict, current: dict) -> dict:
     """Return complex correlation and relative RMS change for two full scans."""
     a, b = _complex_vector(previous), _complex_vector(current)
-    for label in previous:
-        if label in current and isinstance(previous[label], dict) and "freqs" in previous[label]:
-            if not np.allclose(previous[label]["freqs"], current[label]["freqs"], rtol=1e-8, atol=1e-10):
-                raise ValueError(f"{label}: frequency grids changed between captures")
     norm_a, norm_b = np.linalg.norm(a), np.linalg.norm(b)
     if norm_a == 0 or norm_b == 0:
         raise ValueError("Cannot evaluate stability from a zero-valued scan")
@@ -110,8 +104,6 @@ def main():
     safe_label = label.replace(" ", "_").replace("/", "_")
     scan_file = Path(DATASET_DIR) / f"{safe_label}.json"
     scan_file.write_text(json.dumps(result))
-    from core.capture_provenance import save_provenance
-    save_provenance(scan_file, "target", {"true_position_cm": truth, "settling": diagnostics})
     Path(DATASET_DIR, f"{safe_label}_settling.json").write_text(json.dumps({
         "warmup_captures": WARMUP_CAPTURES,
         "stability_thresholds": {

@@ -6,7 +6,6 @@ check_phase_stability_full.py in the diagnostics/ folder to re-derive
 these if hardware changes (new cables, reseated connectors, etc).
 """
 from __future__ import annotations
-import math
 import json
 import os
 from typing import Dict, Optional
@@ -23,8 +22,8 @@ EXCLUDE_WEAK_BASELINE_PAIRS = False   # tested: partial/inconclusive, left off
 
 
 def load_pair_delay_calibration() -> Dict[str, float]:
-    """{"TX1-RX1": delay_seconds, ...}. Missing file returns an empty dict; reconstruction refuses
-    missing or nonfinite delays rather than assuming zero."""
+    """{"TX1-RX1": delay_seconds, ...}. Missing file -> empty dict (delay 0
+    for every pair) rather than crashing, so this degrades gracefully."""
     if not os.path.exists(PAIR_DELAY_CALIBRATION_FILE):
         return {}
     with open(PAIR_DELAY_CALIBRATION_FILE) as f:
@@ -111,18 +110,3 @@ def subtract_baseline(sweep_plot_data: dict, baseline_plot_data: dict) -> dict:
             "s21_imag": delta_c.imag.tolist(),
         }
     return result
-
-
-def require_pair_delays(sweep_plot_data: dict, delays: dict):
-    """Every selected channel must have a measured finite system delay."""
-    invalid = []
-    for _, _, label, _ in iter_usable_pairs(sweep_plot_data):
-        value = delays.get(label)
-        if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value):
-            invalid.append(label)
-    if invalid:
-        raise ValueError(
-            f"Missing/invalid delay calibration for {len(invalid)} selected pairs "
-            f"({', '.join(invalid[:6])}). Capture a complete 144-pair delay table "
-            "with diagnostics/measure_system_delay_full.py. No location was reconstructed."
-        )

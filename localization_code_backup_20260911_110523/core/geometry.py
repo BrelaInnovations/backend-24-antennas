@@ -1,22 +1,29 @@
 """
-Physical array: 16 cm diameter, six arms, four antennas per arm.
-Antenna centres are 3, 6, 9 and 12 cm along each arm from the apex.
-Within each arm, the lowest numbered antenna is nearest the apex.
+geometry.py -- physical antenna array geometry.
 
-User-confirmed measurement convention, 2026-09-11, viewed from above:
-+Y points toward RX5-8; +X is 90 degrees CLOCKWISE from +Y.
-+Z is height above the base plane. Arm angles increase clockwise from
-+Y, so mathematical azimuth is 90 degrees minus the arm angle.
-
-Clockwise arm order: RX5-8 at 0 degrees, RX1-4 at 60,
-TX9-12 at 120, TX5-8 at 180, TX1-4 at 240, RX9-12 at 300.
-Positions assume an ideal hemisphere, not measured antenna phase centres.
+Perfect hemisphere dome, radius = 8 cm. 6 antenna arms (3 RX + 3 TX),
+each with 4 antennas, spaced 3.0 cm apart along the curved surface
+(arc length) from the apex: 3.0, 6.0, 9.0, 12.0 cm. 24 antennas total
+(12 RX + 12 TX), updated from the earlier 16-antenna (8 RX + 8 TX) array.
+  RX1-4 arm at 60 deg,   RX5-8 arm at 0 deg,   RX9-12 arm at 300 deg
+  TX1-4 arm at 240 deg,  TX5-8 arm at 180 deg, TX9-12 arm at 120 deg
+Antenna N within an arm: N=1 nearest apex, N=4 nearest the base/edge.
+Coordinate convention clarified by the user on 2026-09-08: +X points
+between RX5 and TX1. Reading the supplied upright photograph as a top
+view, +Y points between the two TX arms; +Z is above the base plane.
+The two TX arms are adjacent, as are the two RX arms. Radius and arc
+spacing remain the existing idealized model, not photo measurements.
+Port-to-antenna cable continuity has not been verified from the photo.
+NOTE: the "+X between RX5 and TX1" convention above was written for the
+old 16-antenna layout and has not been re-verified against the new
+RX9-12/TX9-12 arms -- re-check against the physical dome if the absolute
++X/+Y orientation (not just the DAS output) matters for your use case.
 """
 from __future__ import annotations
 import math
 from typing import Dict, Tuple
 
-DOME_RADIUS_CM = 8.0
+DOME_RADIUS_CM = 8.5
 ARM_ANGLES_DEG = {
     "RX_A": 60.0,    # RX1-4
     "RX_B": 0.0,     # RX5-8
@@ -41,7 +48,7 @@ def _arm_antenna_position(arm_angle_deg: float, antenna_index: int) -> Tuple[flo
     these are two different distances, not one uniform spacing."""
     arc_length_cm = CENTER_TO_FIRST_ANTENNA_CM + (antenna_index - 1) * ANTENNA_ARC_SPACING_CM
     theta = arc_length_cm / DOME_RADIUS_CM
-    phi = math.radians(90.0 - arm_angle_deg)  # clockwise from +Y, viewed from above
+    phi = math.radians(arm_angle_deg)
     x = DOME_RADIUS_CM * math.sin(theta) * math.cos(phi)
     y = DOME_RADIUS_CM * math.sin(theta) * math.sin(phi)
     z = DOME_RADIUS_CM * math.cos(theta)

@@ -89,7 +89,7 @@ def print_scan_scores(sweep_plot_data):
 
     from core import calibration as core_cal
     usable = list(core_cal.iter_usable_pairs(sweep_plot_data))
-    print(f"Usable pairs feeding DAS: {len(usable)} / {NUM_ANTENNAS ** 2}")
+    print(f"Usable pairs feeding DAS: {len(usable)} / 64")
 
     results = das_imaging.run_das(sweep_plot_data, baseline_plot_data=baseline)
     if results:
