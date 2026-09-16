@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/desktop.sqlite3*
+web-build/
+android-check/
+restoration_backup/

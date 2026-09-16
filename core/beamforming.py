@@ -137,7 +137,8 @@ def run_reconstruction(sweep_plot_data: dict, algo: str = "das-cf",
                         baseline_plot_data: Optional[dict] = None,
                         min_freq_ghz: Optional[float] = None,
                         max_freq_ghz: Optional[float] = None,
-                        artifact_gate_ns: Optional[float] = 1.2) -> list[dict]:
+                        artifact_gate_ns: Optional[float] = 1.2,
+                        pair_delay_calibration: Optional[dict] = None) -> list[dict]:
     """
     algo: "das", "das-cf", "dmas", or "dmas-cf"
     min_freq_ghz/max_freq_ghz: restrict reconstruction to this frequency
@@ -145,6 +146,8 @@ def run_reconstruction(sweep_plot_data: dict, algo: str = "das-cf",
         uses the full swept range, unchanged behavior.
     artifact_gate_ns: maximum propagation delay after excluding the
         per-pair system offset. Pass None to disable this support limit.
+    pair_delay_calibration: explicit saved delay table for replaying a capture;
+        None loads the current table. An empty table is never a fallback.
     Returns a list of {"x","y","z","intensity","coherence"} dicts sorted
     by intensity descending (index 0 = the candidate location). Returns
     [] if there is no finite, positive image signal. A nonempty image
@@ -161,7 +164,8 @@ def run_reconstruction(sweep_plot_data: dict, algo: str = "das-cf",
     if baseline_plot_data is not None:
         sweep_plot_data = calibration.subtract_baseline(sweep_plot_data, baseline_plot_data)
 
-    pair_delay_calibration = calibration.load_pair_delay_calibration()
+    if pair_delay_calibration is None:
+        pair_delay_calibration = calibration.load_pair_delay_calibration()
     calibration.require_pair_delays(sweep_plot_data, pair_delay_calibration)
 
     positions = geometry.physical_antenna_positions()

@@ -8,24 +8,38 @@ from dmas_localization import localization_result, localization_metrics, localiz
 
 
 class LocalizationTests(unittest.TestCase):
-    def test_threshold_and_coordinates_without_severity(self):
+    def test_thermal_bands_preserve_coordinates_and_raw_intensity(self):
         result = localization_result([
             dict(x=-2, y=4, z=6, intensity=5),
             dict(x=0, y=0, z=1, intensity=2),
             dict(x=4, y=-2, z=3, intensity=10),
         ], True)
-        self.assertEqual(result['dot_count'], 2)
+        self.assertEqual(result['dot_count'], 3)
         self.assertEqual(result['dots'][0]['x'], 0.5)
         self.assertEqual(result['dots'][0]['y'], -0.25)
         self.assertEqual(result['dots'][0]['z'], 0.375)
         self.assertEqual(result['dots'][0]['intensity'], 10)
-        self.assertNotIn('s', result['dots'][0])
-        self.assertNotIn('c', result['dots'][0])
+        self.assertEqual(result['dots'][0]['s'], 1.0)
+        self.assertEqual([d['c'] for d in result['dots']], ['high', 'medium', 'low'])
         self.assertIsNone(result['score'])
+
+    def test_thermal_cloud_low_tail_and_clear_space(self):
+        values = [100, 75, 45, 20, 5, 4.99, 0]
+        result = localization_result([dict(x=i/10, y=0, z=1, intensity=v) for i,v in enumerate(values)], True)
+        self.assertEqual([d['c'] for d in result['dots']], ['high', 'high', 'medium', 'low', 'baseline'])
+        self.assertEqual(result['dot_counts'], dict(high=2, medium=1, low=1, baseline=1))
+        self.assertEqual(result['dots'][-1]['intensity'], 5)
+        self.assertEqual(result['color_mode'], 'relative_intensity')
+        self.assertIsNone(result['score'])
+        # No synthetic surrounding positions are added.
+        self.assertEqual([round(d['x']*8, 2) for d in result['dots']], [0, .1, .2, .3, .4])
 
     def test_low_confidence_is_not_healthy(self):
         result = localization_result([dict(x=1, y=2, z=3, intensity=5)], False)
-        self.assertEqual(result['dots'], [])
+        self.assertEqual(len(result['dots']), 1)
+        self.assertEqual(result['dots'][0]['c'], 'high')
+        self.assertTrue(result['display_notice'])
+        self.assertFalse(result['confident'])
         self.assertEqual(result['status'], 'inconclusive')
         self.assertIsNone(result['peak_location_cm'])
         metrics = localization_metrics(result, result)

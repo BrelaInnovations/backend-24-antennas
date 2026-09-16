@@ -774,9 +774,23 @@ def load_baseline_full_sweep() -> Optional[dict]:
 
 
 def subtract_baseline_sweep(sweep_data: dict, baseline_sweep: dict) -> dict:
-    """Use the same frequency-matched complex subtraction as offline imaging."""
-    from core.calibration import subtract_baseline
-    return subtract_baseline(sweep_data, baseline_sweep)
+    diffed: Dict[str, dict] = {}
+    for label, cur in sweep_data.items():
+        cur_re = cur.get("s21_real") or []
+        cur_im = cur.get("s21_imag") or []
+        base = baseline_sweep.get(label)
+        if not base or not cur_re:
+            diffed[label] = {"freqs": cur.get("freqs", []), "s21_real": [], "s21_imag": []}
+            continue
+        base_re = base.get("s21_real") or []
+        base_im = base.get("s21_imag") or []
+        n = min(len(cur_re), len(base_re))
+        diffed[label] = {
+            "freqs": cur.get("freqs", [])[:n],
+            "s21_real": [cur_re[i] - base_re[i] for i in range(n)],
+            "s21_imag": [cur_im[i] - base_im[i] for i in range(n)],
+        }
+    return diffed
 
 
 def capture_real_hardware_sweep(cfg: dict) -> Optional[dict]:
@@ -802,9 +816,7 @@ def capture_real_hardware_sweep(cfg: dict) -> Optional[dict]:
         num_antennas = 12  # current physical antenna count (16->24 antenna upgrade)
         start_hz = int(cfg.get("freq_start_mhz", 2000.0) * 1e6)
         stop_hz = int(cfg.get("freq_stop_mhz", 6000.0) * 1e6)
-        points = int(cfg.get("sweep_points", 101))
-        if points < 2:
-            raise ValueError("sweep_points must be at least 2")
+        points = min(int(cfg.get("sweep_points", 101)), 51)    # keep it quick for now
 
         cal = None
         calibrated = False

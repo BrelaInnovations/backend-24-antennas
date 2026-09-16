@@ -180,9 +180,6 @@ def main():
     with open(MANIFEST_FILE, "w") as f:
         json.dump(manifest, f, indent=2)
 
-    from core.capture_provenance import save_provenance
-    save_provenance(scan_file, "target", {"true_position_cm": [true_x, true_y, true_z]})
-
     print(f"Saved scan to {scan_file}")
     print(f"Manifest now has {len(manifest)} labeled scan(s).")
     print(f"Capture more at different positions, then run: python validate.py")

@@ -166,8 +166,15 @@ def main():
 
     sweep = load_sweep(sweep_path)
 
+    from core.reference_snapshot import load_reference_snapshot
+    saved_references = load_reference_snapshot(sweep_path)
+    pair_delays = None
     baseline = None
-    if os.path.exists(BASELINE_FILE) and os.path.abspath(sweep_path) != os.path.abspath(BASELINE_FILE):
+    if saved_references is not None:
+        baseline = saved_references["baseline"]
+        pair_delays = saved_references["delays"]
+        print("Using recorded baseline and delay calibration:", saved_references["session"])
+    elif os.path.exists(BASELINE_FILE) and os.path.abspath(sweep_path) != os.path.abspath(BASELINE_FILE):
         with open(BASELINE_FILE) as f:
             baseline = json.load(f)
     elif os.path.abspath(sweep_path) == os.path.abspath(BASELINE_FILE):
@@ -178,8 +185,11 @@ def main():
               f"WITHOUT baseline subtraction. Results will look very different from "
               f"real scans, which always subtract baseline first.")
 
+    if saved_references is None:
+        print("No target reference snapshot: using current references; historical comparability is unverified.")
     print(f"Running {algo} reconstruction ...")
-    results = run_reconstruction(sweep, algo=algo, baseline_plot_data=baseline)
+    results = run_reconstruction(sweep, algo=algo, baseline_plot_data=baseline,
+                                 pair_delay_calibration=pair_delays)
 
     if not results:
         print("No reconstruction result -- check the sweep file has usable pairs.")

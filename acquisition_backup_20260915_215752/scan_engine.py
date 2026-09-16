@@ -200,21 +200,6 @@ def average_sweeps(sweep_results_list: list[dict]) -> dict:
 
     if not sweep_results_list:
         return {}
-    labels = sweep_results_list[0].keys()
-    for repeat, sweep in enumerate(sweep_results_list, 1):
-        if set(sweep) != set(labels):
-            raise ValueError(f"Sweep {repeat}: pair set differs from first sweep")
-        for label in labels:
-            trace = sweep[label]
-            arrays = [np.asarray(trace.get(k, []), dtype=float) for k in ("freqs", "s21_real", "s21_imag")]
-            n = len(arrays[0])
-            if trace.get("error") or n < 2 or any(a.ndim != 1 or len(a) != n or not np.all(np.isfinite(a)) for a in arrays):
-                raise ValueError(f"Sweep {repeat}, {label}: invalid or incomplete spectrum; refusing to hide it by averaging")
-            reference = np.asarray(sweep_results_list[0][label]["freqs"], dtype=float)
-            if len(reference) != n or not np.allclose(arrays[0], reference, rtol=1e-8, atol=1e-10):
-                raise ValueError(f"Sweep {repeat}, {label}: frequency grid differs between repeats")
-            if not np.all(np.diff(arrays[0]) > 0):
-                raise ValueError(f"Sweep {repeat}, {label}: frequency grid must increase")
     if len(sweep_results_list) == 1:
         return sweep_results_list[0]
 

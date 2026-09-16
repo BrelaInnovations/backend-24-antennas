@@ -61,5 +61,14 @@
       0.0,
       2.5
     ]
+  },
+  {
+    "label": "metaltest1",
+    "file": "dataset\\metaltest1.json",
+    "true_position_cm": [
+      2.0,
+      -2.0,
+      2.5
+    ]
   }
 ]
